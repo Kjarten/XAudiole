@@ -1,21 +1,21 @@
 .grid {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1200px; /*Grid skal ekki vera breiðara en 1200px*/
+  margin: 0 auto; /*og skal vera miðjuð.*/
 }
 
 .grid__row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  /*mega þeir flæða í nýjar línur.*/
 }
 
 .grid__col {
   width: 100%;
 }
 
-.content {
+.content { /*Efni (<div class="content>")*/
   display: flex;
-  flex-direction: column;
-  align-items: center 
+  flex-direction: column; /*skal raða öllum börnum sínum lóðrétt*/
+  align-items: center /* og staðsegja í miðju lárétt*/
 }
 
 @media (min-width: 600px) {
