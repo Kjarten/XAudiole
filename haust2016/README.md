@@ -9,7 +9,12 @@
       <button>example.org</button>
 </form>
 ```
-- c. `<form method="get" action="http://example.org"><button>example.org</button></form>`
+- c.
+```
+<form method="get" action="http://example.org">
+      <button>example.org</button>
+</form>
+```
 - d. All methods are equally good
 
 
