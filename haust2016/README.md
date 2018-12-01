@@ -30,10 +30,10 @@ See example: `h16_1_1.html`.
 
 **1.3 Arrow functions in ECMAScript 2015 are different from functions, how?**
 
-- a. Do not bind 'this' nor 'arguements'
-- b. Do bind 'this' but not 'arguements'
-- c. Do not bind 'this' only 'arguements'
-- d. Do bind 'this' and 'arguements'
+- a. Do not bind `this` nor `arguements`
+- b. Do bind `this` but not `arguements`
+- c. Do not bind `this` only `arguements`
+- d. Do bind `this` and `arguements`
 
   
 **1.4 For the following CSS, what are the width X height of the box in pixels according to the box model?**
