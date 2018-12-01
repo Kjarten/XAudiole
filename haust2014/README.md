@@ -85,7 +85,7 @@ console.log(y + m(5));
 - d. nýta þekktar villur í hugbúnaði
  
  
-**1.10 Kökur eða *cookies* eru notaðar til að **
+**1.10 Kökur eða *cookies* eru notaðar til að**
 
 - a. Geyma stöðu í HTTP
 - b. Geyma gögn á forminu nafn og gildi
