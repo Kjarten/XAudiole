@@ -1,156 +1,137 @@
-# Haust 2016
+# Haust 2015
 
-**1.1 If we are linking to example.org, it would be best to use**
+**1.1 What is Gulp used for?**
 
-- a. `<a href="http://example.org">example.org</a>`
-- b. 
-```
-<form method="post" action="http://example.org">
-      <button>example.org</button>
-</form>
-```
-- c.
-```
-<form method="get" action="http://example.org">
-      <button>example.org</button>
-</form>
-```
-- d. All methods are equally good
-
-See example: `h16_1_1.html`.
+- a. It's a framework for Node.js
+- b. Task runner that makes the manual things automatic
+- c. It helps consume more drinks faster
+- d. Task runner that makes sure we write good JavaScript code
 
 
-**1.2 Code coverage is a concept that helps us to write unit tests by**
+**1.2 JSHint is a tool that can help us write better JavaScript code, how does it work?**
 
-- a. It runs all our tests and lets us know their results
-- b. We get to know the percentage of our code is under test and can get by without writing tests for the same function, braches or statements
-- c. It runs selected tests and lets us know their results
-- d. We get to know how many lines of our code are under test and can get by without writing tests for the same functions, braches and statements
+- a. It changes the type system of JavaScript from being *dynamic* into being *static*
+- b. Adds functionality to our text editor that allows us to do code completion
+- c. Sends our code to jshint.com were veteran programmers go over our code and send back improvements
+- d. Alerts us to common errors we can do while writing JavaScript
+
+`JSHint` is a linter, has same purpose as `Eslint` did in current course.
 
 
-**1.3 Arrow functions in ECMAScript 2015 are different from functions, how?**
+**1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
 
-- a. Do not bind `this` nor `arguements`
-- b. Do bind `this` but not `arguements`
-- c. Do not bind `this` only `arguements`
-- d. Do bind `this` and `arguements`
+- a. HTTP requires that only the client stores state
+- b. HTTP uses JavaScript for frontend functionality
+- c. HTTP is based on clients sending requests and servers sending responses
+- d. HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection
 
   
-**1.4 For the following CSS, what are the width X height of the box in pixels according to the box model?**
-```
-.item {
-  width: 500px;
-  height: 300px;
-  margin: 20px;
-  margin-right: 0;
-  border: 1px solid #000;
-  padding: 10px;
-  padding-bottom: 20px;
-  }
-```
-- a. 542x372
-- b. 552x343
-- c. 353x542
-- d. 342x552
+**1.4 When we deploy our programs that connect to a database on different platforms, the connection strings can be different. To help us change them it is good to:**
 
-See example: `h16_1_4.html` & `h16_1_4.css`.
+- a. Collect all the settings in one place in the program, hardcode them there and change for each deployment
+- b. Store settings in an isolated function and change for each deployment
+- c. Hardcode settings where they're used in the program and change them for each deployment
+- d. Store settings in the environment and change for each deployment
+
  
- **1.5 When we are checking for web accessibility, we can use:**
+ **1.5 <div> and <span> are elements that stand alone, about them we can assert that:**
  
-- a. Standards containing guidelines and recommendations on accessibility
-- b. Listening to the website with a screen reader
-- c. Using only keyboard to navigate the website
+- a. They do not have any semantic meaning so they should absolutely not be used
+- b. They have semantic meaning but it is not rational so they should absolutely not be used
+- c. They do not have any semantic meaning but if needed, they're okay to use
+- d. They do have semantic meaning and it's so general that we can use them for anything
+ 
+ **1.6 The concept of the cascade in CSS defines:**
+
+- a. Value for each selector in CSS that determines how important it is
+- b. The order of definitions for each element
+- c. Value for each rule that defines how default values *cascade* over it
+- d. The order of definitions in the document
+ 
+ 
+**1.7 Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?**
+ 
+- a. They guarantee that the SEO (search engine optimization) and accessibility of our website is good
+- b. They guarantee that the HTML of our website is always valid
+- c. They allow us to send data to the template and display it, regardless of the functionality of the program
 - d. All of the above
  
- **1.6 What is V8?**
-
-- a. JavaScript engine that Chrome uses
-- b. HTML parser that Chrome uses
-- c. CSS interpreter that Chrome uses
-- d. None of the above
+ 
+**1.8 Unit tests are used to:**
+ 
+- a. Increase our confidence while making changes to programs
+- b. Document the real functionality of a program
+- c. Give us fast feedback on the functionality of a program while we write it
+- d. All of the above
  
  
-**1.7 What fundamental difference is there between HTML 4.01 and XHTML?**
+**1.9 When we implement a user system, one thing we need to think specially about is:**
  
-- a. HTML 4.01 is based on XML but XHTML on SGML
-- b. XHTML is based on HTML5 but HTML 4.01 on SGML
-- c. XHTML is based on XML but HTML 4.01 on SGML
-- d. None fundamental difference
- 
- 
-**1.8 Which of the following values are *falsy* in JavaScript**
- 
-- a. "0"
-- b. []
-- c. NaN
-- d. 1
+- a. Using a trusted and good programming language
+- b. Encrypting passwords
+- c. Use trusted user systems from a third party
+- d. Hide all URLs the user cannot see
  
  
-**1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
- 
-- a. *Frontend* is shown to the user, the data is retrieved with *HTTP* on the *backend*
-- b. *Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*
-- c. *Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*
-- d. *Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms
- 
- 
-**1.10 How do querySelector, querySelectorAll and jQuery relate?**
+**1.10 Which of the following is a valid URL?**
 
-- a. All use the DOM tree when searching for elements in websites
-- b. querySelector and querySelectorAll are methods in the jQuery library
-- c. All use selector syntax to find elements in the DOM tree
-- d. Not related
+- a. http://example.org/foo?bar=baz
+- b. example.org/foo?bar=baz
+- c. http://example.org:foo/?bar=baz
+- d. example.org:foo/?bar=baz
 
 
-**1.11 When we create an XMLHttpRequest and perform an Ajax request:**
+**1.11 Which of the following is *not* correct about the module system in Node.js**
 
-- a. We always get JSON as a response and must change it into a JavaScript object to work with
-- b. The web server we call must have a Cross-origin resource sharing (CORS) header
-- c. We must note that when we retrieve resources over a network, it can be slow
-- d. We never get JSON as a response and must parse it into a JavaScript object
-
-
-**1.12 What is flexbox?**
-
-- a. Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes
-- b. Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes
-- c. Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis
-- d. Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes
+- a. You can include a module from NPM by using `require('<name of module>');`
+- b. You can include a module stored in a directory with index.js by doing `require('<name of directory>');`
+- c. You can include a program from a directory that includes app.js with `require('<name of directory>');`
+- d. You can include a JSON file by doing `require('./<name of JSON file>.json');`
 
 
-**1.13 When we use new features, we should:?**
+**1.12 One of the things Sass does *not* offer is:**
 
-- a. Always setup a polyfill for the feature
-- b. Check the feature on *caniuse.com* and if it has over 90% support, use it
-- c. Evaluate the feature based on the project and the browsers supported
-- d. All above
-
-
-**1.14 To make our website more fun, we can use transitions and animations, in particular, we should:**
-
-- a. Stay clear of `transform` in CSS, since it can cause jank and lag
-- b. Have everything move, everywhere, all the time
-- c. Stick to transitioning and transforming things that are inexpensive & reasonable
-- d. Use the 3D processing of the CPU by moving the null transform to a new layer
+- a. Define *grids*
+- b. Define *mixin* for functions
+- c. Define variables
+- d. Defining *nested* selectors
 
 
-**1.15 What is logged when the following JavaScript code is run?**
+**1.13 The following CSS selsctor selects:**
+`main > selection h2.important`
+
+- a. All `h2` headings with `class important` that are a descendant of `section` that is the child of `main`
+- b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
+- c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
+- d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
+
+
+**1.14 What tasks do NPM and Bower solve**
+
+- a. Define what modules from third parties we use
+- b. Assist us in finding, fetching and updating modules from third parties
+- c. Allow us to publish our own modules to public repositories for others to use
+- d. All of the above
+
+
+**1.15 What is the result of running the following JavaScript code?**
 ```
-const values = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((value) => {
-      return value * value;
-});
-const results = [];
-
-for (let i = values.length - 1; i>=0; i--) {
-      const value = values[i];
-      results.push(value);
+function calc(f, g, x) {
+      return f(x) + g(x);
 }
-console.log(results.join(', '));
+
+var x =5;
+var square = function (x) { return x*x; )
+var result = calc(square, function (y) {
+      return x + y + 10;
+}, 2);
+
+console.log(result);
 ```
 
-- a. 81, 64, 49, 36, 25, 16, 9, 4, 1
-- b. 1, 2, 3, 4, 5, 6, 7, 8, 9
-- c. 1, 4, 9, 16, 25, 36, 49, 64, 81
-- d. 9, 8, 7, 6, 5, 4, 3, 2, 1
+- a. 21
+- b. 18
+- c. NaN
+- d. 42
 
 See example: `h16_1_15.html` & `h16_1_15.js`
