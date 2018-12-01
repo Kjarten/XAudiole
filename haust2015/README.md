@@ -134,4 +134,4 @@ console.log(result);
 - c. NaN
 - d. 42
 
-See example: `h16_1_15.html` & `h16_1_15.js`
+See example: `h15_1_15.html` & `h15_1_15.js`
