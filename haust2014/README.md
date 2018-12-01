@@ -1,137 +1,141 @@
-# Haust 2015
+# Haust 2014
 
-**1.1 What is Gulp used for?**
+**1.1 Hvað er CSS *shorthand*?**
 
-- a. It's a framework for Node.js
-- b. Task runner that makes the manual things automatic
-- c. It helps consume more drinks faster
-- d. Task runner that makes sure we write good JavaScript code
+- a. Virkni sem CSS *preprocessorar* gefa okkur aðgang að, til að skrifa styttra og skipulagðara CSS
+- b. Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni
+- c. Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu
+- d. Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS
 
 
-**1.2 JSHint is a tool that can help us write better JavaScript code, how does it work?**
+**1.2 Hvað eru callbacks og promises?**
 
-- a. It changes the type system of JavaScript from being *dynamic* into being *static*
-- b. Adds functionality to our text editor that allows us to do code completion
-- c. Sends our code to jshint.com were veteran programmers go over our code and send back improvements
-- d. Alerts us to common errors we can do while writing JavaScript
+- a. Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða
+- b. Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O
+- c. Aðferðir til að vinna með *strauma* (streams)
+- d. Aðferðir til að vinna með *atburði* (events)
 
 `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 
 
-**1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
-
-- a. HTTP requires that only the client stores state
-- b. HTTP uses JavaScript for frontend functionality
-- c. HTTP is based on clients sending requests and servers sending responses
-- d. HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection
+**1.3 Hvað af eftirfarandi á við þetta HTML:**
+```
+<p class="intro">Hello world!</p>
+```
+- a. *p* er `tag` með `class` attribute
+- b. *p* er `element` með `class` `tag`
+- c. Byrjunar og enda `element` er *p*, `class` er attribute og öll heildin er *p* `tag`
+- d. Byrjunar og enda `tag` er *p*, `class` er attribute og öll heildin er *p* `element`
 
   
-**1.4 When we deploy our programs that connect to a database on different platforms, the connection strings can be different. To help us change them it is good to:**
-
-- a. Collect all the settings in one place in the program, hardcode them there and change for each deployment
-- b. Store settings in an isolated function and change for each deployment
-- c. Hardcode settings where they're used in the program and change them for each deployment
-- d. Store settings in the environment and change for each deployment
-
- 
- **1.5 `<div>` and `<span>` are elements that stand alone, about them we can assert that:**
- 
-- a. They do not have any semantic meaning so they should absolutely not be used
-- b. They have semantic meaning but it is not rational so they should absolutely not be used
-- c. They do not have any semantic meaning but if needed, they're okay to use
-- d. They do have semantic meaning and it's so general that we can use them for anything
- 
- **1.6 The concept of the cascade in CSS defines:**
-
-- a. Value for each selector in CSS that determines how important it is
-- b. The order of definitions for each element
-- c. Value for each rule that defines how default values *cascade* over it
-- d. The order of definitions in the document
- 
- 
-**1.7 Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?**
- 
-- a. They guarantee that the SEO (search engine optimization) and accessibility of our website is good
-- b. They guarantee that the HTML of our website is always valid
-- c. They allow us to send data to the template and display it, regardless of the functionality of the program
-- d. All of the above
- 
- 
-**1.8 Unit tests are used to:**
- 
-- a. Increase our confidence while making changes to programs
-- b. Document the real functionality of a program
-- c. Give us fast feedback on the functionality of a program while we write it
-- d. All of the above
- 
- 
-**1.9 When we implement a user system, one thing we need to think specially about is:**
- 
-- a. Using a trusted and good programming language
-- b. Encrypting passwords
-- c. Use trusted user systems from a third party
-- d. Hide all URLs the user cannot see
- 
- 
-**1.10 Which of the following is a valid URL?**
-
-- a. http://example.org/foo?bar=baz
-- b. example.org/foo?bar=baz
-- c. http://example.org:foo/?bar=baz
-- d. example.org:foo/?bar=baz
-
-
-**1.11 Which of the following is *not* correct about the module system in Node.js**
-
-- a. You can include a module from NPM by using `require('<name of module>');`
-- b. You can include a module stored in a directory with index.js by doing `require('<name of directory>');`
-- c. You can include a program from a directory that includes app.js with `require('<name of directory>');`
-- d. You can include a JSON file by doing `require('./<name of JSON file>.json');`
-
-
-**1.12 One of the things Sass does *not* offer is:**
-
-- a. Define *grids*
-- b. Define *mixin* for functions
-- c. Define variables
-- d. Defining *nested* selectors
-
-
-**1.13 The following CSS selsctor selects:**
-`main > selection h2.important`
-
-- a. All `h2` headings with `class important` that are a descendant of `section` that is the child of `main`
-- b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
-- c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
-- d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
-
-
-**1.14 What tasks do NPM and Bower solve**
-
-- a. Define what modules from third parties we use
-- b. Assist us in finding, fetching and updating modules from third parties
-- c. Allow us to publish our own modules to public repositories for others to use
-- d. All of the above
-
-
-**1.15 What is the result of running the following JavaScript code?**
+**1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
 ```
-function calc(f, g, x) {
-      return f(x) + g(x);
+function multiplier(x) {
+  return function (y) { return x * y; }
 }
 
-var x =5;
-var square = function (x) { return x*x; }
-var result = calc(square, function (y) {
-      return x + y + 10;
-}, 2);
+var y = 10;
+var m = multiplier(2);
 
-console.log(result);
+console.log(y + m(5));
 ```
 
-- a. 21
-- b. 18
-- c. NaN
-- d. 42
+- a. 20
+- b. 60
+- c. 25
+- d. 52
 
-See example: `h15_1_15.html` & `h15_1_15.js`
+ 
+ **1.5 Hvað af eftirarandi á við SQLite**
+ 
+- a. Lítill gagnagrunnur sem útfærir aðeins lítinn hluta af SQL staðlinum, með takmarkaðar týpur og er ekki RDBMS (Relational Database Management System)
+- b. Lítill gagnagrunnur sem útfærir mesta allan af SQL staðlinum, með dýnamískar týpur og er ekki RDBMS
+- c. Lítill gagnagrunnur sem útfærir aðeins hluta af SQL staðlinum, með takmarkaðar týpur og er RDBMS
+- d. Lítill gagnagrunnur sem útfærir mest allan hluta af SQL staðinum, með dýnamískar týpur og er RDBMS
+ 
+ **1.6 Hvað er WCAG?**
+
+- a. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C
+- b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
+- c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
+- d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
+ 
+ 
+**1.7 Þegar við útfærum skalanlega vefi (responsive web design) þá þurfum við að:**
+ 
+- a. Skilgreina grind með föstum stærðum og nota media-queries
+- b. Skilgreina grind með hlutfallslegum stærðum og nota media-queries
+- c. Skilgreina box með föstum stærðum, nota JavaScript og media-queries
+- d. Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries
+ 
+ 
+**1.8 Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
+ 
+- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
+- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
+- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
+- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
+ 
+ 
+**1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:**
+ 
+- a. nýta XSS holur
+- b. nýta injection árásir
+- c. útbúa faldar HTTP beiðnir
+- d. nýta þekktar villur í hugbúnaði
+ 
+ 
+**1.10 Kökur eða *cookies* eru notaðar til að **
+
+- a. Geyma stöðu í HTTP
+- b. Geyma gögn á forminu nafn og gildi
+- c. Fylgjast með notanda
+- d. Allt að ofan
+
+
+**1.11 HATEOAS eða Hypermeda as the engine of application state er takmörkun í REST, hún snýst um að**
+
+- a. Client fær allar upplýsingar frá vefþjónustu í byrjun og notar tengla til að breyta stöðum
+- b. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun og notar tengla til að breyta stöðum og fá frekari upplýsingar
+- c. Client fær allar upplýsingar frá vefþjónustu í byrjun
+- d. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun
+
+
+**1.12 Sniðmát eða *templating* er eitthvað sem mörg framework bjóða upp, hver er hugsunin með þeim?**
+
+- a. Sjá um að útbúa útlit óháð virkni
+- b. Sjá um að útbúa góðar og skýrar slóðir, *URL*
+- c. Sjá um að setja upp stuðning við þýðingar
+- d. Sjá um að gera vinnu með gagnagrunaa einfaldari
+
+
+**1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
+`main > selection h2.important`
+
+- a. Lykar í JSON verða að vera strengir
+- b. Lyklar í JSON mega vera úr lista frátekinna orða
+- c. Gildi í JSON mega ekki vera föll
+- d. Allt að ofan
+
+
+**1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?**
+```
+$a = array("foo" => "10");
+
+$a[] = 10;
+
+var_dump($a["foo"] + $a[0]);
+```
+
+- a. `int` 20
+- b. `string` "1010"
+- c. `string` "202
+- d. Villa, ekkert skrifast út
+
+
+**1.15 Ef við framkvæmum aðgerð í HTTP og stöðukóðinn sem kemur til baka er með tölugildið 500 eða hærra, gefur það til kynna að:**
+
+- a. Aðgerð tókst, kóði gefur til kynna hvernig það nákvæmlega tókst
+- b. Aðgerð var beint eitthvað annað, *redirect*
+- c. Aðgerð tókst ekki og villuna má finna hjá okkur, í client
+- d. Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server
