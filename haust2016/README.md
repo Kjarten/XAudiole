@@ -17,6 +17,8 @@
 ```
 - d. All methods are equally good
 
+See example: `h16_1_1.html`.
+
 
 **1.2 Code coverage is a concept that helps us to write unit tests by**
 
