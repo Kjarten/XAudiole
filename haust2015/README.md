@@ -34,7 +34,7 @@
 - d. Store settings in the environment and change for each deployment
 
  
- **1.5 <div> and <span> are elements that stand alone, about them we can assert that:**
+ **1.5 `<div>` and `<span>` are elements that stand alone, about them we can assert that:**
  
 - a. They do not have any semantic meaning so they should absolutely not be used
 - b. They have semantic meaning but it is not rational so they should absolutely not be used
