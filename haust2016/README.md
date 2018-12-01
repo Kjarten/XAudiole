@@ -3,7 +3,12 @@
 **1.1 If we are linking to example.org, it would be best to use**
 
 - a. `<a href="http://example.org">example.org</a>`
-- b. ```<form method="post" action="http://example.org"><button>example.org</button></form>```
+- b. 
+```
+<form method="post" action="http://example.org">
+      <button>example.org</button>
+</form>
+```
 - c. `<form method="get" action="http://example.org"><button>example.org</button></form>`
 - d. All methods are equally good
 
