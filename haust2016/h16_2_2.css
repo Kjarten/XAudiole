@@ -1,0 +1,32 @@
+/* width, max-width, padding, margin, border, background-color*/
+
+/*You are setting up a web which will display info in cards that
+will stack side by side as room allows. Write CSS that satifies
+the following:
+- card shall have
+  - white background(#ffffff)
+  - 10px margin to the right and 10px margin at the bottom
+  - 20px padding on all sides
+  - 1px solid black border (1px solid #000000)
+  - limitation of the maximum width, it can never be wider than 400px
+  - limitation of the minimum width, it can never be less than 200px
+-In general, card shall take up 1/3 of the horizontal space available
+-Under 800px card shall take up 1/2 of the horizontal space avialable
+-Under 500px card shall take up all the available horizontal space
+and not have any margin
+ */
+.card {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+
+  }
+}
