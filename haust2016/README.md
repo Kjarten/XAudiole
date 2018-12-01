@@ -53,7 +53,7 @@
  
  **1.5 When we are checking for web accessibility, we can use:**
  
-- a. Standards containing guidelines and recommendations on acessibility
+- a. Standards containing guidelines and recommendations on accessibility
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
 - d. All of the above
@@ -90,7 +90,7 @@
 - d. *Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms
  
  
-**1.10 How do querySelector, querySelectorAll and jQuery relate?
+**1.10 How do querySelector, querySelectorAll and jQuery relate?**
 
 - a. All use the DOM tree when searching for elements in websites
 - b. querySelector and querySelectorAll are methods in the jQuery library
