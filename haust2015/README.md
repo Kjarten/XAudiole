@@ -7,6 +7,7 @@
 - c. It helps consume more drinks faster
 - d. Task runner that makes sure we write good JavaScript code
 
+NOTE: `Gulp` is a package manager, has same purpose as `NPM` did in current course.
 
 **1.2 JSHint is a tool that can help us write better JavaScript code, how does it work?**
 
@@ -15,7 +16,7 @@
 - c. Sends our code to jshint.com were veteran programmers go over our code and send back improvements
 - d. Alerts us to common errors we can do while writing JavaScript
 
-`JSHint` is a linter, has same purpose as `Eslint` did in current course.
+NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 
 
 **1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
@@ -97,7 +98,7 @@
 - d. Defining *nested* selectors
 
 
-**1.13 The following CSS selsctor selects:**
+**1.13 The following CSS selector selects:**
 `main > selection h2.important`
 
 - a. All `h2` headings with `class important` that are a descendant of `section` that is the child of `main`
@@ -113,6 +114,7 @@
 - c. Allow us to publish our own modules to public repositories for others to use
 - d. All of the above
 
+NOTE: `Bower` is a package manager, has same purpose as `NPM` did in current course.
 
 **1.15 What is the result of running the following JavaScript code?**
 ```
