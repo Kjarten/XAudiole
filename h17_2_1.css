@@ -9,7 +9,7 @@
 }
 
 .grid__col {
-  width: 100%;
+  width: 100%; /*.grid__col skal vera 12 dálkar ef gluggi er undir 600px breiður.*/
 }
 
 .content { /*Efni (<div class="content>")*/
@@ -20,6 +20,6 @@
 
 @media (min-width: 600px) {
   .grid__col {
-    width: 50%;
+    width: 50%; /*...annars 6 dálkar*/
   }
 }
