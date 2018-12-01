@@ -1,19 +1,11 @@
-# Haust 2017
+# Haust 2016
 
-**1.1 What semantic value can be deduced from the following HTML?**
-```
-<aside>
-  <h2>Foo</h2>
-  <ol>
-    <li>Bar</li>
-    <li>Baz</li>
-  </ol>
-</aside>
-```
-- a. Excerpt from content with the heading "Foo" and an ordered list with items "Bar" and "Baz"
-- b. ~~Excerpt from content with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
-- c. ~~Navigation on a site with the heading "Foo" and an ordered list with items "Bar and "Baz"~~
-- d. ~~Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
+**1.1 If we are linking to example.org, it would be best to use**
+
+- a. `<a href="http://example.org">example.org</a>`
+- b. `<form method="post" action="http://example.org"><button>example.org</button></form>`
+- c. `<form method="get" action="http://example.org"><button>example.org</button></form>`
+- d. All methods are equally good
 
 
 **1.2 You get the task of displaying text along with images on the web, which would be best to use?**
