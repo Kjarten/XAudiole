@@ -12,6 +12,6 @@
 </aside>
 ```
 - a. Excerpt from content with the heading "Foo" and an ordered list with items "Bar" and "Baz"
-- b. Excerpt from content with the heading "Foo" and an unordered list with items "Bar" and "Baz"
-- c. Navigation on a site with the heading "Foo" and an ordered list with items "Bar and "Baz"
-- d. Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"
+- ~~b. Excerpt from content with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
+- ~~c. Navigation on a site with the heading "Foo" and an ordered list with items "Bar and "Baz"~~
+- ~~d. Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
