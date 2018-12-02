@@ -36,18 +36,26 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
  
  **1.5 `<div>` and `<span>` are elements that stand alone, about them we can assert that:**
  
-- a. They do not have any semantic meaning so they should absolutely not be used
-- b. They have semantic meaning but it is not rational so they should absolutely not be used
-- c. They do not have any semantic meaning but if needed, they're okay to use
-- d. They do have semantic meaning and it's so general that we can use them for anything
+- a. ~~They do not have any semantic meaning so they should absolutely not be used~~
+- b. ~~They have semantic meaning but it is not rational so they should absolutely not be used~~
+- c. __They do not have any semantic meaning but if needed, they're okay to use__
+- d. ~~They do have semantic meaning and it's so general that we can use them for anything~~
+```
+1.18.1 Merkingarfræðileg siðvendni
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
 ---
  
  **1.6 The concept of the cascade in CSS defines:**
 
-- a. Value for each selector in CSS that determines how important it is
-- b. The order of definitions for each element
-- c. Value for each rule that defines how default values *cascade* over it
-- d. The order of definitions in the document
+- a. ~~Value for each selector in CSS that determines how important it is~~
+- b. __The order of definitions for each element__
+- c. ~~Value for each rule that defines how default values *cascade* over it~~
+- d. ~~The order of definitions in the document~~
+```
+2.9 Cascade – „flóðið“
+https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+```
 ---
  
 **1.7 Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?**
