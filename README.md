@@ -21,14 +21,6 @@ Svör við spurningum úr gömlum lokaprófum
 
 ## Not Categorized
 
-**[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
-
-- a. A new record or entity is created
-- b. It is safe to fetch the same webpage again without problems
-- c. It is not safe to fetch the same webpage again without problems
-- d. a. and b.
----
-
 **[Sumar 2014] Which of the following are advantages to caching in web applications?**
 
 - a. Can increase speed in applications by reducing the number of long calculations
@@ -606,6 +598,13 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. There is no difference between frontend and backend
 ---
 
+**[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
+
+- a. A new record or entity is created
+- b. It is safe to fetch the same webpage again without problems
+- c. It is not safe to fetch the same webpage again without problems
+- d. a. and b.
+---
 
 ## DOM
 
