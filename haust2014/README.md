@@ -81,12 +81,24 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
  
 **1.7 Þegar við útfærum skalanlega vefi (responsive web design) þá þurfum við að:**
  
-- a. Skilgreina grind með föstum stærðum og nota media-queries
-- b. Skilgreina grind með hlutfallslegum stærðum og nota media-queries
-- c. Skilgreina box með föstum stærðum, nota JavaScript og media-queries
-- d. Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries
- 
- 
+- a. ~~Skilgreina grind með föstum stærðum og nota media-queries~~
+- b. __Skilgreina grind með hlutfallslegum stærðum og nota media-queries__
+- c. ~~Skilgreina box með föstum stærðum, nota JavaScript og media-queries~~
+- d. ~~Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries~~
+```
+Skalanleg vefhönnun byggir á þremur atriðum, _í mikilvægis röð_:
+
+1. Sveigjanlegu umbroti, byggðu á grind
+2. Sveigjanlegum myndum og miðlum
+3. CSS media queries
+
+Þegar við vinnum með sveigjanlega grind megum við ekki skilgreina neinar breiddir í nákvæmum stærðum, við verðum að nota hlutfallslegar. 
+
+2.23 Skalanleg vefhönnun & 2.23.1 Sveigjanleg grind
+https://github.com/vefforritun/book/edit/master/chapters/02.css.md
+```
+---
+
 **1.8 Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
  
 - a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
