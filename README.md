@@ -291,6 +291,7 @@ section ul > li:nth-child(2n) {
 - `div`
 - `div p`
 - `div > p`
+- `div ~ p`
 - `p + p`
 - `div.foo`
 - `a:hover`
