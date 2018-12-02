@@ -80,6 +80,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. XHTML is based on HTML5 but HTML 4.01 on SGML
 - c. XHTML is based on XML but HTML 4.01 on SGML
 - d. None fundamental difference
+```
+1.10-1.15
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
  
  
 **1.8 Which of the following values are *falsy* in JavaScript**
