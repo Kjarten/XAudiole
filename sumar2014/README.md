@@ -248,3 +248,12 @@ function X(list)
 - b. ~~A web server must store all state between requests from users since the browser does not~~
 - c. ~~A web browser can not store any state between requests from user~~
 - d. ~~A web browser must store all state between requests from users since the web server does not~~
+
+## Stateless
+
+* HTTP er hannað sem stöðulaus prótókoll
+* Server þarf **ekki** að geyma neinar upplýsingar á milli beiðna
+* Stöður geta þó verið geymdar á nokkra máta, förum ekki nánar í það
+
+Fyrirlestur 11.1 – HTTP
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
