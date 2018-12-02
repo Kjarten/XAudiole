@@ -43,6 +43,8 @@ return sum(map(list, function(i) { return i.length; })) / list.length;
 - c. ~~Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni~~
 - d. ~~Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana~~
 
+https://raw.githubusercontent.com/vefforritun/vef1-2018/master/fyrirlestrar/11/11.1.http.md
+
 * Skilgreint í [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt)
 * Uniform Resource Identifier – strengur sem skilgreinir auðlind
   - Með nafni, staðsetningu eða bæði
