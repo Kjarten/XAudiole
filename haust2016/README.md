@@ -19,7 +19,7 @@
 
 See example: `h16_1_1.html`.
 ```
-HTTP Aðferðir
+HTTP Aðferðir og <form>
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
 
