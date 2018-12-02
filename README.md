@@ -1,6 +1,29 @@
 # XAudiole
 Svör við spurningum úr gömlum lokaprófum
 
+**[Sumar 2014] Which of the following is *not* among the roles of the W3C?**
+
+- a. Standardize HTML
+- b. Standardize CSS
+- c. Standardize JavaScript
+- d. a. and b.
+---
+
+**[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
+
+- a. A new record or entity is created
+- b. It is safe to fetch the same webpage again without problems
+- c. It is not safe to fetch the same webpage again without problems
+- d. a. and b.
+---
+
+**[Sumar 2014] Which of the following are advantages to caching in web applications?**
+
+- a. Can increase speed in applications by reducing the number of long calculations
+- b. Increases the user experience since waiting is decreased
+- c. Can increase speed in applications by reducing the calls to a database
+- d. All of the above
+---
 
 **[Haust 2014] Hvað eru callbacks og promises?**
 
@@ -20,7 +43,7 @@ Svör við spurningum úr gömlum lokaprófum
 
 **[Haust 2014] JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
 
-- a. Lykar í JSON verða að vera strengir
+- a. Lyklar í JSON verða að vera strengir
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
 - c. Gildi í JSON mega ekki vera föll
 - d. Allt að ofan
@@ -110,6 +133,30 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*
 ---
 
+**[Sumar 2014] HTML5 is the natural progression of the web, but what does the concept encompass**
+
+- a. Changes in HTML from HTML 4.01 and XHTML
+- b. Changes in HTML, extensions to CSS and new JavaScript APIs
+- c. Changes in HTML, extensions to CSS and changed syntax in JavaScript
+- d. Changes in HTML from HTML 4.01 and XHTML with extensions to CSS
+---
+
+**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+ 
+- a. The concept of HyperText
+- b. HTML
+- c. SSL
+- d. HTML, CSS and JavaScript
+---
+
+**[Sumar 2014] What is the difference between `<head>` and `<body>`**
+
+- a. In general we define the metadata for the page in `<head>` and content in `<body>`
+- b. Metadata must only be in `<head>` but content in `<body>`
+- c. We only define connections to other files (e.g. CSS) in `<head>` and content in `<body>`
+- d. No difference between `<head>` and `<body>`
+---
+
 ## Web Accessibility
 
  **[Haust 2016] When we are checking for web accessibility, we can use:**
@@ -126,6 +173,22 @@ Svör við spurningum úr gömlum lokaprófum
 - b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
 - c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
 - d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
+---
+
+**[Sumar 2014] Which of the following needs to be considered for accessibility**
+ 
+- a. Describe images with *alt* text
+- b. Define language for content
+- c. Write descriptive text for links
+- d. All of the above
+---
+
+**[Sumar 2014] What is ARIA?**
+
+- a. Standard from W3C that increases accessibility of web applications
+- b. Standard from ISO that increases accessibility of web applications
+- c. Standard from W3C that increases functionality in new browsers
+- d. Standard from ISO that increases functionality in new browsers
 ---
 
 ## CSS - Box model
@@ -403,6 +466,41 @@ console.log(y + m(5));
 - d. 52
 ---
 
+**[Sumar 2014] What is the result of running the following JavaScript code?**
+ ```
+ function foo(i) {
+    i = bar(i);
+    function bar(n) {
+        var result = 1;
+        foo (var i = 1; i <= n; i++)
+        {
+            result *= i;
+        }
+        return result;
+    }
+    setTimeout(function() { console.log(i); ), 10000)
+}
+foo(3);
+ ```
+- a. In 1 second the value "6" will be written to console
+- b. In 10 seconds the value "6" will be written to console
+- c. In 1 second the value "45" will be written to console
+- d. In 10 seconds the value "45" will be written to console
+---
+
+**[Sumar 2014] What does the following JavaScript function do? The functions *filter* (returns a list where items satisfy conditions), *sum* (returns the sum of a list ) are defined and *list* is an array of numbers.**
+```
+function X(list)
+{
+  return sum(list.filter(function(i) { return i > 0; }));
+}
+```
+- a. Returns the sum of all the numbers in list
+- b. Returns the sum of all positive numbers in list
+- c. Returns the average of all numbers in list
+- d. Returns the sum of all negatve numbers in list
+---
+
 ## Git
 
 **[Haust 2017] Git sees files in four ways, they are:**
@@ -431,6 +529,14 @@ console.log(y + m(5));
 ```
 NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 ```
+---
+
+**[Sumar 2014] What is NPM and what effect does it have on node.js**
+
+- a. NPM is a framework for node.js that makes it easy to write web applications
+- b. NPM is a framework for node.js that assists in manual tasks
+- c. NPM is the package manager of node.js that makes it really easy to fetch and create packages
+- d. NPM is the package manager of node.js that has a strict version control so only well written packages are accepted
 ---
 
 ## HTTP
@@ -465,6 +571,22 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - b. Aðgerð var beint eitthvað annað, *redirect*
 - c. Aðgerð tókst ekki og villuna má finna hjá okkur, í client
 - d. Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server
+---
+
+**[Sumar 2014] What does it mean that HTTP is stateless?**
+
+- a. A web server does not need to store any state between requests from user
+- b. A web server must store all state between requests from users since the browser does not
+- c. A web browser can not store any state between requests from user
+- d. A web browser must store all state between requests from users since the web server does not
+---
+
+**[Sumar 2014] What is the difference between frontend and backend?**
+ 
+- a. Backend resides on the web server and programs written there generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it
+- b. Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all the code, e.g. JavaScript and PHP
+- c. Backend is where all the programming happens in a web application, frontend is only the UI
+- d. There is no difference between frontend and backend
 ---
 
 
@@ -504,4 +626,12 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - b. example.org/foo?bar=baz
 - c. http://example.org:foo/?bar=baz
 - d. example.org:foo/?bar=
+---
+
+**[Sumar 2014] Which of the following is correct URL?**
+
+- a. http://example.org/&foo=bar&baz
+- b. http://example.org/?foo=bar&baz
+- c. http://example.org:8000/#foo
+- d. b and c
 ---
