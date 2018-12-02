@@ -285,17 +285,17 @@ section ul > li:nth-child(2n) {
 - d. Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS
 ---
 
-**Aukaspurning: Skilgreindu eftirfarandi sambönd:
+**Aukaspurning: Skilgreindu eftirfarandi sambönd:**
 
-- *
-- div
-- div p
-- div > p
-- p + p
-- div.foo
-- a:hover
-- div#foo
-- div[foo="bar"]
+- `*`
+- `div`
+- `div p`
+- `div > p`
+- `p + p`
+- `div.foo`
+- `a:hover`
+- `div#foo`
+- `div[foo="bar"]`
 ---
 
 ### Skalanlegir vefir (responsive web design)
