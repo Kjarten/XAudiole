@@ -2,7 +2,7 @@
 
 **1.1 What is Gulp used for?**
 
-- a. It's a framework for Node.js
+- a. __It's a framework for Node.js__
 - b. ~~Task runner that makes the manual things automatic~~
 - c. ~~It helps consume more drinks faster~~
 - d. ~~Task runner that makes sure we write good JavaScript code~~
