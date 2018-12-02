@@ -14,8 +14,9 @@
 - b. ~~Adds functionality to our text editor that allows us to do code completion~~
 - c. ~~Sends our code to jshint.com were veteran programmers go over our code and send back improvements~~
 - d. __Alerts us to common errors we can do while writing JavaScript__
-
-NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
+```
+NOTE: JSHint is a linter, has same purpose as Eslint did in current course.
+```
 ---
 
 **1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
