@@ -41,7 +41,7 @@ div {
 - d. ~~360x260~~
   
   
-**1.4 what is BEM?**
+**1.4 What is BEM?**
  
 - a. ~~Bloody Elegant Markup, competitor to Markdown that is simpler and more usable~~
 - b. ~~Blocks, elements, modified, method to write CSS that uses modified flexbox to order blocks and elements~~
