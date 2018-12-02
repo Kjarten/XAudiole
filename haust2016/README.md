@@ -22,6 +22,7 @@ See example: `h16_1_1.html`.
 HTTP Aðferðir og <form>
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
+---
 
 **~~1.2 Code coverage is a concept that helps us to write unit tests by~~**
 
@@ -29,7 +30,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 - b. We get to know the percentage of our code is under test and can get by without writing tests for the same function, braches or statements
 - c. It runs selected tests and lets us know their results
 - d. We get to know how many lines of our code are under test and can get by without writing tests for the same functions, braches and statements
-
+---
 
 **1.3 Arrow functions in ECMAScript 2015 are different from functions, how?**
 
@@ -37,7 +38,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 - b. Do bind `this` but not `arguements`
 - c. Do not bind `this` only `arguements`
 - d. Do bind `this` and `arguements`
-
+---
   
 **1.4 For the following CSS, what are the width X height of the box in pixels according to the box model?**
 ```
@@ -72,6 +73,7 @@ See example: `h16_1_4.html` & `h16_1_4.css`.
 1.20 Aðgengi
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 ```
+---
 
  **1.6 What is V8?**
 
@@ -79,7 +81,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. HTML parser that Chrome uses
 - c. CSS interpreter that Chrome uses
 - d. None of the above
- 
+ ---
  
 **1.7 What fundamental difference is there between HTML 4.01 and XHTML?**
  
@@ -91,7 +93,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 1.10-1.15
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 ```
- 
+---
  
 **1.8 Which of the following values are *falsy* in JavaScript**
  
@@ -103,6 +105,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 Falsy
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javascript.md
 ```
+---
  
 **1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
  
@@ -114,7 +117,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 0.2.6 Framendi og Bakendi
 https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 ```
- 
+--- 
  
 **1.10 How do querySelector, querySelectorAll and jQuery relate?**
 
@@ -122,7 +125,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - b. querySelector and querySelectorAll are methods in the jQuery library
 - c. All use selector syntax to find elements in the DOM tree
 - d. Not related
-
+---
 
 **1.11 When we create an XMLHttpRequest and perform an Ajax request:**
 
@@ -130,7 +133,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - b. The web server we call must have a Cross-origin resource sharing (CORS) header
 - c. We must note that when we retrieve resources over a network, it can be slow
 - d. We never get JSON as a response and must parse it into a JavaScript object
-
+---
 
 **1.12 What is flexbox?**
 
@@ -138,7 +141,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - b. Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes
 - c. Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis
 - d. Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes
-
+---
 
 **1.13 When we use new features, we should:?**
 
@@ -146,7 +149,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - b. Check the feature on *caniuse.com* and if it has over 90% support, use it
 - c. Evaluate the feature based on the project and the browsers supported
 - d. All above
-
+---
 
 **1.14 To make our website more fun, we can use transitions and animations, in particular, we should:**
 
@@ -154,7 +157,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - b. Have everything move, everywhere, all the time
 - c. Stick to transitioning and transforming things that are inexpensive & reasonable
 - d. Use the 3D processing of the CPU by moving the null transform to a new layer
-
+---
 
 **1.15 What is logged when the following JavaScript code is run?**
 ```
