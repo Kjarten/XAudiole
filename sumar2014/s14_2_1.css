@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; }
+
+body { font-size: 12px; }
+
+.wrapper {
+  width: 800px;
+  font-size: 1em;
+}
+
+section.box {
+  /* box-sizing: border-box; */
+  width: 50%;
+  padding: 10px;
+  height: 150px;
+  border: 1px solid #000;
+  float: left;
+
+}
+
+section.box h2 { font-size: 2em; }
+
+/* img { width: 100%; } */
