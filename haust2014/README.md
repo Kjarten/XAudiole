@@ -22,6 +22,16 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. ~~Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O~~
 - c. ~~Aðferðir til að vinna með *strauma* (streams)~~
 - d. ~~Aðferðir til að vinna með *atburði* (events)~~
+```
+Callbacks, ein leið til að vinna með async kóða
+
+Promises:
+* Hjúpun fyrir gildi sem mun verða til í framtíðinni
+* Gerir asynchronous forritun auðveldari
+
+Fyrirlestur 10.1 – Ósamstillt forritun
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/10/10.1.async.md
+```
 ---
 
 **1.3 Hvað af eftirfarandi á við þetta HTML:**
@@ -140,7 +150,6 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 
 
 **1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
-`main > selection h2.important`
 
 - a. Lykar í JSON verða að vera strengir
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
