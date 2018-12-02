@@ -92,7 +92,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. []
 - c. NaN
 - d. 1
- 
+```
+Falsy
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javascript.md
+```
  
 **1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
  
