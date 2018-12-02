@@ -15,18 +15,20 @@
 - c. Aðferðir til að vinna með *strauma* (streams)
 - d. Aðferðir til að vinna með *atburði* (events)
 
-`JSHint` is a linter, has same purpose as `Eslint` did in current course.
-
 
 **1.3 Hvað af eftirfarandi á við þetta HTML:**
 ```
 <p class="intro">Hello world!</p>
 ```
-- a. *p* er `tag` með `class` attribute
-- b. *p* er `element` með `class` `tag`
-- c. Byrjunar og enda `element` er *p*, `class` er attribute og öll heildin er *p* `tag`
-- d. Byrjunar og enda `tag` er *p*, `class` er attribute og öll heildin er *p* `element`
+- a. *p* er *tag* með *class* *attribute*
+- b. *p* er *element* með *class* *tag*
+- c. Byrjunar og enda *element* er *p*, *class* er *attribute* og öll heildin er *p* *tag*
+- d. Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*
+```
+<p>foo bar</p> is an element, not a tag. An element consists of a start tag, content, and an end tag. In case of <p>foo bar</p>, <p> is a start tag, foo bar is content, and </p> is an end tag.
 
+http://perfectionkills.com/tag-is-not-an-element-or-is-it/
+```
   
 **1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
 ```
