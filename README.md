@@ -655,7 +655,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 
 **[Haust 2013] Hvað er URI (Uniform Resource Identifier)?**
 
-- a. __Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði__
-- b. ~~Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki~~
-- c. ~~Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni~~
-- d. ~~Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana~~
+- a. Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði
+- b. Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki
+- c. Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni
+- d. Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana
