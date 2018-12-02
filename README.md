@@ -19,6 +19,14 @@ Svör við spurningum úr gömlum lokaprófum
 - d. a. and b.
 ---
 
+**[Haust 2016] When we use new features, we should:?**
+
+- a. Always setup a polyfill for the feature
+- b. Check the feature on *caniuse.com* and if it has over 90% support, use it
+- c. Evaluate the feature based on the project and the browsers supported
+- d. All above
+---
+
 ## Not Categorized
 
 **[Haust 2014] Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
@@ -43,14 +51,6 @@ Svör við spurningum úr gömlum lokaprófum
 - b. The web server we call must have a Cross-origin resource sharing (CORS) header
 - c. We must note that when we retrieve resources over a network, it can be slow
 - d. We never get JSON as a response and must parse it into a JavaScript object
----
-
-**[Haust 2016] When we use new features, we should:?**
-
-- a. Always setup a polyfill for the feature
-- b. Check the feature on *caniuse.com* and if it has over 90% support, use it
-- c. Evaluate the feature based on the project and the browsers supported
-- d. All above
 ---
 
 ## HTML
