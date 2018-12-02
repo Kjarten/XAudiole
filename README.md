@@ -133,6 +133,10 @@ div {
 **[Haust 2014] Dæmi 2.1**
 
 ---
+
+**[Sumar 2014] Dæmi 2.1**
+
+---
   
 ## CSS - Theory
 
