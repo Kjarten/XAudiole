@@ -141,12 +141,12 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - d. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun
 ---
 
-**1.12 Sniðmát eða *templating* er eitthvað sem mörg framework bjóða upp, hver er hugsunin með þeim?**
+**~~1.12 Sniðmát eða *templating* er eitthvað sem mörg framework bjóða upp, hver er hugsunin með þeim?~~**
 
 - a. Sjá um að útbúa útlit óháð virkni
 - b. Sjá um að útbúa góðar og skýrar slóðir, *URL*
 - c. Sjá um að setja upp stuðning við þýðingar
-- d. Sjá um að gera vinnu með gagnagrunaa einfaldari
+- d. Sjá um að gera vinnu með gagnagrunna einfaldari
 ---
 
 **1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
@@ -155,6 +155,17 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
 - c. Gildi í JSON mega ekki vera föll
 - d. Allt að ofan
+```
+Munur á JSON og JS hlutum
+
+* Lyklar verða að vera strengir, vegna frátekinna orða
+* Strengir verða að vera skilgreindir með `"`, ekki `'`
+* Takmarkanir á tölum, t.d. hex form ekki leyft (`0xea`)
+* Búið að takmarka týpur, t.d. ekki `undefined` eða `RegExp`
+
+Fyrirlestur 11.2
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.2.ajax.md
+```
 ---
 
 **1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?**
