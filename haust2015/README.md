@@ -8,6 +8,7 @@
 - d. Task runner that makes sure we write good JavaScript code
 
 NOTE: `Gulp` is a package manager, has same purpose as `NPM` did in current course.
+---
 
 **1.2 JSHint is a tool that can help us write better JavaScript code, how does it work?**
 
@@ -17,7 +18,7 @@ NOTE: `Gulp` is a package manager, has same purpose as `NPM` did in current cour
 - d. Alerts us to common errors we can do while writing JavaScript
 
 NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
-
+---
 
 **1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
 
@@ -25,7 +26,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. HTTP uses JavaScript for frontend functionality
 - c. HTTP is based on clients sending requests and servers sending responses
 - d. HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection
-
+---
   
 **1.4 When we deploy our programs that connect to a database on different platforms, the connection strings can be different. To help us change them it is good to:**
 
@@ -33,7 +34,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. Store settings in an isolated function and change for each deployment
 - c. Hardcode settings where they're used in the program and change them for each deployment
 - d. Store settings in the environment and change for each deployment
-
+---
  
  **1.5 `<div>` and `<span>` are elements that stand alone, about them we can assert that:**
  
@@ -41,6 +42,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. They have semantic meaning but it is not rational so they should absolutely not be used
 - c. They do not have any semantic meaning but if needed, they're okay to use
 - d. They do have semantic meaning and it's so general that we can use them for anything
+---
  
  **1.6 The concept of the cascade in CSS defines:**
 
@@ -48,7 +50,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. The order of definitions for each element
 - c. Value for each rule that defines how default values *cascade* over it
 - d. The order of definitions in the document
- 
+---
  
 **1.7 Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?**
  
@@ -56,7 +58,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. They guarantee that the HTML of our website is always valid
 - c. They allow us to send data to the template and display it, regardless of the functionality of the program
 - d. All of the above
- 
+---
  
 **1.8 Unit tests are used to:**
  
@@ -64,7 +66,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. Document the real functionality of a program
 - c. Give us fast feedback on the functionality of a program while we write it
 - d. All of the above
- 
+--- 
  
 **1.9 When we implement a user system, one thing we need to think specially about is:**
  
@@ -72,7 +74,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. Encrypting passwords
 - c. Use trusted user systems from a third party
 - d. Hide all URLs the user cannot see
- 
+--- 
  
 **1.10 Which of the following is a valid URL?**
 
@@ -80,7 +82,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. example.org/foo?bar=baz
 - c. http://example.org:foo/?bar=baz
 - d. example.org:foo/?bar=baz
-
+---
 
 **1.11 Which of the following is *not* correct about the module system in Node.js**
 
@@ -88,7 +90,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. You can include a module stored in a directory with index.js by doing `require('<name of directory>');`
 - c. You can include a program from a directory that includes app.js with `require('<name of directory>');`
 - d. You can include a JSON file by doing `require('./<name of JSON file>.json');`
-
+---
 
 **1.12 One of the things Sass does *not* offer is:**
 
@@ -96,7 +98,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. Define *mixin* for functions
 - c. Define variables
 - d. Defining *nested* selectors
-
+---
 
 **1.13 The following CSS selector selects:**
 `main > selection h2.important`
@@ -105,7 +107,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
 - c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
 - d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
-
+---
 
 **1.14 What tasks do NPM and Bower solve**
 
@@ -115,6 +117,7 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 - d. All of the above
 
 NOTE: `Bower` is a package manager, has same purpose as `NPM` did in current course.
+---
 
 **1.15 What is the result of running the following JavaScript code?**
 ```
