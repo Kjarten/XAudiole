@@ -29,14 +29,6 @@ Svör við spurningum úr gömlum lokaprófum
 
 ## Not Categorized
 
-**[Haust 2014] Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
- 
-- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
-- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
-- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
-- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
----
-
 **[Haust 2014] JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
 
 - a. Lyklar í JSON verða að vera strengir
@@ -346,6 +338,14 @@ section ul > li:nth-child(2n) {
 - c. CSS interpreter that Chrome uses
 - d. None of the above
  ---
+ 
+**[Haust 2014] Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
+ 
+- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
+- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
+- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
+- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
+---
 
 ### JavaScript - Syntax
 
