@@ -617,7 +617,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. Not related
 ---
 
-## URL
+## URL & URI
 
 **[Haust 2016] If we are linking to example.org, it would be best to use**
 
@@ -652,3 +652,10 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - c. http://example.org:8000/#foo
 - d. b and c
 ---
+
+**[Haust 2013] Hvað er URI (Uniform Resource Identifier)?**
+
+- a. __Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði__
+- b. ~~Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki~~
+- c. ~~Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni~~
+- d. ~~Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana~~
