@@ -1,6 +1,8 @@
 # XAudiole
 Svör við spurningum úr gömlum lokaprófum
 
+## HTML
+
 **[Haust 2017] What semantic value can be deduced from the following HTML?**
 ```
 <aside>
@@ -17,6 +19,14 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"
 ---
 
+**[Haust 2017] If we se scrambled letters (e.g. A° instead of ð) on our website, what might be the problem?**
+ 
+- a. The browsers settings need to changed to support Unicode in complete
+- b. Website is being rendered in a different character set that we saved our HTML in
+- c. The utf-8 definition of our text editor is wrong
+- d. There is nothing we can do (except for using ASCII)
+---
+
 **[Haust 2017] You get the task of displaying text along with images on the web, which would be best to use?**
 
 - a. Semantic HTML for content and CSS for layout
@@ -25,6 +35,7 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All equally valid
 ---
 
+## CSS - Box model
 **[Haust 2017] What are the dimensions (width and height) of the following according to the box model?**
 ```
 div {
@@ -42,23 +53,7 @@ div {
 - d. 360x260
 ---
   
-**[Haust 2017] What is BEM?**
- 
-- a. Bloody Elegant Markup, competitor to Markdown that is simpler and more usable
-- b. Blocks, elements, modified, method to write CSS that uses modified flexbox to order blocks and elements
-- c. Block Extansion Method, method to write methods in JavaScript that use asynchronous blocks in promises
-- d. Block, element, modifer, method to write CSS classes and structure selectors
----
- 
-**[Haust 2017] If we se scrambled letters (e.g. A° instead of ð) on our website, what might be the problem?**
- 
-- a. The browsers settings need to changed to support Unicode in complete
-- b. Website is being rendered in a different character set that we saved our HTML in
-- c. The utf-8 definition of our text editor is wrong
-- d. There is nothing we can do (except for using ASCII)
----
-
-##CSS - Theory
+## CSS - Theory
 
 **[Haust 2017] What does the following ruleset do in CSS?**
 ```
@@ -89,7 +84,15 @@ section ul > li:nth-child(2n) {
 - d. All legal values
 --- 
 
-##JavaScript - Theory
+**[Haust 2017] What is BEM?**
+ 
+- a. Bloody Elegant Markup, competitor to Markdown that is simpler and more usable
+- b. Blocks, elements, modified, method to write CSS that uses modified flexbox to order blocks and elements
+- c. Block Extansion Method, method to write methods in JavaScript that use asynchronous blocks in promises
+- d. Block, element, modifer, method to write CSS classes and structure selectors
+---
+
+## JavaScript - Theory
 
 **[Haust 2017] JavaScript is an interpreted programming language, what does that entail?**
 
@@ -99,7 +102,7 @@ section ul > li:nth-child(2n) {
 - d. JavaScript code is compiled in a build step by a compiler, that code is then interpreted by a browser before being run by a browser
 ---
 
-##JavaScript - Variables
+## JavaScript - Variables
 
 **[Haust 2017] NaN is a special value in JavaScript, what does it stand for and when is it returned?**
 
@@ -117,7 +120,7 @@ section ul > li:nth-child(2n) {
 - d. Use === for comparison of values of the same type, otherwise ==
 ---
 
-##JavaScript - Functions
+## JavaScript - Functions
 
 **[Haust 2017] What is the result of running the following ES2015 JavaScript code?**
 ```
@@ -139,7 +142,7 @@ console.log(x + y);
 - d. 11
 ---
 
-##Git
+## Git
 
 **[Haust 2017] Git sees files in four ways, they are:**
  
@@ -148,7 +151,7 @@ console.log(x + y);
 - c. Unmodified file, modified file, staged file and untracked file
 - d. Unmodified file, modified file, staged file and branch file
 
-##NPM
+## NPM
 
 **[Haust 2017] What is Sass?**
 
@@ -158,7 +161,7 @@ console.log(x + y);
 - d. Programming language that gives access to additional functionality in CSS
 ---
 
-##HTTP
+## HTTP
 
 **[Haust 2017] What does it mean if we perform a request in HTTP and the status code of the response ranges from 400 through 499**
 
