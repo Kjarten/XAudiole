@@ -52,15 +52,15 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
   }
 ```
 - a. 542x372
-- b. 552x343
-- c. 353x542
-- d. 342x552
+- b. ~~552x343~~
+- c. ~~353x542~~
+- d. ~~342x552~~
 
 See example: `h16_1_4.html` & `h16_1_4.css`.
 
 * `content-box;` - sjálfgefið gildi, allt tekið með í reikninginn
 * `border-box;` - aðeins margin er tekið með í reikninginn
-
+---
  
  **1.5 When we are checking for web accessibility, we can use:**
  
