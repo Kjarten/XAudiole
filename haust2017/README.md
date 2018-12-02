@@ -14,7 +14,10 @@
 - b. ~~Excerpt from content with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
 - c. ~~Navigation on a site with the heading "Foo" and an ordered list with items "Bar and "Baz"~~
 - d. ~~Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
-
+```
+1.17.3 Sectioning - kaflar og svæði
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
 
 **1.2 You get the task of displaying text along with images on the web, which would be best to use?**
 
