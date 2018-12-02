@@ -25,7 +25,7 @@ funciton foo(i) {
 
 **1.16 Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.**
 ```
-funciton X(list)
+function X(list)
 {
 return sum(map(list, function(i) { return i.length; })) / list.length;
 }
