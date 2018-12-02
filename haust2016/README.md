@@ -3,19 +3,19 @@
 **1.1 If we are linking to example.org, it would be best to use**
 
 - a. `<a href="http://example.org">example.org</a>`
-- b. 
+- ~~b.~~ 
 ```
 <form method="post" action="http://example.org">
       <button>example.org</button>
 </form>
 ```
-- c.
+- ~~c.~~
 ```
 <form method="get" action="http://example.org">
       <button>example.org</button>
 </form>
 ```
-- d. All methods are equally good
+- d. ~~All methods are equally good~~
 
 See example: `h16_1_1.html`.
 
