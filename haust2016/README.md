@@ -18,7 +18,10 @@
 - d. ~~All methods are equally good~~
 
 See example: `h16_1_1.html`.
-
+```
+HTTP Aðferðir
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
+```
 
 **~~1.2 Code coverage is a concept that helps us to write unit tests by~~**
 
