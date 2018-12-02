@@ -3,9 +3,9 @@
 **1.1 What is Gulp used for?**
 
 - a. It's a framework for Node.js
-- b. Task runner that makes the manual things automatic
-- c. It helps consume more drinks faster
-- d. Task runner that makes sure we write good JavaScript code
+- b. ~~Task runner that makes the manual things automatic~~
+- c. ~~It helps consume more drinks faster~~
+- d. ~~Task runner that makes sure we write good JavaScript code~~
 
 NOTE: `Gulp` is a package manager, has same purpose as `NPM` did in current course.
 ---
