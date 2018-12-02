@@ -1,13 +1,11 @@
 # Haust 2015
 
-**1.1 What is Gulp used for?**
+**~~1.1 What is Gulp used for?~~**
 
-- a. __It's a framework for Node.js__
-- b. ~~Task runner that makes the manual things automatic~~
+- a. ~~It's a framework for Node.js~~
+- b. Task runner that makes the manual things automatic
 - c. ~~It helps consume more drinks faster~~
 - d. ~~Task runner that makes sure we write good JavaScript code~~
-
-NOTE: `Gulp` is a package manager, has same purpose as `NPM` did in current course.
 ---
 
 **1.2 JSHint is a tool that can help us write better JavaScript code, how does it work?**
