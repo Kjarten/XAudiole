@@ -17,16 +17,30 @@ and not have any margin
  */
 .card {
   box-sizing: border-box;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  max-width: 400px;
+  min-width: 200px;
+  width: 33.333333%;
 }
 
 @media only screen and (max-width: 800px) {
   .card {
-
+width: 50%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
 
   }
+}
+
+img {
+  width: 100%;
 }

@@ -6,13 +6,21 @@ There is a piethora of errors in the following JavaScript code in
 ES2015, name at least five of them and describe why and how to fix them
 */
 
-document.addEventListener('DOMContentLoaded',function(){
-  let buttons = document. querySelectorAll('button');
-
+function butt() {
+  const buttons = document.querySelectorAll('button');
+  let button = new Array(buttons.length)
   for(var foo = 0; foo < buttons.length; foo++) {
-    button = buttons[foo];
-    button.addEventListener('onclick', (e) => {
-      button.setAttribute('data-clicked', true);
+    button[foo] = buttons[foo];
+    let temp = button[foo];
+    console.log(foo);
+    temp.addEventListener('change', (e) => {
+    temp.setAttribute('class', 'data-clicked');
     });
   }
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOMContentLoaded');
+  butt()
 });
