@@ -1,6 +1,16 @@
 # XAudiole
 Svör við spurningum úr gömlum lokaprófum
 
+## General
+
+**[Haust 2017] You get the task of displaying text along with images on the web, which would be best to use?**
+
+- a. Semantic HTML for content and CSS for layout
+- b. Only semantic HTML
+- c. Store test and paths to images in JSON, create the UI with JavaScript and CSS
+- d. All equally valid
+---
+
 **[Sumar 2014] Which of the following is *not* among the roles of the W3C?**
 
 - a. Standardize HTML
@@ -8,6 +18,8 @@ Svör við spurningum úr gömlum lokaprófum
 - c. Standardize JavaScript
 - d. a. and b.
 ---
+
+## Not Categorized
 
 **[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
@@ -75,6 +87,36 @@ Svör við spurningum úr gömlum lokaprófum
 
 ## HTML
 
+### History
+
+**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+ 
+- a. The concept of HyperText
+- b. HTML
+- c. SSL
+- d. HTML, CSS and JavaScript
+---
+
+### HTML4, HTML5, XML, SGML
+
+**[Haust 2016] What fundamental difference is there between HTML 4.01 and XHTML?**
+ 
+- a. HTML 4.01 is based on XML but XHTML on SGML
+- b. XHTML is based on HTML5 but HTML 4.01 on SGML
+- c. XHTML is based on XML but HTML 4.01 on SGML
+- d. None fundamental difference
+---
+
+**[Sumar 2014] HTML5 is the natural progression of the web, but what does the concept encompass**
+
+- a. Changes in HTML from HTML 4.01 and XHTML
+- b. Changes in HTML, extensions to CSS and new JavaScript APIs
+- c. Changes in HTML, extensions to CSS and changed syntax in JavaScript
+- d. Changes in HTML from HTML 4.01 and XHTML with extensions to CSS
+---
+
+### HTML Syntax
+
 **[Haust 2017] What semantic value can be deduced from the following HTML?**
 ```
 <aside>
@@ -99,22 +141,6 @@ Svör við spurningum úr gömlum lokaprófum
 - d. There is nothing we can do (except for using ASCII)
 ---
 
-**[Haust 2017] You get the task of displaying text along with images on the web, which would be best to use?**
-
-- a. Semantic HTML for content and CSS for layout
-- b. Only semantic HTML
-- c. Store test and paths to images in JSON, create the UI with JavaScript and CSS
-- d. All equally valid
----
-
-**[Haust 2016] What fundamental difference is there between HTML 4.01 and XHTML?**
- 
-- a. HTML 4.01 is based on XML but XHTML on SGML
-- b. XHTML is based on HTML5 but HTML 4.01 on SGML
-- c. XHTML is based on XML but HTML 4.01 on SGML
-- d. None fundamental difference
----
-
 **[Haust 2015] `<div>` and `<span>` are elements that stand alone, about them we can assert that:**
  
 - a. They do not have any semantic meaning so they should absolutely not be used
@@ -133,22 +159,6 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*
 ---
 
-**[Sumar 2014] HTML5 is the natural progression of the web, but what does the concept encompass**
-
-- a. Changes in HTML from HTML 4.01 and XHTML
-- b. Changes in HTML, extensions to CSS and new JavaScript APIs
-- c. Changes in HTML, extensions to CSS and changed syntax in JavaScript
-- d. Changes in HTML from HTML 4.01 and XHTML with extensions to CSS
----
-
-**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
- 
-- a. The concept of HyperText
-- b. HTML
-- c. SSL
-- d. HTML, CSS and JavaScript
----
-
 **[Sumar 2014] What is the difference between `<head>` and `<body>`**
 
 - a. In general we define the metadata for the page in `<head>` and content in `<body>`
@@ -159,20 +169,14 @@ Svör við spurningum úr gömlum lokaprófum
 
 ## Web Accessibility
 
+### Practice
+
  **[Haust 2016] When we are checking for web accessibility, we can use:**
  
 - a. Standards containing guidelines and recommendations on accessibility
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
 - d. All of the above
----
-
-**[Haust 2014] Hvað er WCAG?**
-
-- a. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C
-- b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
-- c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
-- d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
 ---
 
 **[Sumar 2014] Which of the following needs to be considered for accessibility**
@@ -183,6 +187,16 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All of the above
 ---
 
+### Standards
+
+**[Haust 2014] Hvað er WCAG?**
+
+- a. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C
+- b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
+- c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
+- d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
+---
+
 **[Sumar 2014] What is ARIA?**
 
 - a. Standard from W3C that increases accessibility of web applications
@@ -190,6 +204,8 @@ Svör við spurningum úr gömlum lokaprófum
 - c. Standard from W3C that increases functionality in new browsers
 - d. Standard from ISO that increases functionality in new browsers
 ---
+
+### CSS
 
 ## CSS - Box model
 **[Haust 2017] What are the dimensions (width and height) of the following according to the box model?**
@@ -243,7 +259,33 @@ div {
 
 ---
   
-## CSS - Theory
+### CSS - Theory
+
+**[Haust 2015] The concept of the cascade in CSS defines:**
+
+- a. Value for each selector in CSS that determines how important it is
+- b. The order of definitions for each element
+- c. Value for each rule that defines how default values *cascade* over it
+- d. The order of definitions in the document
+---
+
+**[Haust 2016] To make our website more fun, we can use transitions and animations, in particular, we should:**
+
+- a. Stay clear of `transform` in CSS, since it can cause jank and lag
+- b. Have everything move, everywhere, all the time
+- c. Stick to transitioning and transforming things that are inexpensive & reasonable
+- d. Use the 3D processing of the CPU by moving the null transform to a new layer
+---
+
+**[Haust 2017] What is BEM?**
+ 
+- a. Bloody Elegant Markup, competitor to Markdown that is simpler and more usable
+- b. Blocks, elements, modified, method to write CSS that uses modified flexbox to order blocks and elements
+- c. Block Extansion Method, method to write methods in JavaScript that use asynchronous blocks in promises
+- d. Block, element, modifer, method to write CSS classes and structure selectors
+---
+
+### CSS - Syntax
 
 **[Haust 2017] What does the following ruleset do in CSS?**
 ```
@@ -266,22 +308,6 @@ section ul > li:nth-child(2n) {
 - d. All legal values
 --- 
 
-**[Haust 2017] What is BEM?**
- 
-- a. Bloody Elegant Markup, competitor to Markdown that is simpler and more usable
-- b. Blocks, elements, modified, method to write CSS that uses modified flexbox to order blocks and elements
-- c. Block Extansion Method, method to write methods in JavaScript that use asynchronous blocks in promises
-- d. Block, element, modifer, method to write CSS classes and structure selectors
----
-
-**[Haust 2016] To make our website more fun, we can use transitions and animations, in particular, we should:**
-
-- a. Stay clear of `transform` in CSS, since it can cause jank and lag
-- b. Have everything move, everywhere, all the time
-- c. Stick to transitioning and transforming things that are inexpensive & reasonable
-- d. Use the 3D processing of the CPU by moving the null transform to a new layer
----
-
 **[Haust 2015] The following CSS selector selects:**
 `main > selection h2.important`
 
@@ -289,14 +315,6 @@ section ul > li:nth-child(2n) {
 - b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
 - c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
 - d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
----
-
- **[Haust 2015] The concept of the cascade in CSS defines:**
-
-- a. Value for each selector in CSS that determines how important it is
-- b. The order of definitions for each element
-- c. Value for each rule that defines how default values *cascade* over it
-- d. The order of definitions in the document
 ---
 
 **[Haust 2014] Hvað er CSS *shorthand*?**
@@ -333,7 +351,9 @@ section ul > li:nth-child(2n) {
 - d. Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries
 ---
 
-## JavaScript - Theory
+## JavaScript
+
+### JavaScript - Theory
 
 **[Haust 2017] JavaScript is an interpreted programming language, what does that entail?**
 
@@ -359,7 +379,7 @@ section ul > li:nth-child(2n) {
 - d. None of the above
  ---
 
-## JavaScript - Variables
+### JavaScript - Syntax
 
 **[Haust 2017] NaN is a special value in JavaScript, what does it stand for and when is it returned?**
 
@@ -385,7 +405,7 @@ section ul > li:nth-child(2n) {
 - d. 1
 ---
 
-## JavaScript - Functions
+### JavaScript - Functions
 
 **[Haust 2017] What is the result of running the following ES2015 JavaScript code?**
 ```
@@ -420,7 +440,6 @@ for (let i = values.length - 1; i>=0; i--) {
 }
 console.log(results.join(', '));
 ```
-
 - a. 81, 64, 49, 36, 25, 16, 9, 4, 1
 - b. 1, 2, 3, 4, 5, 6, 7, 8, 9
 - c. 1, 4, 9, 16, 25, 36, 49, 64, 81
@@ -441,7 +460,6 @@ var result = calc(square, function (y) {
 
 console.log(result);
 ```
-
 - a. 21
 - b. 18
 - c. NaN
@@ -459,7 +477,6 @@ var m = multiplier(2);
 
 console.log(y + m(5));
 ```
-
 - a. 20
 - b. 60
 - c. 25
