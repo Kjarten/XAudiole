@@ -2,14 +2,29 @@
 Svör við spurningum úr gömlum lokaprófum
 
 
-**[Haust 2015] JSHint is a tool that can help us write better JavaScript code, how does it work?**
+**[Haust 2014] Hvað eru callbacks og promises?**
 
-- a. It changes the type system of JavaScript from being *dynamic* into being *static*
-- b. Adds functionality to our text editor that allows us to do code completion
-- c. Sends our code to jshint.com were veteran programmers go over our code and send back improvements
-- d. Alerts us to common errors we can do while writing JavaScript
+- a. Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða
+- b. Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O
+- c. Aðferðir til að vinna með *strauma* (streams)
+- d. Aðferðir til að vinna með *atburði* (events)
 ---
 
+**[Haust 2014] Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
+ 
+- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
+- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
+- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
+- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
+---
+
+**[Haust 2014] JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
+
+- a. Lykar í JSON verða að vera strengir
+- b. Lyklar í JSON mega vera úr lista frátekinna orða
+- c. Gildi í JSON mega ekki vera föll
+- d. Allt að ofan
+---
 
 **[Haust 2015] One of the things Sass does *not* offer is:**
 
@@ -85,6 +100,16 @@ Svör við spurningum úr gömlum lokaprófum
 - d. They do have semantic meaning and it's so general that we can use them for anything
 ---
 
+**[Haust 2014] Hvað af eftirfarandi á við þetta HTML:**
+```
+<p class="intro">Hello world!</p>
+```
+- a. *p* er *tag* með *class* *attribute*
+- b. *p* er *element* með *class* *tag*
+- c. Byrjunar og enda *element* er *p*, *class* er *attribute* og öll heildin er *p* *tag*
+- d. Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*
+---
+
 ## Web Accessibility
 
  **[Haust 2016] When we are checking for web accessibility, we can use:**
@@ -93,6 +118,14 @@ Svör við spurningum úr gömlum lokaprófum
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
 - d. All of the above
+---
+
+**[Haust 2014] Hvað er WCAG?**
+
+- a. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C
+- b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
+- c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
+- d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
 ---
 
 ## CSS - Box model
@@ -162,14 +195,6 @@ section ul > li:nth-child(2n) {
 - d. Black background on even li that are descendant from ul that again are descendant from section
 ---
 
-**[Haust 2017] 1.9 On what is responsive web design based, in order of importance?**
- 
-- a. Flexible layout, flexible images, and media and CSS3 media queries
-- b. CSS3 media queries, flexible layout, and flexible images and media
-- c. Grid and CSS3 media queries
-- d. First designing for the smalles supported resolution and then more
----
-
 **[Haust 2017] Which of the following is not legal value for a color in CSS?**
  
 - a. rgba(0, 255, 0);
@@ -194,14 +219,6 @@ section ul > li:nth-child(2n) {
 - d. Use the 3D processing of the CPU by moving the null transform to a new layer
 ---
 
-**[Haust 2016] What is flexbox?**
-
-- a. Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes
-- b. Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes
-- c. Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis
-- d. Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes
----
-
 **[Haust 2015] The following CSS selector selects:**
 `main > selection h2.important`
 
@@ -217,6 +234,40 @@ section ul > li:nth-child(2n) {
 - b. The order of definitions for each element
 - c. Value for each rule that defines how default values *cascade* over it
 - d. The order of definitions in the document
+---
+
+**[Haust 2014] Hvað er CSS *shorthand*?**
+
+- a. Virkni sem CSS *preprocessorar* gefa okkur aðgang að, til að skrifa styttra og skipulagðara CSS
+- b. Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni
+- c. Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu
+- d. Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS
+---
+
+### Skalanlegir vefir (responsive web design)
+
+**[Haust 2017] 1.9 On what is responsive web design based, in order of importance?**
+ 
+- a. Flexible layout, flexible images, and media and CSS3 media queries
+- b. CSS3 media queries, flexible layout, and flexible images and media
+- c. Grid and CSS3 media queries
+- d. First designing for the smalles supported resolution and then more
+---
+
+**[Haust 2016] What is flexbox?**
+
+- a. Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes
+- b. Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes
+- c. Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis
+- d. Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes
+---
+
+**[Haust 2014] Þegar við útfærum skalanlega vefi (responsive web design) þá þurfum við að:**
+ 
+- a. Skilgreina grind með föstum stærðum og nota media-queries
+- b. Skilgreina grind með hlutfallslegum stærðum og nota media-queries
+- c. Skilgreina box með föstum stærðum, nota JavaScript og media-queries
+- d. Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries
 ---
 
 ## JavaScript - Theory
@@ -334,6 +385,24 @@ console.log(result);
 - d. 42
 ---
 
+**[Haust 2014] Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
+```
+function multiplier(x) {
+  return function (y) { return x * y; }
+}
+
+var y = 10;
+var m = multiplier(2);
+
+console.log(y + m(5));
+```
+
+- a. 20
+- b. 60
+- c. 25
+- d. 52
+---
+
 ## Git
 
 **[Haust 2017] Git sees files in four ways, they are:**
@@ -389,6 +458,15 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - c. HTTP is based on clients sending requests and servers sending responses
 - d. HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection
 ---
+
+**[Haust 2014] Ef við framkvæmum aðgerð í HTTP og stöðukóðinn sem kemur til baka er með tölugildið 500 eða hærra, gefur það til kynna að:**
+
+- a. Aðgerð tókst, kóði gefur til kynna hvernig það nákvæmlega tókst
+- b. Aðgerð var beint eitthvað annað, *redirect*
+- c. Aðgerð tókst ekki og villuna má finna hjá okkur, í client
+- d. Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server
+---
+
 
 ## DOM
 
