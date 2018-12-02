@@ -1,32 +1,45 @@
-add.EventListener('DOMContentLoaded', B () {
+document.addEventListener('DOMContentLoaded', function() {
 
-  var buttons = document.C(D);
+  var buttons = document.querySelectorAll('button');
+  console.log(buttons);
+  console.log(buttons.length);
 
-  if (!E) {
+  if (!(buttons.length>0)) {
+    console.log('if statement');
     return;
   }
+  console.log('if statement not triggered');
 
-  for (var i=0; i<G.length; i++) {
-    buttons[i].H(I, J);
+  for (var i=0; i<buttons.length; i++) {
+    buttons[i].addEventListener('click', buttonHandler);
   }
 })
 
-A =
+function buttonHandler() {
+  console.log('buttonHandler');
+  bodyEl = document.querySelector('body');
+  imgEl = document.createElement('img');
+  imgEl.src = './foo.jpg';
+  bodyEl.append(imgEl);
 
-B =
+}
 
-C =
+// A = document;
 
-D =
+// B = "";
 
-E =
+// C = querySelectorAll;
 
-F =
+// D = 'button';
 
-G =
+// E = buttons;
 
-H =
+// F = for;
 
-I =
+// G = buttons;
 
-J =
+// H = addEventListener;
+
+// I = 'click';
+
+// J = buttonHandler
