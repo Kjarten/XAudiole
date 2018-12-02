@@ -105,15 +105,15 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
 - c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
 - d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
- 
- 
-**1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:**
+---
+
+**~~1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:~~**
  
 - a. nýta XSS holur
 - b. nýta injection árásir
 - c. útbúa faldar HTTP beiðnir
 - d. nýta þekktar villur í hugbúnaði
- 
+---
  
 **1.10 Kökur eða *cookies* eru notaðar til að**
 
@@ -121,15 +121,15 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. Geyma gögn á forminu nafn og gildi
 - c. Fylgjast með notanda
 - d. Allt að ofan
+---
 
-
-**1.11 HATEOAS eða Hypermeda as the engine of application state er takmörkun í REST, hún snýst um að**
+**~~1.11 HATEOAS eða Hypermeda as the engine of application state er takmörkun í REST, hún snýst um að~~**
 
 - a. Client fær allar upplýsingar frá vefþjónustu í byrjun og notar tengla til að breyta stöðum
 - b. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun og notar tengla til að breyta stöðum og fá frekari upplýsingar
 - c. Client fær allar upplýsingar frá vefþjónustu í byrjun
 - d. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun
-
+---
 
 **1.12 Sniðmát eða *templating* er eitthvað sem mörg framework bjóða upp, hver er hugsunin með þeim?**
 
