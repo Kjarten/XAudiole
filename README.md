@@ -165,9 +165,9 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Standard from ISO that increases functionality in new browsers
 ---
 
-### CSS
+## CSS
 
-## CSS - Box model
+### CSS - Box model
 **[Haust 2017] What are the dimensions (width and height) of the following according to the box model?**
 ```
 div {
@@ -283,6 +283,19 @@ section ul > li:nth-child(2n) {
 - b. Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni
 - c. Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu
 - d. Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS
+---
+
+**Aukaspurning: Skilgreindu eftirfarandi sambönd:
+
+- *
+- div
+- div p
+- div > p
+- p + p
+- div.foo
+- a:hover
+- div#foo
+- div[foo="bar"]
 ---
 
 ### Skalanlegir vefir (responsive web design)
