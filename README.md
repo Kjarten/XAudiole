@@ -21,22 +21,6 @@ Svör við spurningum úr gömlum lokaprófum
 
 ## Not Categorized
 
-**[Sumar 2014] Which of the following are advantages to caching in web applications?**
-
-- a. Can increase speed in applications by reducing the number of long calculations
-- b. Increases the user experience since waiting is decreased
-- c. Can increase speed in applications by reducing the calls to a database
-- d. All of the above
----
-
-**[Haust 2014] Hvað eru callbacks og promises?**
-
-- a. Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða
-- b. Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O
-- c. Aðferðir til að vinna með *strauma* (streams)
-- d. Aðferðir til að vinna með *atburði* (events)
----
-
 **[Haust 2014] Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
  
 - a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
@@ -89,7 +73,7 @@ Svör við spurningum úr gömlum lokaprófum
 - d. HTML, CSS and JavaScript
 ---
 
-### HTML4, HTML5, XML, SGML
+### HTML4, HTML5, XML, SGML & XHTML
 
 **[Haust 2016] What fundamental difference is there between HTML 4.01 and XHTML?**
  
@@ -395,6 +379,24 @@ section ul > li:nth-child(2n) {
 - b. []
 - c. NaN
 - d. 1
+---
+
+### JavaScript - Asynchronous
+
+**[Sumar 2014] Which of the following are advantages to caching in web applications?**
+
+- a. Can increase speed in applications by reducing the number of long calculations
+- b. Increases the user experience since waiting is decreased
+- c. Can increase speed in applications by reducing the calls to a database
+- d. All of the above
+---
+
+**[Haust 2014] Hvað eru callbacks og promises?**
+
+- a. Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða
+- b. Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O
+- c. Aðferðir til að vinna með *strauma* (streams)
+- d. Aðferðir til að vinna með *atburði* (events)
 ---
 
 ### JavaScript - Functions
