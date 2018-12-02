@@ -52,7 +52,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
   padding-bottom: 20px;
   }
 ```
-- a. 542x372
+- a. __542x372__
 - b. ~~552x343~~
 - c. ~~353x542~~
 - d. ~~342x552~~
@@ -77,7 +77,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 
  **1.6 What is V8?**
 
-- a. JavaScript engine that Chrome uses
+- a. __JavaScript engine that Chrome uses__
 - b. ~~HTML parser that Chrome uses~~
 - c. ~~CSS interpreter that Chrome uses~~
 - d. ~~None of the above~~
@@ -87,7 +87,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
  
 - a. ~~HTML 4.01 is based on XML but XHTML on SGML~~
 - b. ~~XHTML is based on HTML5 but HTML 4.01 on SGML~~
-- c. XHTML is based on XML but HTML 4.01 on SGML
+- c. __XHTML is based on XML but HTML 4.01 on SGML__
 - d. ~~None fundamental difference~~
 ```
 1.10-1.15
