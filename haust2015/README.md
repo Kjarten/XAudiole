@@ -159,7 +159,7 @@ function calc(f, g, x) {
       return f(x) + g(x);
 }
 
-var x =5;
+var x = 5;
 var square = function (x) { return x*x; }
 var result = calc(square, function (y) {
       return x + y + 10;
@@ -169,8 +169,15 @@ console.log(result);
 ```
 
 - a. 21
-- b. 18
-- c. NaN
-- d. 42
+- b. ~~18~~
+- c. ~~NaN~~
+- d. ~~42~~
+```
+    square(2) + g(2)
+
+=>  4 + x + 2 + 10
+
+þ.s. x = 5, skilgreint global variable
+```
 
 See example: `h15_1_15.html` & `h15_1_15.js`
