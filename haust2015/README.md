@@ -89,10 +89,13 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 - b. example.org/foo?bar=baz
 - c. http://example.org:foo/?bar=baz
 - d. example.org:foo/?bar=baz
----
 
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
+```
+URI vs URL
 **1.11 Which of the following is *not* correct about the module system in Node.js**
-
+```
+---
 - a. You can include a module from NPM by using `require('<name of module>');`
 - b. You can include a module stored in a directory with index.js by doing `require('<name of directory>');`
 - c. You can include a program from a directory that includes app.js with `require('<name of directory>');`
