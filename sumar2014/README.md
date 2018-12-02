@@ -1,152 +1,182 @@
-# Haust 2014
+# Sumar 2014
 
-**1.1 Hvað er CSS *shorthand*?**
+**1.1 Which of the following is *not* among the roles of the W3C?**
 
-- a. ~~Virkni sem CSS *preprocessorar* gefa okkur aðgang að, til að skrifa styttra og skipulagðara CSS~~
-- b. __Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni__
-- c. ~~Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu~~
-- d. ~~Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS~~
-```
-Fyrir sum eigindi er hægt að skilgreina í einni yfirlýsingu mörg gildi fyrir svipaða virkni, þetta er kallað _shorthand_. Þessi virkni getur minnkað fjölda lína sem við þurfum að skrifa og kannski sparað tíma.
+- a. ~~Standardize HTML~~
+- b. ~~Standardize CSS~~
+- c. __Standardize JavaScript__
+- d. ~~a. and b.~~
 
-Shorthand leyfir líka að sleppa því að skilgreina ákveðin gildi og eru þá sjálfgefin gildi sett í staðinn. Þetta getur valdið vandræðum ef það skrifar yfir gildi sem við höfum áður skilgreint.
+Staðlað hjá ECMA, sem ECMAScript árið 1997
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javascript.md
 
-2.4.5 Skilgreiningar
-https://github.com/vefforritun/book/edit/master/chapters/02.css.md
-```
 ---
 
-**1.2 Hvað eru callbacks og promises?**
+**1.2 In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
-- a. __Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða__
-- b. ~~Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O~~
-- c. ~~Aðferðir til að vinna með *strauma* (streams)~~
-- d. ~~Aðferðir til að vinna með *atburði* (events)~~
-```
-Callbacks, ein leið til að vinna með async kóða
+- a. A new record or entity is created
+- b. It is safe to fetch the same webpage again without problems
+- c. It is not safe to fetch the same webpage again without problems
+- d. a. and b.
 
-Promises:
-* Hjúpun fyrir gildi sem mun verða til í framtíðinni
-* Gerir asynchronous forritun auðveldari
+---
+
+**1.3 HTML5 is the natural progression of the web, but what does the concept encompass**
+
+- a. __Changes in HTML from HTML 4.01 and XHTML__
+- b. ~~Changes in HTML, extensions to CSS and new JavaScript APIs~~
+- c. ~~Changes in HTML, extensions to CSS and changed syntax in JavaScript~~
+- d. ~~Changes in HTML from HTML 4.01 and XHTML with extensions to CSS~~
+
+---
+
+**1.4 ~~What is OWASP~~**
+
+- a. ~~Accessibility standard published by W3C~~
+- b. ~~Open organization that lobbies for better support of standards in browsers~~
+- c. ~~New JavaScript API that can increase the security of web apps~~
+- d. __Open organization that focuses on improving the security of software__
+---
+ 
+ **1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+ 
+- a. ~~The concept of HyperText~~
+- b. __HTML__
+- c. ~~SSL~~
+- d. ~~HTML, CSS and JavaScript~~
+
+Í kringum 1990 var Sir Tim Berners-Lee að vinna hjá CERN sem eðlisfræðingur. Hann skrifaði minnisblað um kerfi sem hann sá fyrir sér að myndi auka möguleika á samvinnu með því að deila skjölum á einfaldan hátt. Í framhaldinu skilgreindi hann HTML, t.d. í skjalinu „HTML Tags“ og skrifaði fyrsta vafrann og vefþjóninn sem túlkuðu og birtu HTML (skrifaður í Objective-C á NeXT tölvu).
+
+ ---
+ 
+ **1.6 ~~REST puts some constraints on the architecture of web services, which of the following is one of them?~~**
+
+- a. 
+- b. 
+- c. 
+- d. 
+
+---
+ 
+**1.7 What is the result of running the following JavaScript code?**
+ ```
+ function foo(i) {
+    i = bar(i);
+    function bar(n) {
+        var result = 1;
+        foo (var i = 1; i <= n; i++)
+        {
+            result *= i;
+        }
+        return result;
+    }
+    setTimeout(function() { console.log(i); ), 10000)
+}
+foo(3);
+ ```
+- a. ~~In 1 second the value "6" will be written to console~~
+- b. __In 10 seconds the value "6" will be written to console__
+- c. ~~In 1 second the value "45" will be written to console~~
+- d. ~~In 10 seconds the value "45" will be written to console~~
+
+setTimeout og setInterval
+
+* Leiðir í JavaScript til að búa til föll sem keyra í framtíðinni
+* `setTimeout(callback, delay)` kallar í `callback` fallið eftir `delay` millisekúndur
+* `setInterval(callback, interval)` kallar í `callback` á `interval` millisekúndu fresti
 
 Fyrirlestur 10.1 – Ósamstillt forritun
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/10/10.1.async.md
-```
+
 ---
 
-**1.3 Hvað af eftirfarandi á við þetta HTML:**
-```
-<p class="intro">Hello world!</p>
-```
-- a. ~~*p* er *tag* með *class* *attribute*~~
-- b. ~~*p* er *element* með *class* *tag*~~
-- c. ~~Byrjunar og enda *element* er *p*, *class* er *attribute* og öll heildin er *p* *tag*~~
-- d. __Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*__
-```
-<p>foo bar</p> is an element, not a tag. An element consists of a start tag, content, and an end tag. In case of <p>foo bar</p>, <p> is a start tag, foo bar is content, and </p> is an end tag.
-
-http://perfectionkills.com/tag-is-not-an-element-or-is-it/
-```
----
-
-**1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
-```
-function multiplier(x) {
-  return function (y) { return x * y; }
-}
-
-var y = 10;
-var m = multiplier(2);
-
-console.log(y + m(5));
-```
-
-- a. __20__
-- b. ~~60~~
-- c. ~~25~~
-- d. ~~52~~
----
+**1.8 Which of the following needs to be considered for accessibility**
  
- **~~1.5 Hvað af eftirarandi á við SQLite~~**
- 
-- a. Lítill gagnagrunnur sem útfærir aðeins lítinn hluta af SQL staðlinum, með takmarkaðar týpur og er ekki RDBMS (Relational Database Management System)
-- b. Lítill gagnagrunnur sem útfærir mesta allan af SQL staðlinum, með dýnamískar týpur og er ekki RDBMS
-- c. Lítill gagnagrunnur sem útfærir aðeins hluta af SQL staðlinum, með takmarkaðar týpur og er RDBMS
-- d. Lítill gagnagrunnur sem útfærir mest allan hluta af SQL staðinum, með dýnamískar týpur og er RDBMS
- ---
- 
- **1.6 Hvað er WCAG?**
+- a. Describe images with *alt* text
+- b. Define language for content
+- c. Write descriptive text for links
+- d. __All of the above__
 
-- a. __Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C__
-- b. ~~Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C~~
-- c. ~~Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA~~
-- d. ~~Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA~~
-```
-W3C heldur úti staðli, [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/WCAG20/), sem setur fram tilmæli og prinsipp sem hjálpa til við að gera vefi aðgengilegri.
-
-1.20.1 WCAG 2.0
+1.20.3 Að smíða vef með aðgengi í huga
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+
+---
+
+**1.9 What is the difference between frontend and backend?**
+ 
+- a. __Backend resides on the web server and programs written there generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it__
+- b. ~~Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all the code, e.g. JavaScript and PHP~~
+- c. ~~Backend is where all the programming happens in a web application, frontend is only the UI~~
+- d. ~~There is no difference between frontend and backend~~
+
+Framendi (e. front-end eða client-side) er einsog áður segir sá partur vefsins sem notendur sjá og eiga við. Í grunninn er framendi búinn til með HTML, CSS og Javascript. Til þess að einfalda og flýta fyrir smíðum á stærri og flóknari vefjum eru til margskonar framework eða libraries sem hjálpa. Dæmi um þetta sem eru vinsæl í dag eru React, Angular og Vue. Þó svo að þessi tól geti hjálpað okkur, þurfum við alltaf að vita hvað gerist í grunninn og því byrjum við á að læra HTML, CSS og Javascript án nokkura hjálpartækja.
+
+Bakendi (e. back-end eða server-side) er sá partur vefsins sem er sendur yfir HTTP til framenda. Bakendinn samanstendur yfirleitt af vefþjón, forriti sem útbýr framenda og einhverri gagnageymslu (t.d. gagnagrunnur). Vefþjónar geta stutt margskonar forritunarmál (t.d. C# eða Python) og forritunarumhverfi (t.d. .NET eða Django).
+
+0.2.6 Framendi og Bakendi
+https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
+
+
+---
+ 
+**What is NPM and what effect does it have on node.js**
+
+- a. ~~NPM is a framework for node.js that makes it easy to write web applications~~
+- b. ~~NPM is a framework for node.js that assists in manual tasks~~
+- c. __NPM is the package manager of node.js that makes it really easy to fetch and create packages__
+- d. ~~NPM is the package manager of node.js that has a strict version control so only well written packages are accepted~~
+
+## npm
+
+* npm er _pakkastjóri_ (package manager) fyrir JavaScript
+  - leyfir okkur líka að setja upp og nota allskonar tól sem byggð eru með JavaScript
+* Sett upp með _[node.js](https://nodejs.org/)_
+
+***
+
+## Pakkastjóri
+
+* Pakkastjóri sér um að sjálfvirknivæða það að setja upp, stilla og fjarlægja hugbúnað
+  - í staðinn fyrir að þurfa að sækja einhvern hugbúnað...
+  - finna hvert við sóttum hann...
+  - keyra eitthvað uppsetningarforrit...
+  - síðan keyra forritið
+
+***
+
+* Keyrum í staðin eina skipun og höfum aðgang að forriti
+* Vistar einnig _hvaða_ forrit verkefni notar svo aðrir geta sótt
+
+***
+
+## NPM
+
+* Hellingur til af NPM módúlum/pökkum sem geta einfaldað okkur lífið
+* Sækjum með npm og tilgreinum þannig að forritið okkar þarfnist þessa pakka
+  - Skilgreinum _dependency_ á pakkann
+  - Vistað í `package.json` ásamt útgáfunúmeri
+
+---
+
+**1.11 What does the following JavaScript function do? The functions *filter* (returns a list where items satisfy conditions), *sum* (returns the sum of a list ) are defined and *list* is an array of numbers.**
 ```
----
- 
-**1.7 Þegar við útfærum skalanlega vefi (responsive web design) þá þurfum við að:**
- 
-- a. ~~Skilgreina grind með föstum stærðum og nota media-queries~~
-- b. __Skilgreina grind með hlutfallslegum stærðum og nota media-queries__
-- c. ~~Skilgreina box með föstum stærðum, nota JavaScript og media-queries~~
-- d. ~~Skilgreina box með hlutfallslegum stærðum, nota JavaScript og media-queries~~
+function X(list)
+{
+  return sum(list.filter(function(i) { return i > 0; }));
+}
 ```
-Skalanleg vefhönnun byggir á þremur atriðum, _í mikilvægis röð_:
-
-1. Sveigjanlegu umbroti, byggðu á grind
-2. Sveigjanlegum myndum og miðlum
-3. CSS media queries
-
-Þegar við vinnum með sveigjanlega grind megum við ekki skilgreina neinar breiddir í nákvæmum stærðum, við verðum að nota hlutfallslegar. 
-
-2.23 Skalanleg vefhönnun & 2.23.1 Sveigjanleg grind
-https://github.com/vefforritun/book/edit/master/chapters/02.css.md
-```
+- a. ~~Returns the sum of all the numbers in list~~
+- b. __Returns the sum of all positive numbers in list__
+- c. ~~Returns the average of all numbers in list~~
+- d. ~~Returns the sum of all negatve numbers in list~~
 ---
 
-**1.8 Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
- 
-- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
-- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
-- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
-- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
----
+**Which of the following is correct URL?**
 
-**~~1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:~~**
- 
-- a. nýta XSS holur
-- b. nýta injection árásir
-- c. útbúa faldar HTTP beiðnir
-- d. nýta þekktar villur í hugbúnaði
----
- 
-**~~1.10 Kökur eða *cookies* eru notaðar til að~~**
-
-- a. Geyma stöðu í HTTP
-- b. Geyma gögn á forminu nafn og gildi
-- c. Fylgjast með notanda
-- d. Allt að ofan
----
-
-**~~1.11 HATEOAS eða Hypermeda as the engine of application state er takmörkun í REST, hún snýst um að~~**
-
-- a. Client fær allar upplýsingar frá vefþjónustu í byrjun og notar tengla til að breyta stöðum
-- b. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun og notar tengla til að breyta stöðum og fá frekari upplýsingar
-- c. Client fær allar upplýsingar frá vefþjónustu í byrjun
-- d. Client þarf engar frekari upplýsingar en þær sem hann fær í byrjun
----
-
-**~~1.12 Sniðmát eða *templating* er eitthvað sem mörg framework bjóða upp, hver er hugsunin með þeim?~~**
-
-- a. Sjá um að útbúa útlit óháð virkni
-- b. Sjá um að útbúa góðar og skýrar slóðir, *URL*
-- c. Sjá um að setja upp stuðning við þýðingar
-- d. Sjá um að gera vinnu með gagnagrunna einfaldari
+- a. http://example.org/&foo=bar&baz
+- b. http://example.org/?foo=bar&baz
+- c. http://example.org:8000/#foo
+- d. b and c
 ---
 
 **1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
