@@ -125,7 +125,7 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - d. nýta þekktar villur í hugbúnaði
 ---
  
-**1.10 Kökur eða *cookies* eru notaðar til að**
+**~~1.10 Kökur eða *cookies* eru notaðar til að~~**
 
 - a. Geyma stöðu í HTTP
 - b. Geyma gögn á forminu nafn og gildi
@@ -147,7 +147,7 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. Sjá um að útbúa góðar og skýrar slóðir, *URL*
 - c. Sjá um að setja upp stuðning við þýðingar
 - d. Sjá um að gera vinnu með gagnagrunaa einfaldari
-
+---
 
 **1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
 
@@ -155,7 +155,7 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
 - c. Gildi í JSON mega ekki vera föll
 - d. Allt að ofan
-
+---
 
 **1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?**
 ```
@@ -170,7 +170,7 @@ var_dump($a["foo"] + $a[0]);
 - b. `string` "1010"
 - c. `string` "202
 - d. Villa, ekkert skrifast út
-
+---
 
 **1.15 Ef við framkvæmum aðgerð í HTTP og stöðukóðinn sem kemur til baka er með tölugildið 500 eða hærra, gefur það til kynna að:**
 
