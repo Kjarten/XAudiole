@@ -56,10 +56,10 @@ div {
 - c. ~~The utf-8 definition of our text editor is wrong~~
 - d. ~~There is nothing we can do (except for using ASCII)~~
 
-* Ef viÃ° lendum Ã­ Ã¾vÃ­ aÃ° fÃ¡ upp brenglaÃ°a stafi
-* Ef við lendum í því að fá upp brenglaða stafi
-* Þá er skjalið okkar vistað í öðru stafasetti en við birtum eða öfugt
-* Textaritillinn okkar sýnir í hvaða stafsetti skjal er og leyfir okkur að breyta
+  * Ef viÃ° lendum Ã­ Ã¾vÃ­ aÃ° fÃ¡ upp brenglaÃ°a stafi
+  * Ef við lendum í því að fá upp brenglaða stafi
+  * Þá er skjalið okkar vistað í öðru stafasetti en við birtum eða öfugt
+  * Textaritillinn okkar sýnir í hvaða stafsetti skjal er og leyfir okkur að breyta
  
  
 **1.6 Which of the following is not legal value for a color in CSS?**
