@@ -34,7 +34,7 @@ return sum(map(list, function(i) { return i.length; })) / list.length;
 - b. __Skilar meðaltalslengd allra strengja í list__
 - c. ~~Skilar miðgildi lengdar strengja í list~~
 - d. ~~Skilar summu allra hlutstrengja ílist sem eru lengri en list~~
-
+---
 
 **1.12 Hvað er URI (Uniform Resource Identifier)?**
 
