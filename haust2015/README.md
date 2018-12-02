@@ -113,10 +113,10 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 **1.13 The following CSS selector selects:**
 `main > selection h2.important`
 
-- a. All `h2` headings with `class important` that are a descendant of `section` that is the child of `main`
-- b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
-- c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
-- d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
+- a. __All `h2` headings with `class important` that are a descendant of `section` that is the child of `main`__
+- b. ~~All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`~~
+- c. ~~All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`~~
+- d. ~~All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`~~
 ```
 2.4.1 Selectors
 https://github.com/vefforritun/book/blob/master/chapters/02.css.md
@@ -144,9 +144,13 @@ div[foo="bar"] /* öll div með attribute foo=bar */
 - a. Define what modules from third parties we use
 - b. Assist us in finding, fetching and updating modules from third parties
 - c. Allow us to publish our own modules to public repositories for others to use
-- d. All of the above
+- d. __All of the above__
+```
+NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 
-NOTE: `Bower` is a package manager, has same purpose as `NPM` did in current course.
+2.27.2 npm
+https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+```
 ---
 
 **1.15 What is the result of running the following JavaScript code?**
