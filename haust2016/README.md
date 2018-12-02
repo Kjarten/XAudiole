@@ -20,7 +20,7 @@
 See example: `h16_1_1.html`.
 
 
-**1.2 Code coverage is a concept that helps us to write unit tests by**
+**~~1.2 Code coverage is a concept that helps us to write unit tests by~~**
 
 - a. It runs all our tests and lets us know their results
 - b. We get to know the percentage of our code is under test and can get by without writing tests for the same function, braches or statements
