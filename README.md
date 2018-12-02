@@ -7,7 +7,7 @@ Svör við spurningum úr gömlum lokaprófum
 - b. Standardize CSS
 - c. Standardize JavaScript
 - d. a. and b.
-===
+---
 
 **[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
