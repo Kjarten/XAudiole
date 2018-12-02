@@ -23,7 +23,7 @@ funciton foo(i) {
 - d. __Eftir 10 sekúndur verður gildið "45" skrifað í console__
 ---
 
-**1.16 Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.
+**1.16 Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.**
 ```
 funciton X(list)
 {
@@ -36,7 +36,7 @@ return sum(map(list, function(i) { return i.length; })) / list.length;
 - d. ~~Skilar summu allra hlutstrengja ílist sem eru lengri en list~~
 
 
-**1.12 Hvað er URI (Uniform Resource Identifier)?
+**1.12 Hvað er URI (Uniform Resource Identifier)?**
 
 - __a. Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði__
 - b. ~~Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki~~
