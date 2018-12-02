@@ -1,114 +1,23 @@
 # XAudiole
 Svör við spurningum úr gömlum lokaprófum
 
-**1.1 If we are linking to example.org, it would be best to use**
+**[Haust 2016] If we are linking to example.org, it would be best to use**
 
 - a. `<a href="http://example.org">example.org</a>`
-- ~~b.~~ 
+- b. 
 ```
 <form method="post" action="http://example.org">
       <button>example.org</button>
 </form>
 ```
-- ~~c.~~
+- c.
 ```
 <form method="get" action="http://example.org">
       <button>example.org</button>
 </form>
 ```
-- d. ~~All methods are equally good~~
-
-See example: `h16_1_1.html`.
-```
-HTTP Aðferðir og <form>
-https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
-```
+- d. All methods are equally good
 ---
-
-**~~1.2 Code coverage is a concept that helps us to write unit tests by~~**
-
-- a. It runs all our tests and lets us know their results
-- b. We get to know the percentage of our code is under test and can get by without writing tests for the same function, braches or statements
-- c. It runs selected tests and lets us know their results
-- d. We get to know how many lines of our code are under test and can get by without writing tests for the same functions, braches and statements
----
-
-**1.3 Arrow functions in ECMAScript 2015 are different from functions, how?**
-
-- a. Do not bind `this` nor `arguements`
-- b. Do bind `this` but not `arguements`
-- c. Do not bind `this` only `arguements`
-- d. Do bind `this` and `arguements`
----
-  
-**1.4 For the following CSS, what are the width X height of the box in pixels according to the box model?**
-```
-.item {
-  width: 500px;
-  height: 300px;
-  margin: 20px;
-  margin-right: 0;
-  border: 1px solid #000;
-  padding: 10px;
-  padding-bottom: 20px;
-  }
-```
-- a. __542x372__
-- b. ~~552x343~~
-- c. ~~353x542~~
-- d. ~~342x552~~
-
-See example: `h16_1_4.html` & `h16_1_4.css`.
-
-* `content-box;` - sjálfgefið gildi, allt tekið með í reikninginn
-* `border-box;` - aðeins margin er tekið með í reikninginn
----
- 
- **1.5 When we are checking for web accessibility, we can use:**
- 
-- a. Standards containing guidelines and recommendations on accessibility
-- b. Listening to the website with a screen reader
-- c. Using only keyboard to navigate the website
-- d. __All of the above__
-```
-1.20 Aðgengi
-https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
----
-
- **1.6 What is V8?**
-
-- a. __JavaScript engine that Chrome uses__
-- b. ~~HTML parser that Chrome uses~~
-- c. ~~CSS interpreter that Chrome uses~~
-- d. ~~None of the above~~
- ---
- 
-**1.7 What fundamental difference is there between HTML 4.01 and XHTML?**
- 
-- a. ~~HTML 4.01 is based on XML but XHTML on SGML~~
-- b. ~~XHTML is based on HTML5 but HTML 4.01 on SGML~~
-- c. __XHTML is based on XML but HTML 4.01 on SGML__
-- d. ~~None fundamental difference~~
-```
-1.10-1.15
-https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
----
- 
-**1.8 Which of the following values are *falsy* in JavaScript**
- 
-- a. ~~"0"~~
-- b. ~~[]~~
-- c. __NaN__
-- d. ~~1~~
-```
-Falsy
-https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javascript.md
-```
----
- 
-
 
 **[Haust 2016] When we create an XMLHttpRequest and perform an Ajax request:**
 
@@ -117,8 +26,6 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 - c. We must note that when we retrieve resources over a network, it can be slow
 - d. We never get JSON as a response and must parse it into a JavaScript object
 ---
-
-
 
 **[Haust 2016] When we use new features, we should:?**
 
@@ -165,6 +72,24 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 - d. All equally valid
 ---
 
+**[Haust 2016] What fundamental difference is there between HTML 4.01 and XHTML?**
+ 
+- a. HTML 4.01 is based on XML but XHTML on SGML
+- b. XHTML is based on HTML5 but HTML 4.01 on SGML
+- c. XHTML is based on XML but HTML 4.01 on SGML
+- d. None fundamental difference
+---
+
+## Web Accessibility
+
+ **[Haust 2016] When we are checking for web accessibility, we can use:**
+ 
+- a. Standards containing guidelines and recommendations on accessibility
+- b. Listening to the website with a screen reader
+- c. Using only keyboard to navigate the website
+- d. All of the above
+---
+
 ## CSS - Box model
 **[Haust 2017] What are the dimensions (width and height) of the following according to the box model?**
 ```
@@ -183,7 +108,29 @@ div {
 - d. 360x260
 ---
 
+**[Haust 2016] For the following CSS, what are the width X height of the box in pixels according to the box model?**
+```
+.item {
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  margin-right: 0;
+  border: 1px solid #000;
+  padding: 10px;
+  padding-bottom: 20px;
+  }
+```
+- a. 542x372
+- b. 552x343
+- c. 353x542
+- d. 342x552
+---
+
 **[Haust 2015] Dæmi 2.1
+
+---
+
+**[Haust 2014] Dæmi 2.1
 
 ---
   
@@ -252,6 +199,22 @@ section ul > li:nth-child(2n) {
 - d. JavaScript code is compiled in a build step by a compiler, that code is then interpreted by a browser before being run by a browser
 ---
 
+**[Haust 2016] Arrow functions in ECMAScript 2015 are different from functions, how?**
+
+- a. Do not bind `this` nor `arguements`
+- b. Do bind `this` but not `arguements`
+- c. Do not bind `this` only `arguements`
+- d. Do bind `this` and `arguements`
+---
+
+**[Haust 2016] What is V8?**
+
+- a. JavaScript engine that Chrome uses
+- b. HTML parser that Chrome uses
+- c. CSS interpreter that Chrome uses
+- d. None of the above
+ ---
+
 ## JavaScript - Variables
 
 **[Haust 2017] NaN is a special value in JavaScript, what does it stand for and when is it returned?**
@@ -268,6 +231,14 @@ section ul > li:nth-child(2n) {
 - b. Use == for comparison of values of the same type, otherwise ===
 - c. Always us == for all comparison
 - d. Use === for comparison of values of the same type, otherwise ==
+---
+
+**[Haust 2016] Which of the following values are *falsy* in JavaScript**
+ 
+- a. "0"
+- b. []
+- c. NaN
+- d. 1
 ---
 
 ## JavaScript - Functions
