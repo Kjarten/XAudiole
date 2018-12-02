@@ -168,7 +168,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.2.ajax.m
 ```
 ---
 
-**1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?**
+**~~1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?~~**
 ```
 $a = array("foo" => "10");
 
