@@ -85,16 +85,16 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
  
 **1.10 Which of the following is a valid URL?**
 
-- a. http://example.org/foo?bar=baz
-- b. example.org/foo?bar=baz
-- c. http://example.org:foo/?bar=baz
-- d. example.org:foo/?bar=baz
+- a. __http://example.org/foo?bar=baz__
+- b. ~~example.org/foo?bar=baz~~ **- URI, ekki URL**
+- c. ~~http://example.org:foo/?bar=baz~~ **- `:`, á að vera `/`**
+- d. ~~example.org:foo/?bar=~~**- URI, ekki URL og `:`, á að vera `/`**
 ```
 URI vs URL
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
 ---
-**1.11 Which of the following is *not* correct about the module system in Node.js**
+**~~1.11 Which of the following is *not* correct about the module system in Node.js~~**
 
 - a. You can include a module from NPM by using `require('<name of module>');`
 - b. You can include a module stored in a directory with index.js by doing `require('<name of directory>');`
@@ -104,10 +104,10 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 
 **1.12 One of the things Sass does *not* offer is:**
 
-- a. Define *grids*
-- b. Define *mixin* for functions
-- c. Define variables
-- d. Defining *nested* selectors
+- a. __Define *grids*__
+- b. ~~Define *mixin* for functions~~
+- c. ~~Define variables~~
+- d. ~~Defining *nested* selectors~~
 ---
 
 **1.13 The following CSS selector selects:**
