@@ -68,7 +68,7 @@ See example: `h16_1_4.html` & `h16_1_4.css`.
 - a. Standards containing guidelines and recommendations on accessibility
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
-- d. All of the above
+- d. __All of the above__
 ```
 1.20 Aðgengi
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
