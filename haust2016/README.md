@@ -149,21 +149,21 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 ```
 ---
+
 **1.13 When we use new features, we should:?**
 
-
-- a. Always setup a polyfill for the feature
-- b. Check the feature on *caniuse.com* and if it has over 90% support, use it
-- c. Evaluate the feature based on the project and the browsers supported
-- d. All above
+- a. ~~Always setup a polyfill for the feature~~
+- b. ~~Check the feature on *caniuse.com* and if it has over 90% support, use it~~
+- c. __Evaluate the feature based on the project and the browsers supported__
+- d. ~~All above~~
 ---
 
 **1.14 To make our website more fun, we can use transitions and animations, in particular, we should:**
 
-- a. Stay clear of `transform` in CSS, since it can cause jank and lag
-- b. Have everything move, everywhere, all the time
-- c. Stick to transitioning and transforming things that are inexpensive & reasonable
-- d. Use the 3D processing of the CPU by moving the null transform to a new layer
+- a. ~~Stay clear of `transform` in CSS, since it can cause jank and lag~~
+- b. ~~Have everything move, everywhere, all the time~~
+- c. __Stick to transitioning and transforming things that are inexpensive & reasonable__
+- d. ~~Use the 3D processing of the CPU by moving the null transform to a new layer~~
 ---
 
 **1.15 What is logged when the following JavaScript code is run?**
