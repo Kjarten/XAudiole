@@ -2,34 +2,43 @@
 
 **1.1 Hvað er CSS *shorthand*?**
 
-- a. Virkni sem CSS *preprocessorar* gefa okkur aðgang að, til að skrifa styttra og skipulagðara CSS
-- b. Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni
-- c. Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu
-- d. Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS
+- a. ~~Virkni sem CSS *preprocessorar* gefa okkur aðgang að, til að skrifa styttra og skipulagðara CSS~~
+- b. __Skilgreining í einni yfirlýsingu fyrir mörg gildi með svipaða virkni__
+- c. ~~Það þegar allar CSS yfirlýsingar eru skrifaðar í einni línu fyrir hverja reglu~~
+- d. ~~Ný CSS3 virkni sem skilgreinir styttri leiðir til að skrifa CSS~~
+```
+Fyrir sum eigindi er hægt að skilgreina í einni yfirlýsingu mörg gildi fyrir svipaða virkni, þetta er kallað _shorthand_. Þessi virkni getur minnkað fjölda lína sem við þurfum að skrifa og kannski sparað tíma.
 
+Shorthand leyfir líka að sleppa því að skilgreina ákveðin gildi og eru þá sjálfgefin gildi sett í staðinn. Þetta getur valdið vandræðum ef það skrifar yfir gildi sem við höfum áður skilgreint.
+
+2.4.5 Skilgreiningar
+https://github.com/vefforritun/book/edit/master/chapters/02.css.md
+```
+---
 
 **1.2 Hvað eru callbacks og promises?**
 
-- a. Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða
-- b. Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O
-- c. Aðferðir til að vinna með *strauma* (streams)
-- d. Aðferðir til að vinna með *atburði* (events)
-
+- a. __Aðferðir til að vinna með *ósamstilltan* (asynchronous) kóða__
+- b. ~~Aðferir til að vinna með *ekki-blokkandi* (non-blocking) I/O~~
+- c. ~~Aðferðir til að vinna með *strauma* (streams)~~
+- d. ~~Aðferðir til að vinna með *atburði* (events)~~
+---
 
 **1.3 Hvað af eftirfarandi á við þetta HTML:**
 ```
 <p class="intro">Hello world!</p>
 ```
-- a. *p* er *tag* með *class* *attribute*
-- b. *p* er *element* með *class* *tag*
-- c. Byrjunar og enda *element* er *p*, *class* er *attribute* og öll heildin er *p* *tag*
-- d. Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*
+- a. ~~*p* er *tag* með *class* *attribute*~~
+- b. ~~*p* er *element* með *class* *tag*~~
+- c. ~~Byrjunar og enda *element* er *p*, *class* er *attribute* og öll heildin er *p* *tag*~~
+- d. __Byrjunar og enda *tag* er *p*, *class* er *attribute* og öll heildin er *p* *element*__
 ```
 <p>foo bar</p> is an element, not a tag. An element consists of a start tag, content, and an end tag. In case of <p>foo bar</p>, <p> is a start tag, foo bar is content, and </p> is an end tag.
 
 http://perfectionkills.com/tag-is-not-an-element-or-is-it/
 ```
-  
+---
+
 **1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
 ```
 function multiplier(x) {
@@ -42,26 +51,33 @@ var m = multiplier(2);
 console.log(y + m(5));
 ```
 
-- a. 20
-- b. 60
-- c. 25
-- d. 52
-
+- a. __20__
+- b. ~~60~~
+- c. ~~25~~
+- d. ~~52~~
+---
  
- **1.5 Hvað af eftirarandi á við SQLite**
+ **~~1.5 Hvað af eftirarandi á við SQLite~~**
  
 - a. Lítill gagnagrunnur sem útfærir aðeins lítinn hluta af SQL staðlinum, með takmarkaðar týpur og er ekki RDBMS (Relational Database Management System)
 - b. Lítill gagnagrunnur sem útfærir mesta allan af SQL staðlinum, með dýnamískar týpur og er ekki RDBMS
 - c. Lítill gagnagrunnur sem útfærir aðeins hluta af SQL staðlinum, með takmarkaðar týpur og er RDBMS
 - d. Lítill gagnagrunnur sem útfærir mest allan hluta af SQL staðinum, með dýnamískar týpur og er RDBMS
+ ---
  
  **1.6 Hvað er WCAG?**
 
-- a. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C
-- b. Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C
-- c. Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA
-- d. Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA
- 
+- a. __Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af W3C__
+- b. ~~Listi af tilmælum til að gera vefi öruggari, skilgreindur af W3C~~
+- c. ~~Listi af tilmælum til að gera vefi aðgengilegri, skilgreindur af ECMA~~
+- d. ~~Listi af tilmælum til að gera vefi öruggari, skilgreindur af ECMA~~
+```
+W3C heldur úti staðli, [Web Content Accessibility Guidelines 2.0](http://www.w3.org/TR/WCAG20/), sem setur fram tilmæli og prinsipp sem hjálpa til við að gera vefi aðgengilegri.
+
+1.20.1 WCAG 2.0
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
+---
  
 **1.7 Þegar við útfærum skalanlega vefi (responsive web design) þá þurfum við að:**
  
