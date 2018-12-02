@@ -88,7 +88,7 @@ div {
 - c. ~~Grid and CSS3 media queries~~
 - d. ~~First designing for the smalles supported resolution and then more~~
  
-**1.10 What does the following ruleset do in CSS?
+**1.10 What does the following ruleset do in CSS?**
 ```
 section ul > li:nth-child(2n) {
   
