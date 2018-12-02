@@ -25,7 +25,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. ~~Only semantic HTML~~
 - c. ~~Store test and paths to images in JSON, create the UI with JavaScript and CSS~~
 - d. ~~All equally valid~~
-
+```
+1.18 Merkingarfræði
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
 
 **1.3 What are the dimensions (width and height) of the following according to the box model?**
 ```
