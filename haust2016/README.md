@@ -78,17 +78,17 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
  **1.6 What is V8?**
 
 - a. JavaScript engine that Chrome uses
-- b. HTML parser that Chrome uses
-- c. CSS interpreter that Chrome uses
-- d. None of the above
+- b. ~~HTML parser that Chrome uses~~
+- c. ~~CSS interpreter that Chrome uses~~
+- d. ~~None of the above~~
  ---
  
 **1.7 What fundamental difference is there between HTML 4.01 and XHTML?**
  
-- a. HTML 4.01 is based on XML but XHTML on SGML
-- b. XHTML is based on HTML5 but HTML 4.01 on SGML
+- a. ~~HTML 4.01 is based on XML but XHTML on SGML~~
+- b. ~~XHTML is based on HTML5 but HTML 4.01 on SGML~~
 - c. XHTML is based on XML but HTML 4.01 on SGML
-- d. None fundamental difference
+- d. ~~None fundamental difference~~
 ```
 1.10-1.15
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
