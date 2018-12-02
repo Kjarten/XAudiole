@@ -140,13 +140,17 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 
 **1.12 What is flexbox?**
 
-- a. Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes
-- b. Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes
-- c. Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis
-- d. Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes
+- a. __Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes__
+- b. ~~Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes~~
+- c. ~~Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis~~
+- d. ~~Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes~~
+```
+2.22 Flexbox
+https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+```
 ---
-
 **1.13 When we use new features, we should:?**
+
 
 - a. Always setup a polyfill for the feature
 - b. Check the feature on *caniuse.com* and if it has over 90% support, use it
