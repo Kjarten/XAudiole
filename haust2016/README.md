@@ -92,6 +92,9 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 ```
 1.10-1.15
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+
+Framendi VS Bakendi
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
 ---
  
