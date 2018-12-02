@@ -37,14 +37,6 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Allt að ofan
 ---
 
-**[Haust 2015] One of the things Sass does *not* offer is:**
-
-- a. Define *grids*
-- b. Define *mixin* for functions
-- c. Define variables
-- d. Defining *nested* selectors
----
-
 **[Haust 2016] When we create an XMLHttpRequest and perform an Ajax request:**
 
 - a. We always get JSON as a response and must change it into a JavaScript object to work with
@@ -529,6 +521,14 @@ function X(list)
 - b. Programming language that helps us write valid CSS
 - c. NPM package that adds functionality to CSS
 - d. Programming language that gives access to additional functionality in CSS
+---
+
+**[Haust 2015] One of the things Sass does *not* offer is:**
+
+- a. Define *grids*
+- b. Define *mixin* for functions
+- c. Define variables
+- d. Defining *nested* selectors
 ---
 
 **[Haust 2015] What tasks do NPM and Bower solve**
