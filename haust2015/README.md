@@ -59,7 +59,7 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 ```
 ---
  
-**1.7 Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?**
+**1.7 ~~Many frameworks offer some kind of a templating language, which of the following is a good reason to use them?~~**
  
 - a. They guarantee that the SEO (search engine optimization) and accessibility of our website is good
 - b. They guarantee that the HTML of our website is always valid
@@ -67,7 +67,7 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 - d. All of the above
 ---
  
-**1.8 Unit tests are used to:**
+**~~1.8 Unit tests are used to:~~**
  
 - a. Increase our confidence while making changes to programs
 - b. Document the real functionality of a program
@@ -75,7 +75,7 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 - d. All of the above
 --- 
  
-**1.9 When we implement a user system, one thing we need to think specially about is:**
+**~~1.9 When we implement a user system, one thing we need to think specially about is:~~**
  
 - a. Using a trusted and good programming language
 - b. Encrypting passwords
