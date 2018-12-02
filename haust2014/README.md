@@ -154,7 +154,7 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - a. Lykar í JSON verða að vera strengir
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
 - c. Gildi í JSON mega ekki vera föll
-- d. Allt að ofan
+- d. __Allt að ofan__
 ```
 Munur á JSON og JS hlutum
 
@@ -185,7 +185,18 @@ var_dump($a["foo"] + $a[0]);
 
 **1.15 Ef við framkvæmum aðgerð í HTTP og stöðukóðinn sem kemur til baka er með tölugildið 500 eða hærra, gefur það til kynna að:**
 
-- a. Aðgerð tókst, kóði gefur til kynna hvernig það nákvæmlega tókst
-- b. Aðgerð var beint eitthvað annað, *redirect*
-- c. Aðgerð tókst ekki og villuna má finna hjá okkur, í client
-- d. Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server
+- a. ~~Aðgerð tókst, kóði gefur til kynna hvernig það nákvæmlega tókst~~
+- b. ~~Aðgerð var beint eitthvað annað, *redirect*~~
+- c. ~~Aðgerð tókst ekki og villuna má finna hjá okkur, í client~~
+- d. __Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server__
+
+Þegar þjónn svarar með response gefur hann upp stöðukóða, sem tölu og lesanlegan texta
+
+* `1xx` – Til upplýsinga
+* `2xx` – Gekk, success
+* `3xx` – Áframsending, redirection
+* `4xx` – Villa hjá client
+* `5xx` – Villa hjá server
+
+Fyrirlestur 11.1 – HTTP
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
