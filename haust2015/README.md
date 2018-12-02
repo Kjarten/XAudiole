@@ -20,13 +20,13 @@ NOTE: `JSHint` is a linter, has same purpose as `Eslint` did in current course.
 
 **1.3 Hver af eftirtöldum fullyrðingum um HTTP er rétt?**
 
-- a. HTTP requires that only the client stores state
-- b. HTTP uses JavaScript for frontend functionality
-- c. HTTP is based on clients sending requests and servers sending responses
-- d. HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection
+- a. ~~HTTP requires that only the client stores state~~
+- b. ~~HTTP uses JavaScript for frontend functionality~~
+- c. __HTTP is based on clients sending requests and servers sending responses__
+- d. ~~HTTP has methods that are categorized, e.g. methods in the 300 category are used for redirection~~
 ---
   
-**1.4 When we deploy our programs that connect to a database on different platforms, the connection strings can be different. To help us change them it is good to:**
+**~~1.4 When we deploy our programs that connect to a database on different platforms, the connection strings can be different. To help us change them it is good to:~~**
 
 - a. Collect all the settings in one place in the program, hardcode them there and change for each deployment
 - b. Store settings in an isolated function and change for each deployment
