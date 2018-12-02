@@ -92,9 +92,6 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 ```
 1.10-1.15
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-
-Framendi VS Bakendi
-https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
 ---
  
@@ -113,12 +110,15 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 **1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
  
 - a. *Frontend* is shown to the user, the data is retrieved with *HTTP* on the *backend*
-- b. *Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*
-- c. *Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*
-- d. *Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms
+- b. ~~*Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*~~
+- c. ~~*Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*~~
+- d. ~~*Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms~~
 ```
 0.2.6 Framendi og Bakendi
 https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
+
+Framendi VS Bakendi
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 ```
 --- 
  
