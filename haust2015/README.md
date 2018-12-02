@@ -117,6 +117,26 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 - b. All `h2` headings with `id important` that are a descendant of `section` that is the child of `main`
 - c. All `h2` headings with `class important` that are the descendant of `section` that is the descendant of `main`
 - d. All `h2` headings with `id important` that are the descendant of `section` that is the descendant of `main`
+```
+2.4.1 Selectors
+https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+```
+* ` ` þýðir að seinni selector velur element sem er afkomandi fyrri
+* `>` er fyrir _strangt barn_, seinni selector verður að vera barn fyrri
+* `+` er fyrir _systkini_, seinni selector velur element sem er systkini sem kemur **beint á eftir** fyrri selector
+* `~` er almennur systkina selector, seinni selector velur element sem er syskini fyrri
+
+```css
+*              /* öll element */
+div            /* öll div */
+div p          /* öllu p, afkomendur p */
+div > p        /* öll p sem eru börn div */
+p + p          /* öll p með p sem fyrra systkyni */
+div.foo        /* öll div með class foo */
+a:hover        /* öll a sem verið að hovera á */
+div#foo        /* öll div með id foo */
+div[foo="bar"] /* öll div með attribute foo=bar */
+```
 ---
 
 **1.14 What tasks do NPM and Bower solve**
