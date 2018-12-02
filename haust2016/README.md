@@ -99,7 +99,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
  
 - a. ~~"0"~~
 - b. ~~[]~~
-- c. NaN
+- c. __NaN__
 - d. ~~1~~
 ```
 Falsy
@@ -109,7 +109,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
  
 **1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
  
-- a. *Frontend* is shown to the user, the data is retrieved with *HTTP* on the *backend*
+- a. __*Frontend* is shown to the user, the data is retrieved with *HTTP* on the *backend*__
 - b. ~~*Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*~~
 - c. ~~*Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*~~
 - d. ~~*Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms~~
@@ -124,17 +124,17 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
  
 **1.10 How do querySelector, querySelectorAll and jQuery relate?**
 
-- a. All use the DOM tree when searching for elements in websites
-- b. querySelector and querySelectorAll are methods in the jQuery library
-- c. All use selector syntax to find elements in the DOM tree
-- d. Not related
+- a. __All use the DOM tree when searching for elements in websites__
+- b. ~~querySelector and querySelectorAll are methods in the jQuery library~~
+- c. ~~All use selector syntax to find elements in the DOM tree~~
+- d. ~~Not related~~
 ---
 
 **1.11 When we create an XMLHttpRequest and perform an Ajax request:**
 
-- a. We always get JSON as a response and must change it into a JavaScript object to work with
-- b. The web server we call must have a Cross-origin resource sharing (CORS) header
-- c. We must note that when we retrieve resources over a network, it can be slow
+- a. ~~We always get JSON as a response and must change it into a JavaScript object to work with~~
+- b. ~~The web server we call must have a Cross-origin resource sharing (CORS) header~~
+- c. __We must note that when we retrieve resources over a network, it can be slow__
 - d. We never get JSON as a response and must parse it into a JavaScript object
 ---
 
