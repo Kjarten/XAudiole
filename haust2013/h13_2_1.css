@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; }
+
+body { font-size: 12px/2em Verdana, sans-serif; }
+
+.wrapper {
+  width: 400px;
+  font-size: 1em;
+}
+
+section.box {
+  /* box-sizing: border-box; */
+  float: left;
+  width: 49%;
+  clear: both;
+  padding: 10px 0;
+  height: 150px;
+  border: 1px solid #000;
+
+}
+
+section.box h2 { font-size: 1.5em; }
+
+/* img { width: 100%; } */
