@@ -100,6 +100,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. *Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*
 - c. *Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*
 - d. *Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms
+```
+0.2.6 Framendi og Bakendi
+https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
+```
  
  
 **1.10 How do querySelector, querySelectorAll and jQuery relate?**
