@@ -61,7 +61,11 @@ See example: `h16_1_4.html` & `h16_1_4.css`.
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
 - d. All of the above
- 
+```
+1.20 Aðgengi
+https://github.com/vefforritun/book/blob/master/chapters/01.html.md
+```
+
  **1.6 What is V8?**
 
 - a. JavaScript engine that Chrome uses
