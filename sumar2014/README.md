@@ -171,62 +171,80 @@ function X(list)
 - d. ~~Returns the sum of all negatve numbers in list~~
 ---
 
-**Which of the following is correct URL?**
+**1.12 Which of the following is correct URL?**
 
-- a. http://example.org/&foo=bar&baz
-- b. http://example.org/?foo=bar&baz
-- c. http://example.org:8000/#foo
-- d. b and c
+- a. ~~http://example.org/&foo=bar&baz~~
+- b. __http://example.org/?foo=bar&baz__
+- c. ~~http://example.org:8000/#foo~~
+- d. ~~b and c~~
 ---
 
-**1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
+**~~1.13 Which of the following applies to frameworks?~~**
 
-- a. Lykar í JSON verða að vera strengir
-- b. Lyklar í JSON mega vera úr lista frátekinna orða
-- c. Gildi í JSON mega ekki vera föll
-- d. __Allt að ofan__
-```
-Munur á JSON og JS hlutum
+- a. Collections of solutions to common and general tasks
+- b. Libraries that protect us against attacks like XSS and SQL injections
+- c. Collections of solutions to task that only aplly to web programming
+- d. All of the above
 
-* Lyklar verða að vera strengir, vegna frátekinna orða
-* Strengir verða að vera skilgreindir með `"`, ekki `'`
-* Takmarkanir á tölum, t.d. hex form ekki leyft (`0xea`)
-* Búið að takmarka týpur, t.d. ekki `undefined` eða `RegExp`
-
-Fyrirlestur 11.2
-https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.2.ajax.md
-```
 ---
 
-**~~1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?~~**
-```
-$a = array("foo" => "10");
+**1.14 What is the difference between `<head>` and `<body>`**
 
-$a[] = 10;
+- a. __In general we define the metadata for the page in `<head>` and content in `<body>`__
+- b. ~~Metadata must only be in `<head>` but content in `<body>`~~
+- c. ~~We only define connections to other files (e.g. CSS) in `<head>` and content in `<body>`~~
+- d. ~~No difference between `<head>` and `<body>`~~
 
-var_dump($a["foo"] + $a[0]);
-```
-
-- a. `int` 20
-- b. `string` "1010"
-- c. `string` "202
-- d. Villa, ekkert skrifast út
 ---
 
-**1.15 Ef við framkvæmum aðgerð í HTTP og stöðukóðinn sem kemur til baka er með tölugildið 500 eða hærra, gefur það til kynna að:**
+**1.15 What is ARIA?**
 
-- a. ~~Aðgerð tókst, kóði gefur til kynna hvernig það nákvæmlega tókst~~
-- b. ~~Aðgerð var beint eitthvað annað, *redirect*~~
-- c. ~~Aðgerð tókst ekki og villuna má finna hjá okkur, í client~~
-- d. __Aðgerð tókst ekki og villuna má finna hjá vefþjón, á server__
+- a. __Standard from W3C that increases accessibility of web applications__
+- b. ~~Standard from ISO that increases accessibility of web applications~~
+- c. ~~Standard from W3C that increases functionality in new browsers~~
+- d. ~~Standard from ISO that increases functionality in new browsers~~
 
-Þegar þjónn svarar með response gefur hann upp stöðukóða, sem tölu og lesanlegan texta
+---
 
-* `1xx` – Til upplýsinga
-* `2xx` – Gekk, success
-* `3xx` – Áframsending, redirection
-* `4xx` – Villa hjá client
-* `5xx` – Villa hjá server
+**~~1.16 If you are making a web for an international market in PHP, which of the following do you need to pay special attention to~~**
 
-Fyrirlestur 11.1 – HTTP
-https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
+- a.
+- b.
+- c.
+- d.
+
+---
+
+**1.17 ~~What is a web services?~~**
+
+- a. All the different services you can use on the internet, e.g. Google and Twitter
+- b. Services that satisfy the requirements of REST
+- c. Service designed to communicate between applications over a network
+- d. Services that use XML or JSON for data transfer
+
+---
+
+**~~1.18 What is SQLite?~~**
+
+- a.
+- b.
+- c.
+- d.
+
+---
+
+**1.19 Which of the following are advantages to caching in web applications?**
+
+- a. Can increase speed in applications by reducing the number of long calculations
+- b. Increases the user experience since waiting is decreased
+- c. Can increase speed in applications by reducing the calls to a database
+- d. __All of the above__
+
+---
+
+**1.20 What does it mean that HTTP is stateless?**
+
+- a. __A web server does not need to store any state between requests from user__
+- b. ~~A web server must store all state between requests from users since the browser does not~~
+- c. ~~A web browser can not store any state between requests from user~~
+- d. ~~A web browser must store all state between requests from users since the web server does not~~
