@@ -182,7 +182,6 @@ console.log(x + y);
 - b. ~~Request was redirect somewhere else~~
 - c. Request was not successful and the error is on our side, in client
 - d. ~~Request was not successful and the error is on server~~
-
 ---
 
 **1.15 What is Sass?**
@@ -191,3 +190,79 @@ console.log(x + y);
 - b. ~~Programming language that helps us write valid CSS~~
 - c. ~~NPM package that adds functionality to CSS~~
 - d. Programming language that gives access to additional functionality in CSS
+---
+
+## 2. Forritunarspurningar / Programming questions, 40%
+**2.1 (10%) CSS**
+
+---
+
+**2.2 (10%) HTML & JavaScript**
+
+---
+
+**2.3 (10%) JavaScript**
+
+---
+
+**2.4 (10%) HTML & CSS**
+
+---
+
+## 3. Ritgerðarspurningar / Essay questions, 30%
+Þriðji hluti inniheldur fjórar spurningar en aðeins þarf að svara þrem sem hver um sig gildir 10%. Ef öllum spurningum er svarað er svarað gildi þrjú bestu svörin.
+Vandið uppbyggingu og frágang. Stutt og hnitmiðuð svör.
+
+Third section contains four questions but only three need to be answered, each for 10%. If all questions are answered, the three best are used.
+Take care with structure. Short and concise answers.
+
+**3.1 (10%) Í verkefnum haustsins höfum við mikið notað *lintera*. Hvaða lintera höfum við notað (nefnið a.m.k. tvo), hvaða verkefni leysa þeir og afhverju ættum við að nota þá? Hafa þeir ókosti?**
+
+**This fall we've used linters quite a bit. What linters have we used (name at least two), what tasks do they solve and why should we use them? Do they have any disadvantages?**
+
+Í verkefnum haustsins höfum við notað bæði Eslint og stylelint. Linterar skoða kóðan sem við höfum skrifað og leita af algengum villum t.d. ef gleymist að loka sviga, en þeir geta líka verið settir upp til að greina uppsetningu á kóða, t.d. bil milli setninga og annað eins þannig kóðinn lítur allur eins út. Það kemur sérstaklega af góðum notum ef fleiri en einn vinna í sama kóðanum. Flestir ættu að tileinka sér að nota lintera, þar sem þeir tryggja samræmi í kóðanum innan verkefnisins og milli verkefna. Það að vera með linter uppsettan í Text Editor, gefur tækifæri á því að laga villur þegar þær koma upp og þ.a.l. eyða minni tíma í að villuhreinsa kóðann. Einu ókostirnir eru mögulega erfiðleikar með uppsetningu og erfiðleikar með að breyta skilgreiningum á reglum innan þeirra.
+
+---
+
+**3.2 (10%) HTML, CSS og JavaScript bregðast mismunandi við því þegar við gerum villu (eitthvað sem ekki er samkvæmt *specification*). Hvernig er það og hvernig er það mismunandi? Hvað getum við gert til þess að minnka líkur á því að eitthvað brotni fyrir notendur okkar? Gefið dæmi fyrir hvert.**
+
+**HTML, CSS and JavaScript react differently when we make mistakes (do something that is not correct according to specification). How do they react and how does it differ? What can we do to minimize the chance that it will adversely affect out users? Give examples for each.**
+
+Þegar kemur að HTML og CSS, þá mun browserinn alltaf reyna að birta eitthvað. Browserinn fyrirgefur töluvert af villum í HTML þó forritarar ættu að tileinka sér það að skrifa HTML rétt, t.d. að loka elementum með tag.  Villur í CSS eru ekki fyrirgefnar jafn auðveldlega, þó litlar villur eins og að gleyma að enda setningar á ; eru fyrirgefnar. JavaScript villur geta hinsvegar stöðvað keyrslu á .js skrá alveg þannig að engin virkni úr þeirri skrá sé nothæf á vefsíðunni. Við getum minnkað líkurnar á að eitthvað brotni fyrir notendur með því að nota JavaScript og CSS linters og notkun á valitors.
+
+---
+
+**3.3 (10%) Afhverju ættum við að útbúa vefi með aðgengi í huga sem fylgja stöðum**
+
+**Why should we create websites with accessibility in mind that follow standards?**
+
+Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á að skoða og nota vefi sem við búum til. Það getur hinsvegar reynst erfitt að taka tillit til mismunandi hæfnigetu notanda og allar þær lausnir sem útfæra þarf fyrir mismunandi hæfnigetu. Þegar við notumst við staðla sem skrifaðir hafa verið með aðgengi í huga, þá fáum við lista yfir lausnir, aðferðir, prófanir sem hópur fólks hefur unnið við að skilgreina með sem fjölbreyttasta hóp notenda í huga. Þ.a.l. getum við fylgt þessum stöðlum og án þess að þurfa að fara í of mikla rannsóknarvinnu verið viss um að síðan sé aðgengileg sem flestum.
+
+--
+
+**3.4 (10%) Efitr að hafa rekið augun í lausn hópsins þín á seinaa hópverkefninu færð þú beiðni um að útfæra það aftur frá viðkomandi. Þú munt leiða hóp sem mun útfæra framenda og færð algjört frelsi til að skipleggja verkefnið. Hvernig myndir þú byggja það upp?**
+
+**After having seen the solution you and your group did for the second group project, you get a request to re-implement it. You will lead a team that will implement the frontend you get a total freedom to plan it. How would you do it?**
+
+1. Setja upp GitHub Repository
+2. Bjóða liðsfélögum inn á Repository
+3. Setja upp ReadMe, með eftirfarandi upplýsingum
+  - Tól og tæki fyrir verkefnið
+    - Val á linterum, uppsetning og keyrsla
+  - Uppsetning á verkefni (Folder structure)
+  - Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
+  - Upplýsingar um stílbrigði
+  - Upplýsingar um hvaða staðlar skuli vera notaðir
+ 4. Ég myndi útdeila verkefnum eftir áhugasviði og hæfni liðsfélaga.
+ 5. Setja upp scope fyrir hvað hver hluti þarf að uppfylla áður en farið er að testa hann
+ 6. Skilgreina hvernig hver hluti skal vera testaður.
+
+
+
+
+
+
+
+
+
+
