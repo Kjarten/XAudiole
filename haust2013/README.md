@@ -41,6 +41,31 @@
 - d. ~~First designing for the smalles supported resolution and then more~~
 ---
 
+**1.6 Which difference, if any, is there between HTML 4.01, XHTML and HTML5?**
+
+- a. ~~HTML 4.01 and HTML5 are based on SGML but XHTML on XML~~
+- b. ~~XHTML and HTML5 have much stricter rules about the structure of HTML but HTML4.01~~
+- c. ~~No difference~~
+- d. __HTML 4.01 is based on SGML, XHTML on XML but HTML5 on neither__
+---
+
+**1.7 What are polyfills?**
+
+- a. ~~New functionality in CSS3 that offers the ability to draw filled polygons in a simple way~~
+- b. ~~Concept that is about using JavaScript entirely to create CSS~~
+- c. __Code that gives access to functionality that the browser does not yet support__
+- d. ~~JavaScript API that gives access to drawing in 3D~~
+---
+
+**1.8 In general, in HTTP, if you send data with POST you can expect that...**
+
+- a. A new record or entity is created
+- b. It is safe to send the same data again without problems
+- c. It is not safe to send the same data again without problems
+- d. a. and b.
+- e. a. and c.
+---
+
 **1.9 What is the result of running the following JavaScript code?**
 ```
 funciton foo(i) {
