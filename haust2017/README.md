@@ -14,10 +14,11 @@
 - b. ~~Excerpt from content with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
 - c. ~~Navigation on a site with the heading "Foo" and an ordered list with items "Bar and "Baz"~~
 - d. ~~Navigation on a site with the heading "Foo" and an unordered list with items "Bar" and "Baz"~~
-```
+
 1.17.3 Sectioning - kaflar og svæði
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
+
+---
 
 **1.2 You get the task of displaying text along with images on the web, which would be best to use?**
 
@@ -25,10 +26,11 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. ~~Only semantic HTML~~
 - c. ~~Store test and paths to images in JSON, create the UI with JavaScript and CSS~~
 - d. ~~All equally valid~~
-```
+
 1.18 Merkingarfræði
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
+
+---
 
 **1.3 What are the dimensions (width and height) of the following according to the box model?**
 ```
@@ -46,6 +48,15 @@ div {
 - c. ~~340x240~~
 - d. ~~360x260~~
   
+CSS3 skilgreinir box-sizing sem breytir því hvernig box modelið er reiknað
+
+- `content-box`; - sjálfgefið gildi, allt tekið með í reikninginn
+- `border-box`; - aðeins margin er tekið með í reikninginn
+
+2.11.5 Box sizing
+https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+  
+---
   
 **1.4 What is BEM?**
  
@@ -54,6 +65,10 @@ div {
 - c. ~~Block Extansion Method, method to write methods in JavaScript that use asynchronous blocks in promises~~
 - d. Block, element, modifer, method to write CSS classes and structure selectors
  
+ 2.24.3 BEM
+ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
+ 
+---
  
 **1.5 If we se scrambled letters (e.g. A° instead of ð) on our website, what might be the problem?**
  
@@ -66,7 +81,11 @@ div {
   * Ef við lendum í því að fá upp brenglaða stafi
   * Þá er skjalið okkar vistað í öðru stafasetti en við birtum eða öfugt
   * Textaritillinn okkar sýnir í hvaða stafsetti skjal er og leyfir okkur að breyta
+  
+Brenglaðir stafir
+https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/01/01.2.inngangur.md
  
+---
  
 **1.6 Which of the following is not legal value for a color in CSS?**
  
@@ -75,6 +94,7 @@ div {
 - c. ~~#0f0~~
 - d. ~~All legal values~~
  
+---
  
 **1.7 When we compare values in JavaScript we need to keep what in mind?**
  
@@ -82,8 +102,9 @@ div {
 - b. ~~Use == for comparison of values of the same type, otherwise ===~~
 - c. ~~Always us == for all comparison~~
 - d. ~~Use === for comparison of values of the same type, otherwise ==~~
- 
- 
+
+---
+
 **1.8 Git sees files in four ways, they are:**
  
 - a. ~~Unmodified file, modified file, staged file and merge file~~
@@ -91,6 +112,7 @@ div {
 - c. Unmodified file, modified file, staged file and untracked file
 - d. ~~Unmodified file, modified file, staged file and branch file~~
  
+ ---
  
 **1.9 On what is responsive web design based, in order of importance?**
  
@@ -98,7 +120,9 @@ div {
 - b. ~~CSS3 media queries, flexible layout, and flexible images and media~~
 - c. ~~Grid and CSS3 media queries~~
 - d. ~~First designing for the smalles supported resolution and then more~~
- 
+
+---
+
 **1.10 What does the following ruleset do in CSS?**
 ```
 section ul > li:nth-child(2n) {
@@ -111,6 +135,7 @@ section ul > li:nth-child(2n) {
 - c. ~~Black background on second li that is a child of ul that again are descendant from section~~
 - d. ~~Black background on even li that are descendant from ul that again are descendant from section~~
 
+---
 
 **1.11 JavaScript is an interpreted programming language, what does that entail?**
 
@@ -119,6 +144,7 @@ section ul > li:nth-child(2n) {
 - c. ~~JavaScript code is compiled in a build step by an interpreter, then that code is run by a browser~~
 - d. ~~JavaScript code is compiled in a build step by a compiler, that code is then interpreted by a browser before being run by a browser~~
 
+---
 
 **1.12 NaN is a special value in JavaScript, what does it stand for and when is it returned?**
 
@@ -127,6 +153,7 @@ section ul > li:nth-child(2n) {
 - c. ~~NaN stands for "Not a number" and is only returned when parseInt can't parse a value from text~~
 - d. ~~NaN stands for "Not accessible now" and is returned when type coercion does not work
 
+---
 
 **1.13 What is the result of running the following ES2015 JavaScript code?**
 ```
@@ -147,6 +174,7 @@ console.log(x + y);
 - c. 9
 - d. ~~11~~
 
+---
 
 **1.14 What does it mean if we perform a request in HTTP and the status code of the response ranges from 400 through 499**
 
@@ -155,6 +183,7 @@ console.log(x + y);
 - c. Request was not successful and the error is on our side, in client
 - d. ~~Request was not successful and the error is on server~~
 
+---
 
 **1.15 What is Sass?**
 
