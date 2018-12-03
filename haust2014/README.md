@@ -111,10 +111,10 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 
 **1.8 Þegar við biðjum um eigindi á hlut í JavaScript kemur prótótýpukeðjan til sögunnar, nánar tiltekið þá**
  
-- a. Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað
-- b. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað
-- c. Ef eigindi er á hlut er því skilað annars er `undefined` skilað
-- d. Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað
+- a. __Ef eigindi er á hlut er því skilað, ef ekki er leitað upp prótótýpu keðjuna og leitað þar, ef ekkert finnst er `undefined` skilað__
+- b. ~~Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað, annars er leitað niður keðjuna þar til komið er að hlutnum sjálfum, ef ekkert finnst er `undefined` skilað~~
+- c. ~~Ef eigindi er á hlut er því skilað annars er `undefined` skilað~~
+- d. ~~Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað~~
 ---
 
 **~~1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:~~**
