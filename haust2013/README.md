@@ -1,5 +1,30 @@
 # Haust 2013
 
+**1.1 When we have system that accepts inputs from users, whom should we trust?**
+
+- a. ~~Logged in users in our systems~~
+- b. ~~All users~~
+- c. ~~Only Óli~~
+- d. __No one__
+---
+
+**1.2 Which of the following is among the roles of W3C**
+
+- a. Standardize HTML
+- b. Standardize CSS
+- c. ~~Standardize JavaScript~~
+- d. ~~Everything above~~
+- e. __a. and b.__
+---
+
+**1.3 What did Time Berners-Lee use as the basis of the world wide web**
+
+- a. TCP, DNS and the concept of HyperText
+- b. HTTP, HTML and DNS
+- c. SSL, HTTP, FTP and DNS
+- d. ~~HTML, CSS, JavaScript and TCP/IP~~
+---
+
 **1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
 ```
 funciton foo(i) {
@@ -16,7 +41,6 @@ funciton foo(i) {
 }
 
 ```
-
 - a. ~~Eftir 1 sekúndu verður gildið "9" skrifað í console~~
 - b. ~~EFtir 10 sekúndur verður gildið "9" skrifað í console~~
 - c. ~~Eftir 1 sekúndu verður gildið "45" skrifað í console~~
