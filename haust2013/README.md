@@ -119,6 +119,30 @@ https://raw.githubusercontent.com/vefforritun/vef1-2018/master/fyrirlestrar/11/1
   - _Auðlind_ er einhver eining sem við viljum nálgast, t.d. HTML skjal, mynd
 ---
 
+**~~1.13 Which of the following applies to frameworks?~~**
+
+- a. Collections of solutions to common and general tasks
+- b. Libraries that protect us against attacks like XSS and SQL injections
+- c. Collections of solutions to tasks that only apply to web programming
+- d. All of the above
+---
+
+**~~1.14 REST puts some constraints on the architecture of web services, which of the following is *not* one of them?~~**
+
+- a.
+- b.
+- c.
+- d.
+---
+
+**~~1.15 Which of the following is the biggest benifit of MVC?~~**
+
+- a.
+- b.
+- c.
+- d.
+---
+
 **1.16 Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.**
 ```
 function X(list)
