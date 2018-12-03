@@ -148,8 +148,8 @@ https://www.youtube.com/watch?v=F_yMkbA6A2M&feature=youtu.be
 
 **1.12 What is flexbox?**
 
-- a. __Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes__
-- b. ~~Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes~~
+- a. ~~Way to create flexible layouts that replaces `position` and allows us to define layout easily on two axes~~
+- b. __Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes__
 - c. ~~Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis~~
 - d. ~~Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes~~
 
