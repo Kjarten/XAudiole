@@ -90,6 +90,14 @@ Svör við spurningum úr gömlum lokaprófum
 - d. Changes in HTML from HTML 4.01 and XHTML with extensions to CSS
 ---
 
+**[Haust 2013] What is HTML5**
+
+- a. Only changes in HTML from HTML 4.01 and XHTML
+- b. The natural progression of the web that inclues changes in HTML, extensions to CSS and changed syntax in JavaScript
+- c. Changes in HTML from HTML 3.01 and XHTML with extensions to CSS
+- d. The natural progression of the web that includes changes in HTML, extensions to CSS and new JavaScript APIs
+---
+
 ### HTML Syntax
 
 **[Haust 2017] What semantic value can be deduced from the following HTML?**
@@ -320,6 +328,14 @@ section ul > li:nth-child(2n) {
  
 - a. Flexible layout, flexible images, and media and CSS3 media queries
 - b. CSS3 media queries, flexible layout, and flexible images and media
+- c. Grid and CSS3 media queries
+- d. First designing for the smalles supported resolution and then more
+---
+
+**[Haust 2013] On what is responsive web design based, in order of importance?**
+
+- a. Flexible layout, flexible images and media and CSS3 media queries
+- b. CSS3 media queries, flexible layout and, flexible images and media
 - c. Grid and CSS3 media queries
 - d. First designing for the smalles supported resolution and then more
 ---
