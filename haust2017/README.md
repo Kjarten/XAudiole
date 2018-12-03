@@ -306,6 +306,40 @@ Sjá, `h16_2_2.html` og `h16_2_2.js`
 
 **2.3 (10%) JavaScript**
 
+Eftirfarandi forrit sækir gögn frá vefþjónustu og birtir á vef með fallinu `displayData(jsonData)` (gefið, ekki þarf að hugsa nánar um það)
+
+The following program fetches data from a webservice and displays it with the function `displayData(jsonData)` (give, you do not need to implement it)
+```
+function loadData() {
+  functionparseData() {
+    var jsonData = JSON.parse();
+    displayData(jsonData);
+  }
+  
+  var request = new XMLHttpRequest();
+  request.open('GET', 'https://example.org/data.json', true);
+  request.onload = parseData;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  var delayInMs = 2000;
+  window.setTimeout(loadData, delayInMs);
+});
+```
+Ef við gefum okkur eftirfarandi:
+* Það tekur DOM 200ms (0,2 sek) að verða tilbúið
+* Kall í `https://example.org/data.json` tekur 1500ms (1,5 sek)
+* Það tekur 100ms (0,1 sek) að sýna gögn
+
+If we assume the following:
+* It takes the DOM 200ms (0.2 sec) to become ready
+* Calling `https://example.org/data.json` takes 1500ms (1.5 sec)
+* It takes 100ms (0.1 sec) to display the data
+
+Lýsið tímalínu fyrir keyrslu, á hvaða tíma er kallað í hvaða línur að ofan (á ekki við um allar línur):
+Describe a timeline for the run of the program, at what time is which lines in the program called (does not apply to every line of the program):
+
+
 ---
 
 **2.4 (10%) HTML & CSS**
