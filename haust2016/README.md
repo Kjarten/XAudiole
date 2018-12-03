@@ -194,3 +194,92 @@ console.log(results.join(', '));
 - d. ~~9, 8, 7, 6, 5, 4, 3, 2, 1~~
 
 See example: `h16_1_15.html` & `h16_1_15.js`
+
+---
+
+## 2. Forritunarspurningar, 40%
+
+**2.1 (10%) JavaScript**
+
+**Finna má ýmislegt að eftirfarandi JavaScript kóða í ES2015, nefndu a.m.k. fimm atriði og útskýrðu hvað mætti betur fara:**
+
+**There is a plethora of errors in the following JavaScript code in ES2015, name at least five of them and describe why and how to fix them**
+```
+document.addEventListener('DOMContentLoaded', function() => {
+
+  let buttons = document.querySelectorAll('button');
+  
+  for(var foo = 0; foo < buttons.length; foo++) {
+    button = buttons[foo];
+    button.addEventListener('onclick', (e) => {
+    button.setAttribute('data-clicked', true);
+    });
+  }
+});
+```
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+---
+
+**2.2 (10%) CSS**
+
+---
+
+**2.3 (10%) HTML**
+
+---
+
+**2.4 (10%) node.js**
+
+---
+
+## 3. Ritgerðarspurningar/ Essay questions, 30%
+
+Þriðji hluti inniheldur fjórar spurningar en aðeins þarf að svara þrem sem hver um sig gilder 10%. Ef öllum spurningum er svarað gilda þrjú besut svörin.
+
+Vandið uppbyggingu og frágang. Stutt og hnitmiðuð svör.
+
+**3.1 (10%) Hvaða merkingu leggur þú í orð Sir Tim Berners-Lee hér að neðan? Hvernig tengjast þau því námsefni sem farið hefur verið yfir?**
+
+**How do you interpret Sir Tim Berners-Lee's words below? How do they relate to the material we've covered?**
+```
+The primary design principle underlying the Web's usefulness and growth is universality. [...] And it should be accessible from any kind of hardware that can connect to the Internet: stationary or mobile, small screen or large.
+-Tim Berners-Lee: Long Live the Web
+```
+
+The Web has made the world easier for example by connected people regardless of geographical locations and providing knowledge instantly where it is needed. The web has also overcome language barriers, with text translations and speech recognition and translations. It can be interfaced in more ways then can be imagined and any device with a screen an internet connection gives you access to it's cognetive mind. This transformation from computer screens to smart watches and smart refrigerators has made the Web a utility that modern people demand continuous access to. In this course we addapted the tools to make our website scalable, with use of flexible grids and flexboxes. We adopted the philosphy of seperating content and style, to adapt changes to style easier if the need rises. We also covered the necessity of making our website accessible by following international standards.
+
+---
+
+**3.2 (10%) *eslint*, *stylelint*, *babel* og *sass* eru tól sem við höfum skoðað og notað.
+Hvaða verkefni leysa þau? Hvernig getum við sett upp verkefni þannig að þau hjálpi okkur sem mest? Hafa þau ókosti?**
+
+**- *eslint*, *stylelint*, *babel* and *sass* are tools we've looked into and used. What tasks do they solve? How can we setup our projects so they help us the most? Do they have any disadvantages?**
+
+*eslint* is a linter for JavaScript. It makes runs through our code and looks for common problems, that could otherwise result in a bug. it can also be set up to ensure that the code is written according to a certain standards. Which is very usefull, specially when more than one person is working on the code. It can be set up in the TextEditor, so errors can be fixed as they come up and save us time in corrected the code compared to having it run only after the code has been written.
+
+*stylelint* is a linter for CSS. It has the same properties as *eslint*
+
+*babel* provides us with functionality to use JavaScript features that are not currently supported by browser. After the code has been written, *babel* will re-write the new features we have used in a way they can be "understood" by the browser. *babel* can also rewrite features to be backwards compatible for old versions of browsers.
+
+*sass* is a programming language that allows us to write CSS files in a "more" programming way. It gives us features such as *mixin* and *nesting* as well as the availability to define variables. This can save us a lot of time, as we do not have to write the same code multiple time.
+
+By including these tools in a project from the beginning, we will most likely have to spend less time debugging code and the code will be uniformly written. We can use the latest features and be sure that it will work with today's browsers.
+
+These tools do not have many disadvantages. The ones that I can think of is making the inital setup of the project more complex and incase we are using open-source software, we might run into more bugs then with professional software as well as the possibility that the community behind the software will stop working on it, therfore forcing us to adopt new tools.
+
+---
+
+**3.3 (10%) Injection árásir eru flokkaðar sem helsta öruggshætta vefforrita skv. OWASP.
+Í hverju felast þessar árásir? Hvað er ráðist**
+
+
+
