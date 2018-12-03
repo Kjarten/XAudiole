@@ -27,6 +27,31 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All above
 ---
 
+**[Haust 2013] Which of the following is among the roles of W3C**
+
+- a. Standardize HTML
+- b. Standardize CSS
+- c. ~~Standardize JavaScript~~
+- d. ~~Everything above~~
+- e. __a. and b.__
+---
+
+**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+ 
+- a. The concept of HyperText
+- b. HTML
+- c. SSL
+- d. HTML, CSS and JavaScript
+---
+
+**[Haust 2013] What did Time Berners-Lee use as the basis of the world wide web**
+
+- a. TCP, DNS and the concept of HyperText
+- b. HTTP, HTML and DNS
+- c. SSL, HTTP, FTP and DNS
+- d. HTML, CSS, JavaScript and TCP/IP
+---
+
 ## Not Categorized
 
 **[Haust 2014] JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
@@ -46,16 +71,6 @@ Svör við spurningum úr gömlum lokaprófum
 ---
 
 ## HTML
-
-### History
-
-**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
- 
-- a. The concept of HyperText
-- b. HTML
-- c. SSL
-- d. HTML, CSS and JavaScript
----
 
 ### HTML4, HTML5, XML, SGML & XHTML
 
@@ -516,6 +531,28 @@ function X(list)
 - b. Returns the sum of all positive numbers in list
 - c. Returns the average of all numbers in list
 - d. Returns the sum of all negatve numbers in list
+---
+
+**[Haust 2013] Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
+```
+funciton foo(i) {
+  i = bar(i);
+  function bar(n) {
+    var result = 0;
+    for (var i = 0; i < n; i++)
+    {
+      result += 1;
+    }
+    return result;
+  }
+  setTimeout(funciton() { console.log(i); }, 1000)
+}
+
+```
+- a. Eftir 1 sekúndu verður gildið "9" skrifað í console
+- b. EFtir 10 sekúndur verður gildið "9" skrifað í console
+- c. Eftir 1 sekúndu verður gildið "45" skrifað í console
+- d. Eftir 10 sekúndur verður gildið "45" skrifað í console
 ---
 
 ## Git
