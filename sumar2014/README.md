@@ -15,9 +15,9 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 **1.2 In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
 - a. A new record or entity is created
-- b. It is safe to fetch the same webpage again without problems
-- c. It is not safe to fetch the same webpage again without problems
-- d. a. and b.
+- b. ~~It is safe to fetch the same webpage again without problems~~
+- c. ~~It is not safe to fetch the same webpage again without problems~~
+- d. ~~a. and b.~~
 
 ---
 
@@ -40,7 +40,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
  
  **1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
  
-- a. ~~The concept of HyperText~~
+- a. ~~The concept of HyperText~~ <- Held að þetta gæti mögulega verið svarið
 - b. __HTML__
 - c. ~~SSL~~
 - d. ~~HTML, CSS and JavaScript~~
@@ -115,7 +115,6 @@ Bakendi (e. back-end eða server-side) er sá partur vefsins sem er sendur yfir 
 
 0.2.6 Framendi og Bakendi
 https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
-
 
 ---
  
