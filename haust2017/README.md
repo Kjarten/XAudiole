@@ -266,6 +266,7 @@ Fill in `<main>` and `<form>` for the missing HTML but for the JavaScript part, 
 It is not required to do anything regarding CSS or other HTML on the page. You can assume the JavaScript code will be executed.
 ```
 <main>
+
     <form>
 
     </form>
