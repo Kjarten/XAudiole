@@ -253,6 +253,20 @@ Sjá, `h16_2_1.html` og `h16_2_1.css`
 
 **2.2 (10%) HTML & JavaScript**
 
+Eftirfarandi er ókláruð virkni sem bætir við streng úr formi á síðu ef lengd strengs er 11 eða fleiri stafir.
+
+Fyllið inn í `<main>` og `<form>` fyrir það HTML sem vantar en fyrir JavaScript hefur virkni sem vantar verið skipt út fyrir bókstafina A, B, C, D sem fylla skal inn í.
+
+Ekki þarf að hugsa um CSS eða annað HTML en það sem virkni krefst. Gera má ráð fyrir að JavaScript kóði mun keyra.
+
+Following is incomplete functionality that will add a string from a form on a page if its length is 11 or more characters.
+
+Fill in `<main>` and `<form>` for the missing HTML but for the JavaScript part, some functionality has been switched out for the letters A, B, C and D that you will fill in.
+
+It is not required to do anything regarding CSS or other HTML on the page. You can assume the JavaScript code will be executed.
+
+Sjá, `h16_2_2.html` og `h16_2_2.js`
+
 ---
 
 **2.3 (10%) JavaScript**
