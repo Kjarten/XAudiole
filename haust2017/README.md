@@ -304,7 +304,7 @@ Sjá, `h16_2_2.html` og `h16_2_2.js`
 
 ---
 
-**2.3 (10%) JavaScript**
+**~~2.3 (10%) JavaScript~~**
 
 Eftirfarandi forrit sækir gögn frá vefþjónustu og birtir á vef með fallinu `displayData(jsonData)` (gefið, ekki þarf að hugsa nánar um það)
 
@@ -348,6 +348,39 @@ Two things are desperatly need in the program, name either one
 ---
 
 **2.4 (10%) HTML & CSS**
+Fyrir eftirfarandi HTML: / For the following HTML:
+```
+<div class="persons">
+  <h2>Gunnar Bragi Sveinsson</h2>
+  <img src="foo.jpg">
+  <p>Lorem ipsum dolor sit amet...</p>
+  <a id="link" href=https://www.althingi.is/altext/cv/is/?nfaerslunr=722">Nánar um Gunnar</a>
+</div>
+```
+er eftirfarandi CSS skilgreint: The following CSS is defined:
+```
+a {
+  transition: all 50ms;
+  color: green;
+}
+
+.person {
+  float: left;
+  border: 1px solid #000;
+  font-size: 16px;
+}
+```
+Hægt er að finn ýmislegt að þessum kóða, nefndu a.m.k. fimm atriði og útskýrðu hvað betur mætti fara. / A few things can be criticised in this coed, name at least five things and explain what needs to be fixed.
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
 
 ---
 
