@@ -195,6 +195,22 @@ console.log(x + y);
 ## 2. Forritunarspurningar / Programming questions, 40%
 **2.1 (10%) CSS**
 
+Útfærið birtingu fyrir grind sem byggð er á 12 dálkum með efni inni í. Raðir geta innihaldið marga dálka og mega þeir flæða í nýjar línur `.grid__col` skal vera 12 dálkar ef gluggi er undir *600px* breiður, annars 6 dálkar. Grid skal ekki vera breiðara en *1200px* og skal vera miðjuð.
+
+Efni `(<div class="content">)` skal raða öllum börnum sínum lóðrétt og staðsetja þau í miðju lárétt, sjá skýringarmynd að neðan
+
+Implement a display for a grid with 12 columns with content. Rows can contain many columns and they can flow into new lines `.grid__col` should be 12 columns if the viewport is under *600px* wide, otherwise 6 columns. Grid shall not be wider than *1200px* and be centere aligned in its container.
+
+Content `(<div class="content">)` shall order its children vertically and position them in the center horizontally, see diagram below.
+```
+-----------------------
+|       Halló!        |   <- <h2>Halló!</h2>
+|                     |
+|       heimur        |   <- <span>heimur</span>
+-----------------------
+```
+Sjá, h16_2_1.html og h16_2_1.css
+
 ---
 
 **2.2 (10%) HTML & JavaScript**
@@ -256,13 +272,3 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
  4. Ég myndi útdeila verkefnum eftir áhugasviði og hæfni liðsfélaga.
  5. Setja upp scope fyrir hvað hver hluti þarf að uppfylla áður en farið er að testa hann
  6. Skilgreina hvernig hver hluti skal vera testaður.
-
-
-
-
-
-
-
-
-
-
