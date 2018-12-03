@@ -263,12 +263,12 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
 1. Setja upp GitHub Repository
 2. Bjóða liðsfélögum inn á Repository
 3. Setja upp ReadMe, með eftirfarandi upplýsingum
-  * Tól og tæki fyrir verkefnið
-    * Val á linterum, uppsetning og keyrsla
-  * Uppsetning á verkefni (Folder structure)
-  * Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
-  * Upplýsingar um stílbrigði
-  * Upplýsingar um hvaða staðlar skuli vera notaðir
+  3. Tól og tæki fyrir verkefnið
+    3. Val á linterum, uppsetning og keyrsla
+  3. Uppsetning á verkefni (Folder structure)
+  3. Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
+  3. Upplýsingar um stílbrigði
+  3. Upplýsingar um hvaða staðlar skuli vera notaðir
  4. Ég myndi útdeila verkefnum eftir áhugasviði og hæfni liðsfélaga.
  5. Setja upp scope fyrir hvað hver hluti þarf að uppfylla áður en farið er að testa hann
  6. Skilgreina hvernig hver hluti skal vera testaður.
