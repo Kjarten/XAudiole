@@ -156,4 +156,58 @@ return sum(map(list, function(i) { return i.length; })) / list.length;
 - d. ~~Skilar summu allra hlutstrengja ílist sem eru lengri en list~~
 ---
 
+**1.17 What can you read from the following HTTP example (intentionally shortened)**
+```
+Get /foo HTTP/1.1
+Host: example.org
+If-Modified-Since: Sun, 01 Dec 2013 23:00:00 GMT
+
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 02 Dec 2013 00:01:00 GMT
+Location: http://example.org/bar
+
+```
+- a. The request is for the rootpage of example.org that was last modified on the 1st of december 2013 at 23:00. The web server responded with it was moved to example.org/bar
+- b. The request if for example.org/foo. The web server responded with it was moved to example.org/bar and that in future it should only be accessed there
+- c. The request if for example.org/foo that was last modified on the 1st of december 2013 at 23:00. The web server responded with it was moved to example.org/bar and that in the future it should only be accessed there
+- d. The resuest is for the rootpage of example.org that was last accessed on the 1st of december 2013 at 23:00. The web server responded with it was moved to example.org/bar and that in the future it should only be accessed there
+---
+
+**1.18 Which of the following should you consider when search engine optimizing (SEO)**
+
+- a. ~~Discuss many keywords at once~~
+- b. ~~Hide links with keywords on the page~~
+- c. __Write good content__
+- d. ~~All of the above~~
+---
+
+**1.19 Whivh of the following best describes the semantics of the following (summary) of the body of a page?**
+```
+<body>
+    <h1>...</h1>
+    <nav>...</nav>
+    <aside>
+        <ul>
+              <li>...</li>
+        </ul>
+    </aside>
+    <article>
+        <h1>...</h1>
+        <section>...</section>
+        <section>...</section>
+    </article>
+</body>
+```
+- a. The page has a heading, navigation, an article in two chapters and some exceprt with an unordered list of content
+- b. ~~The page has a heading, an article in two chapters and some excerpt with a list of content~~
+- c. ~~The page has a heading, navigation, an article in two chapters and some excerpt with an ordered list of content~~
+- d. ~~The page has a heading, an article in two chapters and some excerpt with an unordered list of content~~
+---
+
+**1.20 What is the difference between frontend and backend?**
+
+- a. Backend is where all the programming happens in a web application, frontend is only the UI
+- b. Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all functionality the users uses, e.g. JavaScript and PHP
+- c. ~~There is no difference between frontend and backend~~
+- d. Backend resides on the web server and programs written there (e.g. in PHP) potentially read some data (e.g. from a database) and generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it
 
