@@ -256,3 +256,41 @@ function X(list)
 
 Fyrirlestur 11.1 – HTTP
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
+
+##3. Ritgerðarspurningar / Essay questions, 30%
+
+Þriðji hluti inniheldur fjórar spurningar en aðeins þarf að svara þrem sem hver um sig gildir 10%. Ef öllum spurningum er svarað gilda þrjú bestu svörin.
+
+Vandið uppbyggingu og frágang. Stutt og hnitmiðuð svör.
+
+The third part has four questions but you only need to answer three which each gives 10%. If you answer all the questions, the three best answers count.
+
+Clear structure and delivery. Short and concise answers.
+
+**3.1 (10%) Hvað er skalanleg vefhönnun (responsive web design)? Hvað þarf að gera, hvernig forritum við þannig vefi og hvernig er það ólíkt "venjulegri" vefhönnun?
+Hvaða kosti og galla hefur það í för með sér?**
+
+**What is responsive web design? What do we need to do, how do we program them and how is it different from "traditional" web design?
+What are the pros and cons?**
+
+Skalanleg vefhönnun er þegar vefhönnun er gerð með þeim forsendum að hægt sé að birta vefsíðuna í öllum eða nær öllum mismunandi skjástærðum. Til þess að vefurinn birtist rétt og að efni sé skýrt og lesanlegt í mismunandi skjástærðum, þurfum við að notast við hlutfallslegar stærðir á grind, boxum og leturstærð. Þegar við forritum vef samkvæmt skalanlegri vefhönnun, getum við notast við progressive enhancement, þar sem við byrjum að því að útbúa vefsíðuna fyrir minnstu mögulegu skjástærð. Við notumst síðan við media queries til að uppbygging vefsíðunnar breytist eins og við viljum eftir því sem skjástærðin stækkar. Þetta er ólíkt "hefðbundinni" vefsíðugerð, því í "hefðbundinni" vefsíðugerð er síðan hönnuð með ákveðinni skjástærð í huga.
+
+---
+
+**3.2 (10%) Hvað er merkingarfræði, í tengslum við HTML, og afhverju er hún mikilvæg?**
+
+**What is semantics in relation to HTML, and why is important?**
+
+Merkingarfræði er það að hver hlutur hafi einhverjar merkingu (eða allavega hver mikilvægur hlutur). Í tenglsum við HTML er það að notast við merkingarfræðilega rétt tags á elementum. T.d. að notast við `<p>` þegar átt er við paragraph, `<nav>` þegar átt er við navigation o.s.frv. Þetta er í raun það sama og að halda sér frá því að nota hluti sem hafa ekki merkingu eoms pg `<div>` og `<span>`, þó að það sé í lagi að notast við þau element þar sem það er reasonable. Það er t.d. mikilvægt að notast við merkingarfræði til þess að gera HTML læsilegt, einnig eru ákveðin "attribute" sem eiga við ákveðin "element" og til að nýta okkur HTML til fulls, er það í okkar hag að notast við merkingarfræðilega rétt HTML.
+
+---
+
+**~~3.3 (10%) Hvað eru *injection* árásir, hvernig virka þær (með dæmi) og hvernig getum við verndað okkur gegn þeim?~~**
+
+---
+
+**~~3.4 (10%) Þú ert beðin um að setja upp vef sem geyma þarf upplýsingar sem hægt er að vinna með á aðgangsstýrðu svæði og birta síðan öllum.
+Hvernig myndir þú haga útfærslu á framenda og bakenda?
+Leitast er eftir almennri lýsingu sem sýnir heildar skilning á efni.~~**
+
+
