@@ -180,6 +180,7 @@ console.log(result);
 þ.s. x = 5, skilgreint global variable
 ```
 See example: `h15_1_15.html` & `h15_1_15.js`
+
 ---
 
 ## 2. Forritunarspurningar / Programming questions, 40%
@@ -227,5 +228,9 @@ Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í
 
 ---
 
+**3.4 (10%) Þú ásamt nokkrum öðrum aðilum í hóp fáið það verkefni að útfæra vefkerfi. Kerfið á að bjóða upp á að svara spurningum út frá vel skilgreindum lista þar sem hvert svar leiðir þig að ákveðinni útkomu (t.d. eins og persónuleikapróf, tveir aðilar sem svara alveg eins fá nákvæmlega sömu útkomu.)
+Hvernig myndir þú:**
+* **a. Setja upp verkefnið þ.a. auðvelt sé fyrir hópinn að vinna það?**
+* **~~b. Haga útfærslu á framenda og bakend? Leitast er eftir almennri lýsingu sem sýnir heildarskilning á efni~~**
 
-
+Backend is not covered in the current version of the course. However, 3.4 in Haust 2017 is a very similar questions, with only frontend in mind.
