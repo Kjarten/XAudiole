@@ -19,6 +19,8 @@
 
 See example: `h16_1_1.html`.
 
+Allar aðferðirnar virka, en þar sem við erum bara að vísa yfir á aðra síðu, er valmöguleiki a. bestur.
+
 HTTP Aðferðir og `<form>`
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
 
@@ -278,8 +280,30 @@ These tools do not have many disadvantages. The ones that I can think of is maki
 
 ---
 
-**3.3 (10%) Injection árásir eru flokkaðar sem helsta öruggshætta vefforrita skv. OWASP.
-Í hverju felast þessar árásir? Hvað er ráðist**
+**3.3 ~~(10%) Injection árásir eru flokkaðar sem helsta öruggshætta vefforrita skv. OWASP.
+Í hverju felast þessar árásir? Hvað er ráðist á? Hvernig komum við í veg fyrir þær?~~**
+
+**~~Injection attacks are classified as the main security threats to web apps according to OWASP. What are these attacks? What is attacked? How can we prevent them?~~**
+
+Not covered in the current version of the course.
+
+---
+
+**3.4 ~~(10%) Eftir glimrandi frammistöðu í vefforritun, færð þú ásamt öðrum samnemendum þínum það verkefni að útbúa kennsluvef fyrir námskeiðið. Það sem vefurinn þyrfit að útfæra væri:~~**
+* **~~Aðgengi að fyrirlestrum ásamt upptökum af þeim á einni síðu~~**
+* **~~Gagnvirk dæmi þar sem hægt er að eiga við kóða til að skilja hvernig hann virkar~~**
+
+**~~Hvernig myndir þú setja verkefnið m.v. að bæði væri skrifaður framenda og bakenda kóði og margir mynd vinna í því? Leitast er eftir almennri lýsingu sem sýnir heildarskilning á efni.~~**
+
+**~~After a stellar performance in web development, you along with your classmates are tasked with preparing a website for the course. The website should implement:~~**
+* **~~Access to lectures along with recordings on one page~~**
+* **~~Interactive examples where you can change the code to understand how it works~~**
+
+**~~How would you structure the project if both backend and frontend code would be written and a team of people would be working on it? General descriptions showing the overall understanding of the course.~~**
+
+Backend is not covered in the current version of the course. However, 3.4 in Haust 2017 is a very similar questions, with only frontend in mind.
+
+
 
 
 
