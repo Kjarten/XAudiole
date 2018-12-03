@@ -20,12 +20,28 @@
 **1.3 What did Time Berners-Lee use as the basis of the world wide web**
 
 - a. TCP, DNS and the concept of HyperText
-- b. HTTP, HTML and DNS
-- c. SSL, HTTP, FTP and DNS
+- b. ~~HTTP, HTML and DNS~~
+- c. ~~SSL, HTTP, FTP and DNS~~
 - d. ~~HTML, CSS, JavaScript and TCP/IP~~
 ---
 
-**1.4 Hvað skrifast út þegar þessi JavaScript kóði er keyrður?**
+**1.4 What is HTML5**
+
+- a. __Only changes in HTML from HTML 4.01 and XHTML__
+- b. ~~The natural progression of the web that inclues changes in HTML, extensions to CSS and changed syntax in JavaScript~~
+- c. ~~Changes in HTML from HTML 3.01 and XHTML with extensions to CSS~~
+- d. ~~The natural progression of the web that includes changes in HTML, extensions to CSS and new JavaScript APIs~~
+---
+
+**1.5 On what is responsive web design based, in order of importance?**
+
+- a. __Flexible layout, flexible images and media and CSS3 media queries__
+- b. ~~CSS3 media queries, flexible layout and, flexible images and media~~
+- c. ~~Grid and CSS3 media queries~~
+- d. ~~First designing for the smalles supported resolution and then more~~
+---
+
+**1.9 What is the result of running the following JavaScript code?**
 ```
 funciton foo(i) {
   i = bar(i);
