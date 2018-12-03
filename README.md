@@ -622,6 +622,14 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. a. and b.
 ---
 
+**[Haust 2014] Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:**
+ 
+- a. nýta XSS holur
+- b. nýta injection árásir
+- c. útbúa faldar HTTP beiðnir
+- d. nýta þekktar villur í hugbúnaði
+---
+
 ## DOM
 
 **[Haust 2016] How do querySelector, querySelectorAll and ~~jQuery~~ relate?**
