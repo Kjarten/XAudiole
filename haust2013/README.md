@@ -88,6 +88,37 @@ funciton foo(i) {
 - d. __Eftir 10 sekúndur verður gildið "45" skrifað í console__
 ---
 
+**~~1.10 What is wrong with the following PHP code?~~**
+
+- a.
+- b.
+- c.
+- d.
+---
+
+**1.11 What is NPM and what effect does it have on node.js**
+
+- a. ~~NPM is a framework for node.js that makes it easy to write web applications~~
+- b. ~~NPM is a framework for node.js that assists in manual tasks~~
+- c. __NPM is the package manager of node.js that makes it really easy to fetch and create packages__
+- d. ~~NPM is the package manager of node.js that has a strict version control so only well written packages are accepted~~
+---
+
+**1.12 Hvað er URI (Uniform Resource Identifier) / What is an URI?**
+
+- a. __Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði__
+- b. ~~Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki~~
+- c. ~~Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni~~
+- d. ~~Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana~~
+
+https://raw.githubusercontent.com/vefforritun/vef1-2018/master/fyrirlestrar/11/11.1.http.md
+
+* Skilgreint í [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt)
+* Uniform Resource Identifier – strengur sem skilgreinir auðlind
+  - Með nafni, staðsetningu eða bæði
+  - _Auðlind_ er einhver eining sem við viljum nálgast, t.d. HTML skjal, mynd
+---
+
 **1.16 Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.**
 ```
 function X(list)
@@ -101,17 +132,4 @@ return sum(map(list, function(i) { return i.length; })) / list.length;
 - d. ~~Skilar summu allra hlutstrengja ílist sem eru lengri en list~~
 ---
 
-**1.12 Hvað er URI (Uniform Resource Identifier)?**
 
-- __a. Strengur sem skilgreinir auðlind með sérkenni, staðsetur hana eða bæði__
-- b. ~~Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki~~
-- c. ~~Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni~~
-- d. ~~Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana~~
-
-https://raw.githubusercontent.com/vefforritun/vef1-2018/master/fyrirlestrar/11/11.1.http.md
-
-* Skilgreint í [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt)
-* Uniform Resource Identifier – strengur sem skilgreinir auðlind
-  - Með nafni, staðsetningu eða bæði
-  - _Auðlind_ er einhver eining sem við viljum nálgast, t.d. HTML skjal, mynd
----
