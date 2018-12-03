@@ -264,7 +264,41 @@ Following is incomplete functionality that will add a string from a form on a pa
 Fill in `<main>` and `<form>` for the missing HTML but for the JavaScript part, some functionality has been switched out for the letters A, B, C and D that you will fill in.
 
 It is not required to do anything regarding CSS or other HTML on the page. You can assume the JavaScript code will be executed.
+```
+<main>
+    <form>
 
+    </form>
+</main>
+```
+```
+function submit(e) {
+  e.preventDefault();
+
+  var input = document.A('input');
+  var results = document.A('.results');
+
+  if (B.length > 10) {
+    var p = document.createElement('p');
+    p.appendChild(document.createTextNode(input.value));
+    results.C(p);
+  }
+}
+
+D.addEventListener('DOMContentLoaded', function () {
+  var form = D.querySelector('form');
+
+  form.addEventListener('submit, submit');
+});
+
+A.
+
+B.
+
+C.
+
+D.
+```
 Sjá, `h16_2_2.html` og `h16_2_2.js`
 
 ---
