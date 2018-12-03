@@ -213,18 +213,18 @@ Sjá, `h16_2_1.html` og `h16_2_1.css`
 
 **Til minnis / Reminders:**
 * `display: flex;`
-  flex-container með aðalás og krossás /flex-container with main axis and cross axis
+  * flex-container með aðalás og krossás /flex-container with main axis and cross axis
 * `min-width:` Xpx OR X%; / `max-width:` Xpx OR X%; / `width:` Xpx OR X%;
 * `flex-direction:` `row` (default) OR `column;`
   `row` setur aðalás frá vinstri til hægri, `column` setur aðalás frá toppi til botns / `row` sets main axis from left to right, `column` sets main axis from top to bottom
 * `justify-content:` `flex-start` (default) OR `flex-end` OR `center` OR `space-between` OR `space-around;`
-  Skilgreinir hvernig flex item raðast á aðalás / defines how flex items are positioned on main axis
+  * Skilgreinir hvernig flex item raðast á aðalás / defines how flex items are positioned on main axis
 * `align-content:` `stretch` (default) OR `flex-start` OR `flex-end` OR `center` OR `baseline`
-  Skilgreinir *innan línu* á krossás / changes position *inside line* on cross axis
+  * Skilgreinir *innan línu* á krossás / changes position *inside line* on cross axis
 * `align-times:` `stretch` (default) OR `flex-start` OR `flex-end` OR `center` OR `space-between` OR `space-around`
-  Breytir staðsetningu *lína* á krossás / changes position of lines on the cross axis
+  * Breytir staðsetningu *lína* á krossás / changes position of lines on the cross axis
 * `@media (min-width: Ypx OR max-width: Xpx)`
-  Skilgreinir *media query* fyrir hámark eða lágmarks breidd skjás / defines a *media query* for max or min width of viewport
+  * Skilgreinir *media query* fyrir hámark eða lágmarks breidd skjás / defines a *media query* for max or min width of viewport
 
 ---
 
