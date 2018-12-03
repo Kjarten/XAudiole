@@ -240,19 +240,19 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
 
 ---
 
-**3.4 (10%) Efitr að hafa rekið augun í lausn hópsins þín á seinaa hópverkefninu færð þú beiðni um að útfæra það aftur frá viðkomandi. Þú munt leiða hóp sem mun útfæra framenda og færð algjört frelsi til að skipleggja verkefnið. Hvernig myndir þú byggja það upp?**
+**3.4 (10%) Eftir að hafa rekið augun í lausn hópsins þín á seinaa hópverkefninu færð þú beiðni um að útfæra það aftur frá viðkomandi. Þú munt leiða hóp sem mun útfæra framenda og færð algjört frelsi til að skipleggja verkefnið. Hvernig myndir þú byggja það upp?**
 
 **After having seen the solution you and your group did for the second group project, you get a request to re-implement it. You will lead a team that will implement the frontend you get a total freedom to plan it. How would you do it?**
 
 1. Setja upp GitHub Repository
 2. Bjóða liðsfélögum inn á Repository
 3. Setja upp ReadMe, með eftirfarandi upplýsingum
-  - Tól og tæki fyrir verkefnið
-    - Val á linterum, uppsetning og keyrsla
-  - Uppsetning á verkefni (Folder structure)
-  - Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
-  - Upplýsingar um stílbrigði
-  - Upplýsingar um hvaða staðlar skuli vera notaðir
+  * Tól og tæki fyrir verkefnið
+    * Val á linterum, uppsetning og keyrsla
+  * Uppsetning á verkefni (Folder structure)
+  * Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
+  * Upplýsingar um stílbrigði
+  * Upplýsingar um hvaða staðlar skuli vera notaðir
  4. Ég myndi útdeila verkefnum eftir áhugasviði og hæfni liðsfélaga.
  5. Setja upp scope fyrir hvað hver hluti þarf að uppfylla áður en farið er að testa hann
  6. Skilgreina hvernig hver hluti skal vera testaður.
