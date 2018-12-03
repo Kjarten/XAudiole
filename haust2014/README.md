@@ -117,12 +117,12 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 - d. ~~Ef eigindi er á hlut efst í prótótýpu keðjunni er því skilað annars er `undefined` skilað~~
 ---
 
-**~~1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:~~**
+**1.9 Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:**
  
-- a. nýta XSS holur
-- b. nýta injection árásir
-- c. útbúa faldar HTTP beiðnir
-- d. nýta þekktar villur í hugbúnaði
+- a. ~~nýta XSS holur~~
+- b. ~~nýta injection árásir~~
+- c. __útbúa faldar HTTP beiðnir__
+- d. ~~nýta þekktar villur í hugbúnaði~~
 ---
  
 **~~1.10 Kökur eða *cookies* eru notaðar til að~~**
@@ -151,11 +151,11 @@ https://github.com/vefforritun/book/edit/master/chapters/02.css.md
 
 **1.13 JSON stendur fyrir JavaScript Object Notation en það er munur á JSON og JavaScript hlutum, þar er helst að nefna:**
 
-- a. Lykar í JSON verða að vera strengir
+- a. Lyklar í JSON verða að vera strengir
 - b. Lyklar í JSON mega vera úr lista frátekinna orða
 - c. Gildi í JSON mega ekki vera föll
 - d. __Allt að ofan__
-```
+
 Munur á JSON og JS hlutum
 
 * Lyklar verða að vera strengir, vegna frátekinna orða
@@ -165,7 +165,7 @@ Munur á JSON og JS hlutum
 
 Fyrirlestur 11.2
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.2.ajax.md
-```
+
 ---
 
 **~~1.14 Hvað er skrifað út ef við keyrum þennan PHP kóða?~~**
