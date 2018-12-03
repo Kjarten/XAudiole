@@ -209,7 +209,7 @@ Content `(<div class="content">)` shall order its children vertically and positi
 |       heimur        |   <- <span>heimur</span>
 -----------------------
 ```
-Sjá, h16_2_1.html og h16_2_1.css
+Sjá, `h16_2_1.html` og `h16_2_1.css`
 
 ---
 
