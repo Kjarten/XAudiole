@@ -50,8 +50,8 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
  **1.6 The concept of the cascade in CSS defines:**
 
 - a. ~~Value for each selector in CSS that determines how important it is~~
-- b. __The order of definitions for each element__
-- c. ~~Value for each rule that defines how default values *cascade* over it~~
+- b. ~~The order of definitions for each element~~
+- c. __Value for each rule that defines how default values *cascade* over it__
 - d. ~~The order of definitions in the document~~
 ```
 2.9 Cascade – „flóðið“
