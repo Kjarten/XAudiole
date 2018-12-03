@@ -27,13 +27,21 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All above
 ---
 
+**[Haust 2013] What are polyfills?**
+
+- a. New functionality in CSS3 that offers the ability to draw filled polygons in a simple way
+- b. Concept that is about using JavaScript entirely to create CSS
+- c. Code that gives access to functionality that the browser does not yet support
+- d. JavaScript API that gives access to drawing in 3D
+---
+
 **[Haust 2013] Which of the following is among the roles of W3C**
 
 - a. Standardize HTML
 - b. Standardize CSS
-- c. ~~Standardize JavaScript~~
-- d. ~~Everything above~~
-- e. __a. and b.__
+- c. Standardize JavaScript
+- d. Everything above
+- e. a. and b.
 ---
 
 **[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
@@ -80,6 +88,14 @@ Svör við spurningum úr gömlum lokaprófum
 - b. XHTML is based on HTML5 but HTML 4.01 on SGML
 - c. XHTML is based on XML but HTML 4.01 on SGML
 - d. None fundamental difference
+---
+
+**[Haust 2013] Which difference, if any, is there between HTML 4.01, XHTML and HTML5?**
+
+- a. HTML 4.01 and HTML5 are based on SGML but XHTML on XML
+- b. XHTML and HTML5 have much stricter rules about the structure of HTML but HTML 4.01
+- c. No difference
+- d. HTML 4.01 is based on SGML, XHTML on XML but HTML5 on neither
 ---
 
 **[Sumar 2014] HTML5 is the natural progression of the web, but what does the concept encompass**
@@ -673,6 +689,15 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - b. It is safe to fetch the same webpage again without problems
 - c. It is not safe to fetch the same webpage again without problems
 - d. a. and b.
+---
+
+**[Haust 2013] In general, in HTTP, if you send data with POST you can expect that...**
+
+- a. A new record or entity is created
+- b. It is safe to send the same data again without problems
+- c. It is not safe to send the same data again without problems
+- d. a. and b.
+- e. a. and c.
 ---
 
 **[Haust 2014] Með CSRF, Cross-Site Request Forgery, geta óprúttnir aðilar látið notanda framkvæma aðgerðir á öðrum vefjum, óafvitandi, með því að:**
