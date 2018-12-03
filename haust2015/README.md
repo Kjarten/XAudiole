@@ -88,7 +88,7 @@ https://github.com/vefforritun/book/blob/master/chapters/02.css.md
 - a. __http://example.org/foo?bar=baz__
 - b. ~~example.org/foo?bar=baz~~ **- URI, ekki URL**
 - c. ~~http://example.org:foo/?bar=baz~~ **- `:`, á að vera `/`**
-- d. ~~example.org:foo/?bar=~~**- URI, ekki URL og `:`, á að vera `/`**
+- d. ~~example.org:foo/?bar=~~**- URI, ekki URL og strengur má ekki fylgja `:`, bara tala
 ```
 URI vs URL
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
