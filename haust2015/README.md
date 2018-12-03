@@ -220,7 +220,9 @@ Progressive enchanchment er hugtak sem segir að við eigum að einbeita okkur a
 
 Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
 
-**3.2 (10%) Node.js er *atburðadrifið* og eru *event loop* notuð. Hvernig virkar hún og hvaða áhrif hefur það á það hvernig við skrifum forrit? / Node.js is *event* driven and uses and *event loop*. How does that work and what effects does it have on how we write programs?**
+---
+
+**3.2~~(10%) Node.js er *atburðadrifið* og eru *event loop* notuð. Hvernig virkar hún og hvaða áhrif hefur það á það hvernig við skrifum forrit? / Node.js is *event* driven and uses and *event loop*. How does that work and what effects does it have on how we write programs?~~**
 
 ---
 
