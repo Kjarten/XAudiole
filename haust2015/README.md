@@ -179,6 +179,7 @@ console.log(result);
 
 þ.s. x = 5, skilgreint global variable
 ```
+See example: `h15_1_15.html` & `h15_1_15.js`
 ---
 
 ## 2. Forritunarspurningar / Programming questions, 40%
@@ -205,6 +206,26 @@ Clear structure and delivery. Short and concise answers.
 
 **3.1 (10%) Stigvaxandi aukning (progressive enhancement) og tignarlegt niðurbrot (graceful degradation) eru hugtök sem skilgreina leiðir til að eiga við stuðning vafra. Hvað þýða þau og hver er helsti munurinn? Gefið dæmi. / Progressive enhancement and graceful degradation are concepts that define ways to deal with browser support. What do they mean and what is their greatest difference? Give an example.**
 
+Progressive enchanchment er hugtak sem segir að við eigum að einbeita okkur að upplifun sem krefst minnstu mögulegu tækni og bæta hana svo í lögum, *progressively*. Á hverjum af þessum lögum nær notandi að upplifa efnið okkar.
+
+Það má hugsa í tilfelli vefforritunar svona:
+1. Skrifum áhugavert, skýrt efni
+2. Setjum það upp með aðgengilegu, merkingarfræðilegu HTML
+3. Bætum við grunn útliti sem er vel stutt
+4. Bætum við flóknara útliti sem er e.t.v. minna stutt
+5. Bætum við aukinni virkni með JavaScript
+
+Þetta á líka við um að skrifa kóðan fyrir minnstu skjáina og minnsta CPU fyrst og úfæra svo fyrir stærri og stærri skjái og meira CPU.
+
+Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
+
+**3.2 (10%) Node.js er *atburðadrifið* og eru *event loop* notuð. Hvernig virkar hún og hvaða áhrif hefur það á það hvernig við skrifum forrit? / Node.js is *event* driven and uses and *event loop*. How does that work and what effects does it have on how we write programs?**
+
+---
+
+**3.3~~(10%) Hvað er XSS (Cross-Site Scripting)? Hvernig virkar *persistent* og *reflected* XSS árásir? Hvernig getum við varið okkur fyrir XSS? Gefið dæmi. / What is XSS (Cross-Site Scripting)? How do persistent and reflected XSS attacks work? How can we defend against XSS? Give an example.~~**
+
+---
 
 
-See example: `h15_1_15.html` & `h15_1_15.js`
+
