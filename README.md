@@ -633,6 +633,14 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. NPM is the package manager of node.js that has a strict version control so only well written packages are accepted
 ---
 
+**[Haust 2013] What is NPM and what effect does it have on node.js**
+
+- a. NPM is a framework for node.js that makes it easy to write web applications
+- b. NPM is a framework for node.js that assists in manual tasks
+- c. NPM is the package manager of node.js that makes it really easy to fetch and create packages
+- d. NPM is the package manager of node.js that has a strict version control so only well written packages are accepted
+---
+
 ## HTTP
 
 **[Haust 2017] What does it mean if we perform a request in HTTP and the status code of the response ranges from 400 through 499**
