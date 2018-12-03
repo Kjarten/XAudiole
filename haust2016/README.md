@@ -233,6 +233,48 @@ document.addEventListener('DOMContentLoaded', function() => {
 
 **2.2 (10%) CSS**
 
+Verið er að útbúa vef sem mun birta upplýsingar í *kortum* (e. card) sem raðast hlið við hlið einsog pláss leyfir. Skrifið CSS sem uppfyllir eftirfarandi:
+* `card` skal hafa
+      * hvítan bakgrunn(`#ffffff`)
+      * `10px` margin til hægri og `10px` margin fyrir neðan
+      * `20px` padding á alla kanta
+      * `1px` fastann svartan ramma (border) (`1px solid #000000`)
+      * takmörkun á hámarksbreidd, það má aldrei verða breiðara en `400px`
+      * takmörkun á lágmarksbreidd, það má aldrei verða minna á breiddina en `200px`
+* Almment skal `card` taka 1/3 af því lárétta plássi sem í boði er
+* Undir `800px` skal `card` taka 1/2 af því lárétta plássi sem er í boði
+* Undir `500px` skal `card` taka allt það lárétta pláss sem er í boði og ekki hafa neitt margin
+
+You are setting up a web which will display info in *cards* that will stack side by side as room allows. Write CSS that satisfies the following:
+* `card` shall have
+      * white background(`#ffffff`)
+      * `10px` margin to the right and `10px` margin at the bottom
+      * `20px` padding on all sides
+      * `1px` solid black border (`1px solid #000000`)
+      * limitation of the maximum width, it can never be wider than `400px`
+      * limitation of the maximum width, it can never be less than `200px`
+* In general `card` shall take up 1/3 of the horizontal space available
+* Under `800px` `card` shall take up 1/2 of the horizontal space available
+* Under `500px` `card` shall take up all available horizontal space and not have any margin
+```
+/* width, max-width, min-width, padding, margin, border, background-color*/
+.card {
+      box-sizing: border-box;
+      
+ }
+ 
+ @media only screen and (max-width: 800px) {
+      .card {
+      
+      }
+ }
+  
+ @media only screen and (max-width: 500px) {
+      .card {
+      
+      }
+ }
+```
 ---
 
 **2.3 (10%) HTML**
