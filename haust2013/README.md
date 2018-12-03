@@ -211,3 +211,50 @@ Location: http://example.org/bar
 - c. ~~There is no difference between frontend and backend~~
 - d. Backend resides on the web server and programs written there (e.g. in PHP) potentially read some data (e.g. from a database) and generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it
 
+---
+
+## 3. Ritgerðarspurningar/ Essay questions, 30%
+
+Þriðji hluti inniheldur fjórar spurningar en aðeins þarf að svara þrem sem hver um sig gildir 10%. Ef öllum spurningum er svarað gilda þrjú bestu svörin.
+
+Vandið uppbyggingur og frágang. Stutt og hnitmiðuð svör.
+
+The third part has four questions but you only need to answer three which each gives 10%. If you answer all the questions, the three best answers count.
+
+Clear structure and delivery. Short and concise answer.
+
+**3.1 (10%) Hvað er stigvaxandi aukning (progressive enhancement) og hvernig tengist hún aðskilnaði á HTML, CSS og JavaScript?**
+
+**What is progressive enchancement and how does it relate to the seperation of HTML, CSS and JavaScript**
+
+Stigvaxandi aukning er þegar við einbeitum okkur að upplifun sem krefst minnstu mögulegri tækni og bætum hana í lögum, *progressively*. Á hverju af þessum lögum nær notandi að upplifa efnið okkar.
+
+Stigvaxandi aukning tengist aðskilnaði á HTML, CSS og JavaScript á eftirfarandi hátt:
+
+* Skrifum skýrt og áhugavert efni
+* Setjum upp aðgengilegt og merkingarfræðilegt HTML
+* Setjum upp útlit með CSS sem er vel stutt
+* Setjum upp flóknara útlit með CSS sem er e.t.v. minna stutt
+* Bætum við aukinni virkni með JavaScript
+
+Með því að aðskilja efni, frá útliti og frá aukinni virkni, er líklegra að vefsíðan okkar er aðgengilegri stærri hóp, sama hvort um sé að ræða einstakling í gömlum browser á lélegri tengingu og reikniheftur eða einstakling með nýjustu uppfærslu af Chrome, á ljósleiðara sem deilir vefsíðu útreikningum á 3 GPU í sinni daglegu internet notkun.
+
+---
+
+**3.2 (10%) Afhverju ættum við að útbúa vefi sem eru aðgengilegir sem flestum og fylgja stöðlum?**
+
+**Why should we create websites that are accessible to as many as possible and follow standards?**
+
+Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á að skoða og nota vefi sem við búum til. Það getur hinsvegar reynst erfitt að taka tillit til mismunandi hæfnigetu notanda og allar þær lausnir sem útfæra þarf fyrir mismunandi hæfnigetu. Þegar við notumst við staðla sem skrifaðir hafa verið með aðgengi í huga, þá fáum við lista yfir lausnir, aðferðir, prófanir sem hópur fólks hefur unnið við að skilgreina með sem fjölbreyttasta hóp notenda í huga. Þ.a.l. getum við fylgt þessum stöðlum og án þess að þurfa að fara í of mikla rannsóknarvinnu verið viss um að síðan sé aðgengileg sem flestum.
+
+---
+
+**~~3.3 (10%) Hvað er XSS (cross-site scripting), hvernig virkar það og hvernig getum við verndað okkur gegn því?~~**
+
+**~~What is XSS (cross-site scripting), how does it work and how can we protect against it?~~**
+
+---
+
+**~~3.4 (10%) Gunna frænka fékk frábæra hugmynd að nýjum vef og frétti að þú hefðir nýlega klárað áfanga í vefforritun og hefði nægan lausan tíma í jólafríi. Vefurinn á að sækja nýjustu jólafréttir í gegnum vefþjónustu frá "Jól allt árið" - stærstu fréttaveitu um jólin. Notendur vefsins eiga síðan að geta bætt við athugasemdum við fréttirnar og gefið þeim stig.
+Hvernig myndir þú haga útfærslu miðað við lýsingu að ofan, bæði fyrir framenda og bakenda? Lýstu stuttlega og ekki fara í smáatriði~~**
+
