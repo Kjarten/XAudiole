@@ -587,6 +587,19 @@ funciton foo(i) {
 - d. Eftir 10 sekúndur verður gildið "45" skrifað í console
 ---
 
+**[Haust 2013] Hvað gerir eftirfarandi JS fall? Föllin map (keyrir fall á öll gildi lista) og sum (skilar summu lista) eru skilgreind og _list_ er fylki af strengjum.**
+```
+function X(list)
+{
+return sum(map(list, function(i) { return i.length; })) / list.length;
+}
+```
+- a. Skilar heildarlengd allra strengja í list
+- b. Skilar meðaltalslengd allra strengja í list
+- c. Skilar miðgildi lengdar strengja í list
+- d. Skilar summu allra hlutstrengja ílist sem eru lengri en list
+---
+
 ## Git
 
 **[Haust 2017] Git sees files in four ways, they are:**
