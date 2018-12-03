@@ -18,10 +18,10 @@
 - d. ~~All methods are equally good~~
 
 See example: `h16_1_1.html`.
-```
-HTTP Aðferðir og <form>
+
+HTTP Aðferðir og `<form>`
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
-```
+
 ---
 
 **~~1.2 Code coverage is a concept that helps us to write unit tests by~~**
@@ -35,9 +35,12 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 **1.3 Arrow functions in ECMAScript 2015 are different from functions, how?**
 
 - a. Do not bind `this` nor `arguements`
-- b. Do bind `this` but not `arguements`
-- c. Do not bind `this` only `arguements`
-- d. Do bind `this` and `arguements`
+- b. ~~Do bind `this` but not `arguements`~~
+- c. ~~Do not bind `this` only `arguements`~~
+- d. ~~Do bind `this` and `arguements`~~
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
 ---
   
 **1.4 For the following CSS, what are the width X height of the box in pixels according to the box model?**
@@ -61,6 +64,7 @@ See example: `h16_1_4.html` & `h16_1_4.css`.
 
 * `content-box;` - sjálfgefið gildi, allt tekið með í reikninginn
 * `border-box;` - aðeins margin er tekið með í reikninginn
+
 ---
  
  **1.5 When we are checking for web accessibility, we can use:**
@@ -69,10 +73,10 @@ See example: `h16_1_4.html` & `h16_1_4.css`.
 - b. Listening to the website with a screen reader
 - c. Using only keyboard to navigate the website
 - d. __All of the above__
-```
+
 1.20 Aðgengi
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
+
 ---
 
  **1.6 What is V8?**
@@ -89,10 +93,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. ~~XHTML is based on HTML5 but HTML 4.01 on SGML~~
 - c. __XHTML is based on XML but HTML 4.01 on SGML__
 - d. ~~None fundamental difference~~
-```
+
 1.10-1.15
 https://github.com/vefforritun/book/blob/master/chapters/01.html.md
-```
+
 ---
  
 **1.8 Which of the following values are *falsy* in JavaScript**
@@ -101,10 +105,10 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 - b. ~~[]~~
 - c. __NaN__
 - d. ~~1~~
-```
+
 Falsy
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javascript.md
-```
+
 ---
  
 **1.9 The concepts *frontend*, *backend* and *HTTP* are related in what way?**
@@ -113,16 +117,16 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 - b. ~~*Backend* is shown by the user, the data is retrieved with *HTTP* on a *frontend*~~
 - c. ~~*Frontend* is shown by the web server, the data is retrieved with *HTTP* from the *backend*~~
 - d. ~~*Backend* creates the data that is sent with TCP/IP to the *frontend*, *HTTP* is a technology used to create forms~~
-```
+
 0.2.6 Framendi og Bakendi
 https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 
 Framendi VS Bakendi
 https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.md
-```
+
 --- 
  
-**1.10 How do querySelector, querySelectorAll and jQuery relate?**
+**1.10 How do querySelector, querySelectorAll and ~~jQuery~~ relate?**
 
 - a. __All use the DOM tree when searching for elements in websites__
 - b. ~~querySelector and querySelectorAll are methods in the jQuery library~~
@@ -135,7 +139,11 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 - a. ~~We always get JSON as a response and must change it into a JavaScript object to work with~~
 - b. ~~The web server we call must have a Cross-origin resource sharing (CORS) header~~
 - c. __We must note that when we retrieve resources over a network, it can be slow__
-- d. We never get JSON as a response and must parse it into a JavaScript object
+- d. ~~We never get JSON as a response and must parse it into a JavaScript object~~
+
+21:00
+https://www.youtube.com/watch?v=F_yMkbA6A2M&feature=youtu.be
+
 ---
 
 **1.12 What is flexbox?**
@@ -144,10 +152,10 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
 - b. ~~Way to create flexible layouts that works with `position` and allows us to define layout easily on two axes~~
 - c. ~~Way to create flexible layouts that replaces `position` and allows us to define layout easily on one axis~~
 - d. ~~Way to create fixed layouts that works with `position` and allows us to define layout easily on two axes~~
-```
+
 2.22 Flexbox
 https://github.com/vefforritun/book/blob/master/chapters/02.css.md
-```
+
 ---
 
 **1.13 When we use new features, we should:?**
