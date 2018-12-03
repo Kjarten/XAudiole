@@ -179,5 +179,32 @@ console.log(result);
 
 þ.s. x = 5, skilgreint global variable
 ```
+---
+
+## 2. Forritunarspurningar / Programming questions, 40%
+
+**2.1 (15%) HTML & CSS**
+
+---
+
+**2.2 (10%) JavaScript**
+
+---
+
+**2.3 (15%) Node.js & Express**
+
+---
+
+## 3. Ritgerðarspurningar / Essay questions, 30%
+
+Þriðji hluti inniheldur fjórar spurningar en aðeins þarf að svara þrem sem hver um sig gildir 10%. Ef öllum spurningum er svarað gilda þrjú bestu svörin.
+Vandið uppbyggingu og frágang. Stutt og hniðmiðuð svör.
+
+The third part has four questions but you only need to answer three, each of which gives 10%. If you answer all the questions, the three best answers count.
+Clear structure and delivery. Short and concise answers.
+
+**3.1 (10%) Stigvaxandi aukning (progressive enhancement) og tignarlegt niðurbrot (graceful degradation) eru hugtök sem skilgreina leiðir til að eiga við stuðning vafra. Hvað þýða þau og hver er helsti munurinn? Gefið dæmi. / Progressive enhancement and graceful degradation are concepts that define ways to deal with browser support. What do they mean and what is their greatest difference? Give an example.**
+
+
 
 See example: `h15_1_15.html` & `h15_1_15.js`
