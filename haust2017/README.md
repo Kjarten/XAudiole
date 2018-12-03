@@ -209,7 +209,6 @@ Content `(<div class="content">)` shall order its children vertically and positi
 |       heimur        |   <- <span>heimur</span>
 -----------------------
 ```
-Sjá, `h16_2_1.html` og `h16_2_1.css`
 
 **Til minnis / Reminders:**
 * `display: flex;`
@@ -225,6 +224,30 @@ Sjá, `h16_2_1.html` og `h16_2_1.css`
   * Breytir staðsetningu *lína* á krossás / changes position of lines on the cross axis
 * `@media (min-width: Ypx OR max-width: Xpx)`
   * Skilgreinir *media query* fyrir hámark eða lágmarks breidd skjás / defines a *media query* for max or min width of viewport
+```
+.grid {
+
+}
+
+.grid__row {
+
+}
+
+.grid__col {
+
+}
+
+.content {
+
+}
+
+@media ( ) {
+  .grid__col {
+
+  }
+}
+```
+Sjá, `h16_2_1.html` og `h16_2_1.css`
 
 ---
 
