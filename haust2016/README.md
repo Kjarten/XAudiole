@@ -79,7 +79,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 
 ---
 
- **1.6 What is V8?**
+ **~~1.6 What is V8?~~**
 
 - a. __JavaScript engine that Chrome uses__
 - b. ~~HTML parser that Chrome uses~~
@@ -128,9 +128,9 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/11/11.1.http.m
  
 **1.10 How do querySelector, querySelectorAll and ~~jQuery~~ relate?**
 
-- a. __All use the DOM tree when searching for elements in websites__
+- a. ~~All use the DOM tree when searching for elements in websites~~
 - b. ~~querySelector and querySelectorAll are methods in the jQuery library~~
-- c. ~~All use selector syntax to find elements in the DOM tree~~
+- c. __All use selector syntax to find elements in the DOM tree__
 - d. ~~Not related~~
 ---
 
