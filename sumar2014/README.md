@@ -1,4 +1,6 @@
-# Sumar 2014
+# Vefforritun - TÖL306G - Sumar 2014 (Sjúkrapróf/endurtektarpróf)
+
+## 1. Krossaspurningar / multiple choice, 40%
 
 ### 1.1 Which of the following is *not* among the roles of the W3C?
 
