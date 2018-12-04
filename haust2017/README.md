@@ -424,6 +424,15 @@ Take care with structure. Short and concise answers.
 
 Þegar kemur að HTML og CSS, þá mun browserinn alltaf reyna að birta eitthvað. Browserinn fyrirgefur töluvert af villum í HTML þó forritarar ættu að tileinka sér það að skrifa HTML rétt, t.d. að loka elementum með tag.  Villur í CSS eru ekki fyrirgefnar jafn auðveldlega, þó litlar villur eins og að gleyma að enda setningar á ; eru fyrirgefnar. JavaScript villur geta hinsvegar stöðvað keyrslu á .js skrá alveg þannig að engin virkni úr þeirri skrá sé nothæf á vefsíðunni. Við getum minnkað líkurnar á að eitthvað brotni fyrir notendur með því að nota JavaScript og CSS linters og notkun á valitors.
 
+CSS er hannað til að fyrirgefa minniháttar villur, t.d. fyrir yfirlýsingar:
+
+* Ef tvípunkt eða semíkommu vantar í yfirlýsingu
+* Ef heiti eigindis er óþekkt
+* Ef gildi er óþekkt eða ekki er hægt að vinna úr því
+* Er yfirlýsingin öll hunsuð og haldið áfram að næstu.
+
+Meiriháttar villur stoppa lestur á skjali frá þeim stað sem þær eiga sér stað. Þetta gerist yfirleitt þegar { og } eru ekki í jafnvægi.
+
 ---
 
 **3.3 (10%) Afhverju ættum við að útbúa vefi með aðgengi í huga sem fylgja stöðum**
