@@ -239,6 +239,18 @@ Stigvaxandi aukning tengist aðskilnaði á HTML, CSS og JavaScript á eftirfara
 
 Með því að aðskilja efni, frá útliti og frá aukinni virkni, er líklegra að vefsíðan okkar er aðgengilegri stærri hóp, sama hvort um sé að ræða einstakling í gömlum browser á lélegri tengingu og reikniheftur eða einstakling með nýjustu uppfærslu af Chrome, á ljósleiðara sem deilir vefsíðu útreikningum á 3 GPU í sinni daglegu internet notkun.
 
+**Progressive enhancement**
+
+* Upplifun sem krefst minnstu mögulegrar tækni
+* Bætum virkni við eins og stuðningur er til staðar
+* Byrjum einfalt og bætum við virkni í lögum
+
+1. Skrifum áhugavert, skýrt efni
+2. Setjum það upp með aðgengilegu, merkingarfræðilegu HTML
+3. Bætum við grunn útliti sem er vel stutt
+4. Bætum við flóknara útliti sem er e.t.v. minna stutt
+5. Bætum við aukinni virkni með JavaScript
+
 ---
 
 **3.2 (10%) Afhverju ættum við að útbúa vefi sem eru aðgengilegir sem flestum og fylgja stöðlum?**
