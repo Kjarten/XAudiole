@@ -11,7 +11,7 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All equally valid
 ---
 
-**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#11-which-of-the-following-is-not-among-the-roles-of-the-w3c) Which of the following is *not* among the roles of the W3C?**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#11-which-of-the-following-is-not-among-the-roles-of-the-w3c) - Which of the following is *not* among the roles of the W3C?**
 
 - a. Standardize HTML
 - b. Standardize CSS
@@ -98,7 +98,7 @@ Svör við spurningum úr gömlum lokaprófum
 - d. HTML 4.01 is based on SGML, XHTML on XML but HTML5 on neither
 ---
 
-**[Sumar 2014] HTML5 is the natural progression of the web, but what does the concept encompass**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#13-html5-is-the-natural-progression-of-the-web-but-what-does-the-concept-encompass) - HTML5 is the natural progression of the web, but what does the concept encompass**
 
 - a. Changes in HTML from HTML 4.01 and XHTML
 - b. Changes in HTML, extensions to CSS and new JavaScript APIs
@@ -704,7 +704,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. There is no difference between frontend and backend
 ---
 
-**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#12-in-general-in-http-if-you-fetch-a-webpage-with-get-you-can-expect-that) In general, in HTTP, if you fetch a webpage with GET you can expect that...**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#12-in-general-in-http-if-you-fetch-a-webpage-with-get-you-can-expect-that) - In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
 - a. A new record or entity is created
 - b. It is safe to fetch the same webpage again without problems
