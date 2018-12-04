@@ -233,9 +233,17 @@ Hægt er að gagnrýna a.m.k. fimm atriði við bútana að ofan, gerðu grein f
 
 8. `<figcaption>` í staðinn fyrir `<p>`
 
+9. Hlutfallsleg stærð á `width`
+
+10. CSS getur verið snyrtilegri með einni skilgreiningu  hverri línu
+
+11. Mynd mætti vera í möppu
+
+12. `<div>` fyrir `class="card"` mætti vera `<section>`
+
 Ef við vildum að `.card` myndi aðlaga sig að og virka í sem flestum aðstæðum - vera sem mest skalanlegt (*responsive*) - þyrftum við að: / If we wanted `.card` to adapt and work in as many scenarios as possible - be responsive - we'd need to:
 
-Skilgreina `container` fyrir `.card` með `display: flex`, skilgreina `width` sem hlutfallslega stærð, mögulega skilgreina `@media query`, mögulega skilgreina `font-size` sem hlutfallslega stærð.
+Skilgreina `container` fyrir `.card` með `display: flex`, skilgreina `.card` sem `display: flex`, skilgreina `width` sem hlutfallslega stærð, mögulega skilgreina `@media query`, mögulega skilgreina `font-size` sem hlutfallslega stærð.
 
 Hver væri stærðin á `.card` skv. box módelinu (width og height) ef það væri sett inn í element sem hefði breidd 500px / What is the size of `.card` according to the box model (width & height) if it's contained within an element that has a width of 500px?
 
