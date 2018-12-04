@@ -283,6 +283,24 @@ Skalanleg vefhönnun er þegar vefhönnun er gerð með þeim forsendum að hæg
 
 Merkingarfræði er það að hver hlutur hafi einhverjar merkingu (eða allavega hver mikilvægur hlutur). Í tenglsum við HTML er það að notast við merkingarfræðilega rétt tags á elementum. T.d. að notast við `<p>` þegar átt er við paragraph, `<nav>` þegar átt er við navigation o.s.frv. Þetta er í raun það sama og að halda sér frá því að nota hluti sem hafa ekki merkingu eoms pg `<div>` og `<span>`, þó að það sé í lagi að notast við þau element þar sem það er reasonable. Það er t.d. mikilvægt að notast við merkingarfræði til þess að gera HTML læsilegt, einnig eru ákveðin "attribute" sem eiga við ákveðin "element" og til að nýta okkur HTML til fulls, er það í okkar hag að notast við merkingarfræðilega rétt HTML.
 
+
+**Merkingarfræði
+
+* Það er sterklega mælst til þess að markup í HTML skjali sé aðeins notað til að tjá merkingu en ekki framsetningu
+* Framsetning á gögnum er stýrt með CSS og fáum við því hreina skiptingu á milli efnis og útlits
+* Mörg element til sem skilgreina merkingu en annars er hægt að nota attributes
+
+**Af hverju merkingarfræði?
+
+* Aðskilnaður á milli merkingar og útlits gerir manni auðveldara að breyta öðru án þess að hafa áhrif á hitt
+* Einfaldar viðhald, breytingar eru dýrar
+* Góð merkingarfræði getur aukið aðgengi að vef
+
+* Vélar sem skoða vef með merkingarfræðilega réttu HTML geta dregið ályktanir um efnið sem getur gagnast þér og öðrum
+  - T.d. Googlebot, Pocket, Instapaper
+* Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug
+* Það er _snyrtilegra_ og _faglegra_
+
 ---
 
 **~~3.3 (10%) Hvað eru *injection* árásir, hvernig virka þær (með dæmi) og hvernig getum við verndað okkur gegn þeim?~~**
