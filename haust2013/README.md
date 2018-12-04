@@ -206,10 +206,10 @@ Location: http://example.org/bar
 
 **1.20 What is the difference between frontend and backend?**
 
-- a. Backend is where all the programming happens in a web application, frontend is only the UI
-- b. Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all functionality the users uses, e.g. JavaScript and PHP
+- a. ~~Backend is where all the programming happens in a web application, frontend is only the UI~~
+- b. ~~Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all functionality the users uses, e.g. JavaScript and PHP~~
 - c. ~~There is no difference between frontend and backend~~
-- d. Backend resides on the web server and programs written there (e.g. in PHP) potentially read some data (e.g. from a database) and generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it
+- d. __Backend resides on the web server and programs written there (e.g. in PHP) potentially read some data (e.g. from a database) and generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it__
 
 ---
 
