@@ -11,7 +11,7 @@ Svör við spurningum úr gömlum lokaprófum
 - d. All equally valid
 ---
 
-**[Sumar 2014] Which of the following is *not* among the roles of the W3C?**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#11-which-of-the-following-is-not-among-the-roles-of-the-w3c) Which of the following is *not* among the roles of the W3C?**
 
 - a. Standardize HTML
 - b. Standardize CSS
