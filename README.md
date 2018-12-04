@@ -731,11 +731,11 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 
 **Aukaspurning: Hvað þýða eftirfarandi stöðukóðar:**
 
-* [1xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-* [2xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-* [3xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-* [4xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-* [5xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+* [1xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#Information_responses)
+* [2xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#Successful_responses)
+* [3xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#Redirection_messages)
+* [4xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#Client_error_responses)
+* [5xx](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#Server_error_responses)
 ---
 
 ## DOM
