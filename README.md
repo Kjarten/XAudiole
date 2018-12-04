@@ -797,8 +797,9 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - Upplifun / minnsta tækni
 (Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi)
 - Byrja einfalt
-- Bæta við
+- Bæta við (Bæta í lögum progressively þannig að í hverju af þessum lögum er bætt við útliti og virkni sem eykur mögulega upplifun)
 - Hvernig?
+- Vefhönnun
   * efni
     (áhugavert og skýrt efni)
    * merkingafræði
@@ -811,7 +812,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
    (bætum við aukinni virkni með JS)
 -aðgengi manna og véla
   (auðveldar fólki að nýta sér síðuna og vélum að vinna úr henni)
-- Mobile-first
+- Skjástærð / Mobile-first
    * ákvarðanir
    (þvíngar ákvarðanir)
    * content
@@ -820,7 +821,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
    * umbrot
    (sveigjanlegt umbrot byggt á grind)
    * myndir
-   (sveigjanlegar myndir)
+   (sveigjanlegar myndir og miðlar)
    * media
    (css media queries)
    
