@@ -1,5 +1,7 @@
 # Haust 2015
 
+Yfirferð hjá Óla: https://www.youtube.com/watch?v=mOEL4vrK_Lg&t=2497s
+
 **~~1.1 What is Gulp used for?~~**
 
 - a. ~~It's a framework for Node.js~~
