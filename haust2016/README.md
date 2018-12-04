@@ -287,9 +287,36 @@ You are setting up a web which will display info in *cards* that will stack side
 
 **2.3 (10%) HTML**
 
+Þú ert að setja upp fréttasíðu þar sem eftirfarandi þarf að koma fram fyrir frétt:
+* Titill
+* Meginmál fréttar
+* Mynd með frétt, ásamt myndatexta
+* Listi af lýsigögnum fyrir frétt
+  * Fréttamaður
+  * Dagsetning
+  * Flokkar sem frétt á við (t.d. "innlent, stjórnmál, kosningar")
+Skrifaðu upp HTML beinagrind fyrir frétt þar sem öll atriðin kom fram. Notaðu merkingarfræðileg element og láttu inndrátt vera augljósan. Ekki þarf að hugsa um efni í meginmáli, nóg að skilgreina element sem mun innihalda efnið.
+
+You are setting up a news site where the following must be included for the news:
+* Title
+* News body
+* Image with news, along with a caption
+* List of metadata for the news
+  * Reporter
+  * Date
+  * Categories (e.g. "domestic, politics, election")
+```
+<!doctype html>
+<html lang="is">
+      <head>
+            <meta charset="utf-8">
+            <title> Er þetta frétt?</title>
+      </head>
+      <body>
+```
 ---
 
-**2.4 (10%) node.js**
+**~~2.4 (10%) node.js~~**
 
 ---
 
