@@ -824,6 +824,9 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
    * media
    (css media queries)
    
+-Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
+
+   
 ### [Sumar2014] 3.2 (10%) Hvað er merkingarfræði, í tengslum við HTML, og afhverju er hún mikilvæg?
 
 **What is semantics in relation to HTML, and why is important?**
@@ -867,3 +870,123 @@ Stikkorð:
   - T.d. Googlebot, Pocket, Instapaper
 * Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug
 * Það er _snyrtilegra_ og _faglegra_
+
+### [Haust 2016] 3.2 *eslint*, *stylelint*, *babel* and *sass* are tools we've looked into and used. What tasks do they solve? How can we setup our projects so they help us the most? Do they have any disadvantages?
+
+*eslint* is a linter for JavaScript. It makes runs through our code and looks for common problems, that could otherwise result in a bug. it can also be set up to ensure that the code is written according to a certain standards. Which is very usefull, specially when more than one person is working on the code. It can be set up in the TextEditor, so errors can be fixed as they come up and save us time in corrected the code compared to having it run only after the code has been written.
+
+*stylelint* is a linter for CSS. It has the same properties as *eslint*
+
+*babel* provides us with functionality to use JavaScript features that are not currently supported by browser. After the code has been written, *babel* will re-write the new features we have used in a way they can be "understood" by the browser. *babel* can also rewrite features to be backwards compatible for old versions of browsers.
+
+*sass* is a programming language that allows us to write CSS files in a "more" programming way. It gives us features such as *mixin* and *nesting* as well as the availability to define variables. This can save us a lot of time, as we do not have to write the same code multiple time.
+
+By including these tools in a project from the beginning, we will most likely have to spend less time debugging code and the code will be uniformly written. We can use the latest features and be sure that it will work with today's browsers.
+
+These tools do not have many disadvantages. The ones that I can think of is making the inital setup of the project more complex and incase we are using open-source software, we might run into more bugs then with professional software as well as the possibility that the community behind the software will stop working on it, therfore forcing us to adopt new tools.
+
+
+### [Haust 2016] 3.1 (10%) Hvaða merkingu leggur þú í orð Sir Tim Berners-Lee hér að neðan? Hvernig tengjast þau því námsefni sem farið hefur verið yfir?**
+
+**How do you interpret Sir Tim Berners-Lee's words below? How do they relate to the material we've covered?**
+```
+The primary design principle underlying the Web's usefulness and growth is universality. [...] And it should be accessible from any kind of hardware that can connect to the Internet: stationary or mobile, small screen or large.
+-Tim Berners-Lee: Long Live the Web
+```
+
+The Web has made the world easier for example by connected people regardless of geographical locations and providing knowledge instantly where it is needed. The web has also overcome language barriers, with text translations and speech recognition and translations. It can be interfaced in more ways then can be imagined and any device with a screen an internet connection gives you access to it's cognetive mind. This transformation from computer screens to smart watches and smart refrigerators has made the Web a utility that modern people demand continuous access to. In this course we addapted the tools to make our website scalable, with use of flexible grids and flexboxes. We adopted the philosphy of seperating content and style, to adapt changes to style easier if the need rises. We also covered the necessity of making our website accessible by following international standards.
+
+### [Haust 2017] 3.1 (10%) Í verkefnum haustsins höfum við mikið notað *lintera*. Hvaða lintera höfum við notað (nefnið a.m.k. tvo), hvaða verkefni leysa þeir og afhverju ættum við að nota þá? Hafa þeir ókosti?
+
+**This fall we've used linters quite a bit. What linters have we used (name at least two), what tasks do they solve and why should we use them? Do they have any disadvantages?**
+
+Í verkefnum haustsins höfum við notað bæði Eslint og stylelint. Linterar skoða kóðan sem við höfum skrifað og leita af algengum villum t.d. ef gleymist að loka sviga, en þeir geta líka verið settir upp til að greina uppsetningu á kóða, t.d. bil milli setninga og annað eins þannig kóðinn lítur allur eins út. Það kemur sérstaklega af góðum notum ef fleiri en einn vinna í sama kóðanum. Flestir ættu að tileinka sér að nota lintera, þar sem þeir tryggja samræmi í kóðanum innan verkefnisins og milli verkefna. Það að vera með linter uppsettan í Text Editor, gefur tækifæri á því að laga villur þegar þær koma upp og þ.a.l. eyða minni tíma í að villuhreinsa kóðann. Einu ókostirnir eru mögulega erfiðleikar með uppsetningu og erfiðleikar með að breyta skilgreiningum á reglum innan þeirra.
+
+Linting: Forrit sem nýtir *static analysis* á forritunarkóða.
+* Mögulegar villur og vandamál (errors & warnings) sem kæmu upp við keyrslu
+* Brot á kóðastíl verkefnis
+
+---
+
+### [Haust 2017] 3.2 (10%) HTML, CSS og JavaScript bregðast mismunandi við því þegar við gerum villu (eitthvað sem ekki er samkvæmt *specification*). Hvernig er það og hvernig er það mismunandi? Hvað getum við gert til þess að minnka líkur á því að eitthvað brotni fyrir notendur okkar? Gefið dæmi fyrir hvert.
+
+**HTML, CSS and JavaScript react differently when we make mistakes (do something that is not correct according to specification). How do they react and how does it differ? What can we do to minimize the chance that it will adversely affect out users? Give examples for each.**
+
+Þegar kemur að HTML og CSS, þá mun browserinn alltaf reyna að birta eitthvað. Browserinn fyrirgefur töluvert af villum í HTML þó forritarar ættu að tileinka sér það að skrifa HTML rétt, t.d. að loka elementum með tag.  Villur í CSS eru ekki fyrirgefnar jafn auðveldlega, þó litlar villur eins og að gleyma að enda setningar á ; eru fyrirgefnar. JavaScript villur geta hinsvegar stöðvað keyrslu á .js skrá alveg þannig að engin virkni úr þeirri skrá sé nothæf á vefsíðunni. Við getum minnkað líkurnar á að eitthvað brotni fyrir notendur með því að nota JavaScript og CSS linters og notkun á valitors.
+
+CSS er hannað til að fyrirgefa minniháttar villur, t.d. fyrir yfirlýsingar:
+
+* Ef tvípunkt eða semíkommu vantar í yfirlýsingu
+* Ef heiti eigindis er óþekkt
+* Ef gildi er óþekkt eða ekki er hægt að vinna úr því
+* Er yfirlýsingin öll hunsuð og haldið áfram að næstu.
+
+Meiriháttar villur stoppa lestur á skjali frá þeim stað sem þær eiga sér stað. Þetta gerist yfirleitt þegar { og } eru ekki í jafnvægi.
+
+---
+
+### [Haust 2017] 3.3 (10%) Afhverju ættum við að útbúa vefi með aðgengi í huga sem fylgja stöðum
+
+**Why should we create websites with accessibility in mind that follow standards?**
+
+Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á að skoða og nota vefi sem við búum til. Það getur hinsvegar reynst erfitt að taka tillit til mismunandi hæfnigetu notanda og allar þær lausnir sem útfæra þarf fyrir mismunandi hæfnigetu. Þegar við notumst við staðla sem skrifaðir hafa verið með aðgengi í huga, þá fáum við lista yfir lausnir, aðferðir, prófanir sem hópur fólks hefur unnið við að skilgreina með sem fjölbreyttasta hóp notenda í huga. Þ.a.l. getum við fylgt þessum stöðlum og án þess að þurfa að fara í of mikla rannsóknarvinnu verið viss um að síðan sé aðgengileg sem flestum.
+
+---
+
+**3.4 (10%) Eftir að hafa rekið augun í lausn hópsins þín á seinaa hópverkefninu færð þú beiðni um að útfæra það aftur frá viðkomandi. Þú munt leiða hóp sem mun útfæra framenda og færð algjört frelsi til að skipleggja verkefnið. Hvernig myndir þú byggja það upp?**
+
+**After having seen the solution you and your group did for the second group project, you get a request to re-implement it. You will lead a team that will implement the frontend you get a total freedom to plan it. How would you do it?**
+
+* Ásamt hópfélögum (liðsmönnum) ákveða eftirfarandi atriði:
+  * Val á *platform* fyrir *version control* s.s. *github*
+  * Val á samskiptamáta milli liðsmanna fyrir verkefnið, s.s *slack*
+  * Skoða umfang verkefnis og brjóta niður í eðlislíka hluta svo samnýta megi virkni þeirra. Það er að segja að liðsmenn séu ekki að vinna að nákvæmlega sama hlutnum fyrir mismunandi hluta verkefnis.
+  * Val á *linterum* og uppsetningu á þeim (kóðastíll)
+  * Val á tólum og tækjum sem nýta skal við verkefnið
+  * Tryggja það að öll tól og tæki séu rétt upp sett og að liðsmenn skilji og kunni á notkun þeirra frá upphafi
+  * Ákveða hvaða staðla skal fylgja
+  * Ákveða hvaða CSS viðmiðunarreglur skal nota
+  * Ákveða hvaða stuðning sé gert ráð fyrir
+  * Ákveða uppbyggingu á verkefni, þ.e.a.s. möppur og skrár fyrir ýmisleg hjálparföll og sameiginlegt CSS (.scss)
+  * Útdeila verkefnum til liðsmanna eftir hæfni og áhuga
+  * Áætla tíma fyrir helstu verkefni og setja *dead lines*
+  * Ákveða hver sé ábyrgur fyrir *merge* á *pull request*
+  * Setja upp *ReadMe* skrá með öllum helstu upplýsingum að ofan og þar að auki leiðbeiningum um skilvirka .git notkun.
+  * Setja upp greinargóða verkefnalýsingu
+* Fylgjast með framvindu mála og vera sveigjanlegur með forgangsröð, til að tryggja að verkefnið dragist ekki á langinn.
+
+### [Haust 2013] 3.2 (10%) Afhverju ættum við að útbúa vefi sem eru aðgengilegir sem flestum og fylgja stöðlum?
+
+**Why should we create websites that are accessible to as many as possible and follow standards?**
+
+Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á að skoða og nota vefi sem við búum til. Það getur hinsvegar reynst erfitt að taka tillit til mismunandi hæfnigetu notanda og allar þær lausnir sem útfæra þarf fyrir mismunandi hæfnigetu. Þegar við notumst við staðla sem skrifaðir hafa verið með aðgengi í huga, þá fáum við lista yfir lausnir, aðferðir, prófanir sem hópur fólks hefur unnið við að skilgreina með sem fjölbreyttasta hóp notenda í huga. Þ.a.l. getum við fylgt þessum stöðlum og án þess að þurfa að fara í of mikla rannsóknarvinnu verið viss um að síðan sé aðgengileg sem flestum.
+
+
+**Aðgengi**
+
+* Aðgengi snýst ekki um að fatlað fólk geti notað vefina okkar
+* Aðgengi snýst um að _fólk_ geti notað vefina okkar
+* Við getum öll orðið „fötluð“ tímabundið
+
+**Afhverju aðgengi?**
+
+* Viljum ekki mismuna fólki vegna fötlunar
+* Getur verið mjög dýrt að gera aðgengilegt eftir á
+* Samlegðaráhrif! Vefurinn okkar verður betri fyrir alla
+* Lagasetningar (munu?) banna okkur að mismuna fólki á vefnum
+
+**WCAG 2.0**
+
+* W3C staðall
+* Listi af tilmælum og prinsippum til að gera vefi aðgengilegri
+* Þrjár tegundir:
+  - A, minnsta stig
+  - AA, það stig sem við ættum að stefna að
+  - AAA, öll skilyrði uppfyllt
+
+**Lyklaborð**
+
+* Höfum allt aðgengilegt með lyklaborði
+* Margir nota ekki mús eða álíka og reiða sig á lyklaborðið
+* Allar upplýsingar og aðgerðir skulu aðgengilegar með lyklaborði
+* Fjarlægjum ekki öll sjónræn merki um hvar fókus er
