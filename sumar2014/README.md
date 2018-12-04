@@ -283,9 +283,29 @@ Skalanleg vefhönnun er þegar vefhönnun er gerð með þeim forsendum að hæg
 
 **What is semantics in relation to HTML, and why is important?**
 
-Merkingarfræði er það að hver hlutur hafi einhverjar merkingu (eða allavega hver mikilvægur hlutur). Í tenglsum við HTML er það að notast við merkingarfræðilega rétt tags á elementum. T.d. að notast við `<p>` þegar átt er við paragraph, `<nav>` þegar átt er við navigation o.s.frv. Þetta er í raun það sama og að halda sér frá því að nota hluti sem hafa ekki merkingu eoms pg `<div>` og `<span>`, þó að það sé í lagi að notast við þau element þar sem það er reasonable. Það er t.d. mikilvægt að notast við merkingarfræði til þess að gera HTML læsilegt, einnig eru ákveðin "attribute" sem eiga við ákveðin "element" og til að nýta okkur HTML til fulls, er það í okkar hag að notast við merkingarfræðilega rétt HTML.
+**Kjartan:**
+* Merkingarfræðilegt HTML er þegar við notum skilgreinda merkingu *elementa* sem eru til.
+* HTML skjalið tjáir merkingu, ekki framsetningu.
+* Framsetning á gögnum er stjórnað með CSS, þannig næst hrein skipting efnis og útlits.
+* Skipting á efni og útliti auðveldar alla vinnu þar sem breytingar á öðru hefur ekki áhrif á hitt.
+* Merkingarfræðilegt HTML eykur líka aðgengi á síðunni þar sem mörgu tól og tæki byggja á merkingarfræðilegu HTML.
+* Ýmsir bottar (bots) vinna líka á merkingarfræðilegu HTML og geta því betur unnið og greint innihald síðu.
+* Það eykur lesanleika kóðans.
+* Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug.
+* Að lokum er það snyrtilegra og fagmannlegra.
 
+Stikkorð:
+* Skilgreind merking *elementa*
+* Tjá merkingu, ekki framsetningu
+* Framsetning CSS
+* Hrein skipting
+* Aðgengi
+* Bots
+* Lesanleiki
+* Birting
+* S og F
 
+**Máni:**
 **Merkingarfræði**
 
 * Það er sterklega mælst til þess að markup í HTML skjali sé aðeins notað til að tjá merkingu en ekki framsetningu
