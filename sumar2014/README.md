@@ -38,7 +38,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 - d. __Open organization that focuses on improving the security of software__
 ---
  
- **1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS
+### 1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS
  
 - a. ~~The concept of HyperText~~ <- Held að þetta gæti mögulega verið svarið
 - b. __HTML__
@@ -49,7 +49,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
  ---
  
- ### 1.6 ~~REST puts some constraints on the architecture of web services, which of the following is one of them?~~
+### 1.6 ~~REST puts some constraints on the architecture of web services, which of the following is one of them?~~
 
 - a. 
 - b. 
@@ -125,7 +125,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 - c. __NPM is the package manager of node.js that makes it really easy to fetch and create packages__
 - d. ~~NPM is the package manager of node.js that has a strict version control so only well written packages are accepted~~
 
-## npm
+#### npm
 
 * npm er _pakkastjóri_ (package manager) fyrir JavaScript
   - leyfir okkur líka að setja upp og nota allskonar tól sem byggð eru með JavaScript
@@ -133,7 +133,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 
 ***
 
-## Pakkastjóri
+#### Pakkastjóri
 
 * Pakkastjóri sér um að sjálfvirknivæða það að setja upp, stilla og fjarlægja hugbúnað
   - í staðinn fyrir að þurfa að sækja einhvern hugbúnað...
@@ -148,7 +148,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 
 ***
 
-## NPM
+#### NPM
 
 * Hellingur til af NPM módúlum/pökkum sem geta einfaldað okkur lífið
 * Sækjum með npm og tilgreinum þannig að forritið okkar þarfnist þessa pakka
@@ -157,7 +157,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 
 ---
 
-**1.11 What does the following JavaScript function do? The functions *filter* (returns a list where items satisfy conditions), *sum* (returns the sum of a list ) are defined and *list* is an array of numbers.**
+### 1.11 What does the following JavaScript function do? The functions *filter* (returns a list where items satisfy conditions), *sum* (returns the sum of a list ) are defined and *list* is an array of numbers.
 ```
 function X(list)
 {
@@ -170,7 +170,7 @@ function X(list)
 - d. ~~Returns the sum of all negatve numbers in list~~
 ---
 
-**1.12 Which of the following is correct URL?**
+### 1.12 Which of the following is correct URL?
 
 - a. ~~http://example.org/&foo=bar&baz~~
 - b. __http://example.org/?foo=bar&baz__
@@ -178,7 +178,7 @@ function X(list)
 - d. ~~b and c~~
 ---
 
-**~~1.13 Which of the following applies to frameworks?~~**
+### ~~1.13 Which of the following applies to frameworks?~~
 
 - a. Collections of solutions to common and general tasks
 - b. Libraries that protect us against attacks like XSS and SQL injections
@@ -187,7 +187,7 @@ function X(list)
 
 ---
 
-**1.14 What is the difference between `<head>` and `<body>`**
+### 1.14 What is the difference between `<head>` and `<body>`
 
 - a. __In general we define the metadata for the page in `<head>` and content in `<body>`__
 - b. ~~Metadata must only be in `<head>` but content in `<body>`~~
@@ -196,7 +196,7 @@ function X(list)
 
 ---
 
-**1.15 What is ARIA?**
+### .15 What is ARIA?
 
 - a. __Standard from W3C that increases accessibility of web applications__
 - b. ~~Standard from ISO that increases accessibility of web applications~~
@@ -205,7 +205,7 @@ function X(list)
 
 ---
 
-**~~1.16 If you are making a web for an international market in PHP, which of the following do you need to pay special attention to~~**
+### ~~1.16 If you are making a web for an international market in PHP, which of the following do you need to pay special attention to~~
 
 - a.
 - b.
@@ -214,7 +214,7 @@ function X(list)
 
 ---
 
-**1.17 ~~What is a web services?~~**
+### 1.17 ~~What is a web services?~~
 
 - a. All the different services you can use on the internet, e.g. Google and Twitter
 - b. Services that satisfy the requirements of REST
@@ -223,7 +223,7 @@ function X(list)
 
 ---
 
-**~~1.18 What is SQLite?~~**
+### ~~1.18 What is SQLite?~~
 
 - a.
 - b.
@@ -232,7 +232,7 @@ function X(list)
 
 ---
 
-**1.19 Which of the following are advantages to caching in web applications?**
+### 1.19 Which of the following are advantages to caching in web applications?
 
 - a. Can increase speed in applications by reducing the number of long calculations
 - b. Increases the user experience since waiting is decreased
@@ -241,14 +241,14 @@ function X(list)
 
 ---
 
-**1.20 What does it mean that HTTP is stateless?**
+### 1.20 What does it mean that HTTP is stateless?
 
 - a. __A web server does not need to store any state between requests from user__
 - b. ~~A web server must store all state between requests from users since the browser does not~~
 - c. ~~A web browser can not store any state between requests from user~~
 - d. ~~A web browser must store all state between requests from users since the web server does not~~
 
-## Stateless
+#### Stateless
 
 * HTTP er hannað sem stöðulaus prótókoll
 * Server þarf **ekki** að geyma neinar upplýsingar á milli beiðna
