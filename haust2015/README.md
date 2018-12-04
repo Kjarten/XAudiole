@@ -189,6 +189,56 @@ See example: `h15_1_15.html` & `h15_1_15.js`
 
 **2.1 (15%) HTML & CSS**
 
+Fyrir eftirfarandi HTML bút: / For the following HTML snippet:
+```
+<div class="card">
+    <div id="heading">Lorem ipsum</div>
+    <div class="content">Lorem ipsum dolor sit amet.</div>
+    <figure id="image">
+        <img src="foo.jpg" alt="Mynd af Hr. Foo">
+        <p>Hr. Foo</p>
+     </figure>
+</div>
+```
+er skilgreint eftirfarandi CSS: / the following CSS is defined:
+```
+.card {
+  padding: 0;
+  width: 200px;
+  margin: 10px auto 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+.card #heading { text-align: center; font-size: 20px;}
+.card figure { margin: 0 auto; width: 50%; margin: 0 auto; }
+```
+Hvernig lítur `.card` út? Teiknið einfalda mynd. / How does `.card` look like? Draw a simple picture.
+
+Hægt er að gagnrýna a.m.k. fimm atriði við bútana að ofan, gerðu grein fyrir þeim í stuttu máli: / You could criticize at least five things about the above snippets, elaborate in a few words:
+
+1. Mætti vera með `class` á fleiri elements til að vitna í í CSS og nota `class` í staðinn fyrir `id`
+
+2. `class` nöfn mætti fylgja BEM
+
+3. `<div>`fyrir `id="heading"` ætti að vera `<h1>`
+
+4. `<div>` fyrir `class="content"` ætti að vera `<p>`
+
+5. `padding` er skilgreint tvisvar
+
+6. `font-size` mætti vera `em` eða `rem`
+
+7. `margin` í `.card figure` er skilgreint tvisvar
+
+Ef við vildum að `.card` myndi aðlaga sig að og virka í sem flestum aðstæðum - vera sem mest skalanlegt (*responsive*) - þyrftum við að: / If we wanted `.card` to adapt and work in as many scenarios as possible - be responsive - we'd need to:
+
+Skilgreina `container` fyrir `.card` með `display: flex`, skilgreina `width` sem hlutfallslega stærð, mögulega skilgreina `@media query`, mögulega skilgreina `font-size` sem hlutfallslega stærð.
+
+Hver væri stærðin á `.card` skv. box módelinu (width og height) ef það væri sett inn í element sem hefði breidd 500px / What is the size of `.card` according to the box model (width & height) if it's contained within an element that has a width of 500px?
+
+Þar sem `box-sizing` er óskilgreint er `.card` `content-box`. Þannig að 200+15+15+1+1 = 232.
+
 ---
 
 **2.2 (10%) JavaScript**
