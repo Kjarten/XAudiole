@@ -217,7 +217,7 @@ Hvernig lítur `.card` út? Teiknið einfalda mynd. / How does `.card` look like
 
 Hægt er að gagnrýna a.m.k. fimm atriði við bútana að ofan, gerðu grein fyrir þeim í stuttu máli: / You could criticize at least five things about the above snippets, elaborate in a few words:
 
-1. Mætti vera með `class` á fleiri elements til að vitna í í CSS og nota `class` í staðinn fyrir `id`
+1. Mætti vera með `class` á fleiri elements til að vitna í CSS og nota `class` í staðinn fyrir `id`
 
 2. `class` nöfn mætti fylgja BEM
 
@@ -230,6 +230,8 @@ Hægt er að gagnrýna a.m.k. fimm atriði við bútana að ofan, gerðu grein f
 6. `font-size` mætti vera `em` eða `rem`
 
 7. `margin` í `.card figure` er skilgreint tvisvar
+
+8. `<figcaption>` í staðinn fyrir `<p>`
 
 Ef við vildum að `.card` myndi aðlaga sig að og virka í sem flestum aðstæðum - vera sem mest skalanlegt (*responsive*) - þyrftum við að: / If we wanted `.card` to adapt and work in as many scenarios as possible - be responsive - we'd need to:
 
