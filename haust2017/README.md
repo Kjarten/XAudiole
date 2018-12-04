@@ -372,15 +372,23 @@ a {
 ```
 Hægt er að finn ýmislegt að þessum kóða, nefndu a.m.k. fimm atriði og útskýrðu hvað betur mætti fara. / A few things can be criticised in this coed, name at least five things and explain what needs to be fixed.
 
-1.
+1. `<div>` mætti vera `<section>`
 
-2.
+2. `<h2>` mætti vera `<h1>`
 
-3.
+3. Vantar `alt` á `<img>`
 
-4.
+4. `id` á `<a>` er óþarfti þar sem það er ekki notað
 
-5.
+5. `all` á `transition` ætti að vera skilgreining á hverju þarf að breyta
+
+6. Vantar hröðun á `transition`
+
+7. `green` á `color` ætti að vera *hex* eða *rgb*
+
+8. `float` er ekki góð leið til að stjórna staðsetningu
+
+9. `font-size` ætti að vera `em` eða `rem`
 
 ---
 
