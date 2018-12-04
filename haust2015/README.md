@@ -193,9 +193,48 @@ See example: `h15_1_15.html` & `h15_1_15.js`
 
 **2.2 (10%) JavaScript**
 
+Útfærið virkni sem finnur alla takka (`<button>`) á síðu og festir við þá fallið `buttonHandler` þegar smellt er á þá (`click`). Aðeins skal not JavaScript. Verið nákvæm og uppfyllið málfræðireglur.
+
+Implement functionality that finds all buttons (`<button>`) on a page and attaches the function `buttonHandler` to them when they are clicked. Only use JavaScript. Be precise and adhere to the syntax of Javascript.
+
+```
+A.addEventListener('DOMContentLoaded', B () {
+  
+  var buttons = document.C(D);
+  
+  if(!E) {
+    
+    return;
+  }
+  
+  F (var i = 0; i<G.length; i++) {
+    buttons[i].H(I, J);
+  }
+})
+```
+A = `document`
+
+B = `function`
+
+C = `querySelectorAll`
+
+D = `'button'`
+
+E = `(buttons.length>0)`
+
+F = `for`
+
+G = `buttons`
+
+H = `addEventListener`
+
+I = `'click'`
+
+J = `buttonHandler`
+
 ---
 
-**2.3 (15%) Node.js & Express**
+**~~2.3 (15%) Node.js & Express~~**
 
 ---
 
