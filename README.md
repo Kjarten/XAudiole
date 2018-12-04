@@ -729,7 +729,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. nýta þekktar villur í hugbúnaði
 ---
 
-**Aukaspurning: Hvað þýða eftirfarandi stöðukóðar:
+**Aukaspurning: Hvað þýða eftirfarandi stöðukóðar:**
 
 * `1xx`
 * `2xx`
