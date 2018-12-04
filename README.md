@@ -729,6 +729,15 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. nýta þekktar villur í hugbúnaði
 ---
 
+**Aukaspurning: Hvað þýða eftirfarandi stöðukóðar:
+
+* `1xx`
+* `2xx`
+* `3xx`
+* `4xx`
+* `5xx`
+---
+
 ## DOM
 
 **[Haust 2016] How do querySelector, querySelectorAll and ~~jQuery~~ relate?**
