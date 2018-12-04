@@ -1,5 +1,7 @@
 # Haust 2017
 
+Yfirferð hjá Óla: https://www.youtube.com/watch?v=QpSFt39NuCQ&t=2167s
+
 **1.1 What semantic value can be deduced from the following HTML?**
 ```
 <aside>
