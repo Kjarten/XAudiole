@@ -704,7 +704,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - d. There is no difference between frontend and backend
 ---
 
-**[Sumar 2014] In general, in HTTP, if you fetch a webpage with GET you can expect that...**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#12-in-general-in-http-if-you-fetch-a-webpage-with-get-you-can-expect-that) In general, in HTTP, if you fetch a webpage with GET you can expect that...**
 
 - a. A new record or entity is created
 - b. It is safe to fetch the same webpage again without problems
