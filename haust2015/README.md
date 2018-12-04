@@ -308,7 +308,7 @@ Clear structure and delivery. Short and concise answers.
 
 **3.1 (10%) Stigvaxandi aukning (progressive enhancement) og tignarlegt niðurbrot (graceful degradation) eru hugtök sem skilgreina leiðir til að eiga við stuðning vafra. Hvað þýða þau og hver er helsti munurinn? Gefið dæmi. / Progressive enhancement and graceful degradation are concepts that define ways to deal with browser support. What do they mean and what is their greatest difference? Give an example.**
 
-Progressive enchanchment er hugtak sem segir að við eigum að einbeita okkur að upplifun sem krefst minnstu mögulegu tækni og bæta hana svo í lögum, *progressively*. Á hverjum af þessum lögum nær notandi að upplifa efnið okkar.
+*Progressive enchanchment* er hugtak sem segir að við eigum að einbeita okkur að upplifun sem krefst minnstu mögulegu tækni og bæta hana svo í lögum, *progressively*. Á hverjum af þessum lögum nær notandi að upplifa efnið okkar.
 
 Það má hugsa í tilfelli vefforritunar svona:
 1. Skrifum áhugavert, skýrt efni
@@ -317,9 +317,11 @@ Progressive enchanchment er hugtak sem segir að við eigum að einbeita okkur a
 4. Bætum við flóknara útliti sem er e.t.v. minna stutt
 5. Bætum við aukinni virkni með JavaScript
 
-Þetta á líka við um að skrifa kóðan fyrir minnstu skjáina og minnsta CPU fyrst og úfæra svo fyrir stærri og stærri skjái og meira CPU.
+*Progressive enhanchment* á líka við um upplifun á mismunandi skjástærðum. Þar getum við notast við *mobile first* þar sem vefsíðan er hönnuð fyrir upplifun í farsíma eða öðrum minni skjá. Með skalanlegri vefhönnun eru svo notast við sveigjanlegt umbrot með grind, sveigjanlegar myndir og miðla og CSS media queries til að aðlaga síðuna að stærri skjáum svo upplifun sé að lágmarki jafn góð og á farsíma.
 
-Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
+Við notumst við *Progressive enhancment* afþví að við viljum að sem flestir geti upplifað vefsíðuna óháð tæki og stuðning.
+
+*Graceful degradation* er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
 
 ---
 
