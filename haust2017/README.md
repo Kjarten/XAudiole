@@ -339,8 +339,17 @@ If we assume the following:
 Lýsið tímalínu fyrir keyrslu, á hvaða tíma er kallað í hvaða línur að ofan (á ekki við um allar línur):
 Describe a timeline for the run of the program, at what time is which lines in the program called (does not apply to every line of the program):
 
+0.0 sec -> `DOM`
+0.2 sec `window.setTimeout(loadData, delayInMs)`
+2.2 sec `loadData`
+2.2 sec `request.open`
+3.7 sec `displayData`
+3.8 sec Gögn birt notanda
+
 Hve löngu eftir að síða er opnuð eru gögnin birt notanda?
 How long after the page is opened is the data displayed to the user?
+
+3.8 sec Gögn birt notanda
 
 Tvo hluti sárvantar í forritið, nefnið annan hvort
 Two things are desperatly need in the program, name either one
