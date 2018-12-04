@@ -1,6 +1,6 @@
 # Sumar 2014
 
-**1.1 Which of the following is *not* among the roles of the W3C?**
+### 1.1 Which of the following is *not* among the roles of the W3C?
 
 - a. ~~Standardize HTML~~
 - b. ~~Standardize CSS~~
@@ -12,7 +12,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
 ---
 
-**1.2 In general, in HTTP, if you fetch a webpage with GET you can expect that...**
+### 1.2 In general, in HTTP, if you fetch a webpage with GET you can expect that...
 
 - a. A new record or entity is created
 - b. ~~It is safe to fetch the same webpage again without problems~~
@@ -21,7 +21,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
 ---
 
-**1.3 HTML5 is the natural progression of the web, but what does the concept encompass**
+### 1.3 HTML5 is the natural progression of the web, but what does the concept encompass
 
 - a. __Changes in HTML from HTML 4.01 and XHTML__
 - b. ~~Changes in HTML, extensions to CSS and new JavaScript APIs~~
@@ -30,7 +30,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
 ---
 
-**1.4 ~~What is OWASP~~**
+### 1.4 ~~What is OWASP~~
 
 - a. ~~Accessibility standard published by W3C~~
 - b. ~~Open organization that lobbies for better support of standards in browsers~~
@@ -38,7 +38,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 - d. __Open organization that focuses on improving the security of software__
 ---
  
- **1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+ **1.5 What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS
  
 - a. ~~The concept of HyperText~~ <- Held að þetta gæti mögulega verið svarið
 - b. __HTML__
@@ -49,7 +49,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
  ---
  
- **1.6 ~~REST puts some constraints on the architecture of web services, which of the following is one of them?~~**
+ ### 1.6 ~~REST puts some constraints on the architecture of web services, which of the following is one of them?~~
 
 - a. 
 - b. 
@@ -58,7 +58,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/08/08.1.javasc
 
 ---
  
-**1.7 What is the result of running the following JavaScript code?**
+### 1.7 What is the result of running the following JavaScript code?
  ```
  function foo(i) {
     i = bar(i);
@@ -90,7 +90,7 @@ https://github.com/vefforritun/vef1-2018/blob/master/fyrirlestrar/10/10.1.async.
 
 ---
 
-**1.8 Which of the following needs to be considered for accessibility**
+### 1.8 Which of the following needs to be considered for accessibility
  
 - a. Describe images with *alt* text
 - b. Define language for content
@@ -102,7 +102,7 @@ https://github.com/vefforritun/book/blob/master/chapters/01.html.md
 
 ---
 
-**1.9 What is the difference between frontend and backend?**
+### 1.9 What is the difference between frontend and backend?
  
 - a. __Backend resides on the web server and programs written there generate HTML, CSS or JavaScript that is sent to the frontend where the browser interprets it and the user interacts with it__
 - b. ~~Frontend is the UI the user sees, implemented with HTML and CSS. Backend is all the code, e.g. JavaScript and PHP~~
@@ -118,7 +118,7 @@ https://github.com/vefforritun/book/blob/master/chapters/00.inngangur.md
 
 ---
  
-**What is NPM and what effect does it have on node.js**
+### What is NPM and what effect does it have on node.js
 
 - a. ~~NPM is a framework for node.js that makes it easy to write web applications~~
 - b. ~~NPM is a framework for node.js that assists in manual tasks~~
