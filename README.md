@@ -759,7 +759,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
       <button>example.org</button>
 </form>
 ```
-- c.
+- c.Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug
 ```
 <form method="get" action="http://example.org">
       <button>example.org</button>
@@ -790,3 +790,36 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 - b. Strengur sem skilgreinir auðlind með sérkenni en staðsetur hana ekki
 - c. Strengur sem staðsetur auðlind en skilgreinir hana ekki með sérkenni
 - d. Strengur sem skilgreinir auðlind með sérkenni *eða* staðsetur hana
+
+## Ritgerðir
+
+### Progressive Enhancement
+- Upplifun / minnsta tækni
+Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi
+- Byrja einfalt
+- Bæta við
+- Hvernig?
+ - efni
+   áhugavert og skýrt efni
+ - merkingafræði
+   merkingarfræðilegt og aðgengilegt HTML
+ - vel stutt
+   vel stutt grunn útlit skilgreint í CSS
+ - flóknara
+   flóknara og mögulega verr stutt útlit í CSS
+ - aukin virkni
+   bætum við aukinni virkni með JS
+- aðgengi manna og véla
+  auðveldar fólki að nýta sér síðuna og vélum að vinna úr henni
+- Mobile-first
+ - ákvarðanir
+   þvíngar ákvarðanir
+ - content
+   setur efni í fyrsta sæti, ekki pláss fyrir óþarfa
+- Skalanleg hönnun
+ - umbrot
+   sveigjanlegt umbrot byggt á grind
+ - myndir
+   sveigjanlegar myndir
+ - media
+   css media queries
