@@ -451,15 +451,20 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
 
 **After having seen the solution you and your group did for the second group project, you get a request to re-implement it. You will lead a team that will implement the frontend you get a total freedom to plan it. How would you do it?**
 
-1. Setja upp GitHub Repository
-2. Bjóða liðsfélögum inn á Repository
-3. Setja upp ReadMe, með eftirfarandi upplýsingum
-  3. Tól og tæki fyrir verkefnið
-    3. Val á linterum, uppsetning og keyrsla
-  3. Uppsetning á verkefni (Folder structure)
-  3. Nánari upplýsingar um structure á JavaScript, HTML og CSS. T.d. eiga ákveðin tegund af föll og skilgreiningar að vera sett upp í hjálparskrám
-  3. Upplýsingar um stílbrigði
-  3. Upplýsingar um hvaða staðlar skuli vera notaðir
- 4. Ég myndi útdeila verkefnum eftir áhugasviði og hæfni liðsfélaga.
- 5. Setja upp scope fyrir hvað hver hluti þarf að uppfylla áður en farið er að testa hann
- 6. Skilgreina hvernig hver hluti skal vera testaður.
+* Ásamt hópfélugum (liðsmönnum) ákveða eftirfarandi hluti:
+  * Val á *platform* fyrir *version control* s.s. *github*
+  * Val á samskiptamáta milli liðsmanna fyrir verkefnið, s.s *slack*
+  * Skoða umfang verkefnis og brjóta niður í eðlislíka hluta, svo samnýta megi virkni þeirra. Það er að segja að liðsmenn séu ekki að vinna að nákvæmlega sama hlutnum fyrir mismunandi hluta verkefnis.
+  * Val á *linterum* og uppsetningu á *linterum*
+  * Val á tólum og tækjum sem nýta við verkefnið
+  * Tryggja það að öll tól og tæki séu rétt upp sett og að liðsmenn skilji og kunni á notkun þeirra frá upphafi
+  * Ákveða hvaða staðla skal fylgja
+  * Ákveða hvaða stuðning sé gert ráð fyrir
+  * Ákveða uppbyggingu á verkefni, þ.e.a.s. möppur og skrár fyrir ýmisleg hjálparföll og sameiginlegt CSS (.scss)
+  * Útdeila verkefnum til liðsmanna eftir hæfni og áhuga
+  * Áætla tíma fyrir helstu verkefni og setja *dead lines*
+  * Ákveða hver sé ábyrgur fyrir *merge* á *pull request*
+  * Setja upp *ReadMe* skrá með öllum helstu upplýsingum að ofan og þar að auki leiðbeiningum um skilvirka .git notkun.
+  * Setja upp greinargóða verkefnalýsingu*
+* Fylgjast með framvindu mála og vera sveigjanlegur með forgangsröð, til að tryggja að verkefnið dragist ekki á langinn.
+ 
