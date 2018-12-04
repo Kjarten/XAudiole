@@ -1,5 +1,7 @@
 # Haust 2016
 
+Yfirferð hjá Óla: https://www.youtube.com/watch?v=mOEL4vrK_Lg&t=2497s
+
 **1.1 If we are linking to example.org, it would be best to use**
 
 - a. `<a href="http://example.org">example.org</a>`
@@ -207,7 +209,7 @@ See example: `h16_1_15.html` & `h16_1_15.js`
 
 **There is a plethora of errors in the following JavaScript code in ES2015, name at least five of them and describe why and how to fix them**
 ```
-document.addEventListener('DOMContentLoaded', function() => {
+document.addEventListener('DOMContentLoaded',function()=> {
 
   let buttons = document.querySelectorAll('button');
   
@@ -219,15 +221,21 @@ document.addEventListener('DOMContentLoaded', function() => {
   }
 });
 ```
-1.
+1. `let` ætti að vera `const`
 
-2.
+2. `var` ætti að vera `let`
 
-3.
+3. `onClick` ætti að vera `click`
 
-4.
+4. `'data-clicked', True` ætti að vera `'class' , 'data-clicked`
 
-5.
+5. Það mætti sleppa `button = button[foo]` og nota `button[foo].addEventListener`
+
+6. `foo` er eitthvað sem við venjulega notum ekki til að skilgreina breyturnar okkar
+
+7. Mætti vera með bil í `'DOMContentLoaded',function()=>`
+
+8. Mætti sleppa að nota `e`, þar sem við notum síðan ekki `e`
 
 ---
 
