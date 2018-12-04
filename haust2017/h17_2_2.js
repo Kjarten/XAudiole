@@ -1,26 +1,25 @@
 function submit(e) {
   e.preventDefault();
+  console.log('Function: submit');
+  console.log(e);
 
-  var input = document.A('input');
-  var results = document.A('.results');
+  var input = document.querySelector('input');
+  var results = document.querySelector('.results');
 
-  if (B.length > 10) {
+  console.log(input);
+  console.log(input.value);
+  console.log(input.length);
+
+  if (input.value.length > 10) {
+    console.log('if statement')
     var p = document.createElement('p');
     p.appendChild(document.createTextNode(input.value));
-    results.C(p);
+    results.appendChild(p);
   }
 }
 
-D.addEventListener('DOMContentLoaded', function () {
-  var form = D.querySelector('form');
+document.addEventListener('DOMContentLoaded', function () {
+  var form = document.querySelector('form');
 
-  form.addEventListener('submit, submit');
+  form.addEventListener('submit', submit);
 });
-
-A.
-
-B.
-
-C.
-
-D.
