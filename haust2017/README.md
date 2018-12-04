@@ -451,12 +451,12 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
 
 **After having seen the solution you and your group did for the second group project, you get a request to re-implement it. You will lead a team that will implement the frontend you get a total freedom to plan it. How would you do it?**
 
-* Ásamt hópfélugum (liðsmönnum) ákveða eftirfarandi hluti:
+* Ásamt hópfélögum (liðsmönnum) ákveða eftirfarandi atriði:
   * Val á *platform* fyrir *version control* s.s. *github*
   * Val á samskiptamáta milli liðsmanna fyrir verkefnið, s.s *slack*
-  * Skoða umfang verkefnis og brjóta niður í eðlislíka hluta, svo samnýta megi virkni þeirra. Það er að segja að liðsmenn séu ekki að vinna að nákvæmlega sama hlutnum fyrir mismunandi hluta verkefnis.
-  * Val á *linterum* og uppsetningu á *linterum*
-  * Val á tólum og tækjum sem nýta við verkefnið
+  * Skoða umfang verkefnis og brjóta niður í eðlislíka hluta svo samnýta megi virkni þeirra. Það er að segja að liðsmenn séu ekki að vinna að nákvæmlega sama hlutnum fyrir mismunandi hluta verkefnis.
+  * Val á *linterum* og uppsetningu á þeim (kóðastíll)
+  * Val á tólum og tækjum sem nýta skal við verkefnið
   * Tryggja það að öll tól og tæki séu rétt upp sett og að liðsmenn skilji og kunni á notkun þeirra frá upphafi
   * Ákveða hvaða staðla skal fylgja
   * Ákveða hvaða stuðning sé gert ráð fyrir
@@ -465,6 +465,6 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
   * Áætla tíma fyrir helstu verkefni og setja *dead lines*
   * Ákveða hver sé ábyrgur fyrir *merge* á *pull request*
   * Setja upp *ReadMe* skrá með öllum helstu upplýsingum að ofan og þar að auki leiðbeiningum um skilvirka .git notkun.
-  * Setja upp greinargóða verkefnalýsingu*
+  * Setja upp greinargóða verkefnalýsingu
 * Fylgjast með framvindu mála og vera sveigjanlegur með forgangsröð, til að tryggja að verkefnið dragist ekki á langinn.
  
