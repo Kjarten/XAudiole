@@ -795,7 +795,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 
 ### Progressive Enhancement
 - Upplifun / minnsta tækni
-Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi
+(Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi)
 - Byrja einfalt
 - Bæta við
 - Hvernig?
@@ -823,3 +823,47 @@ Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi
    (sveigjanlegar myndir)
    * media
    (css media queries)
+   
+### [Sumar2014] 3.2 (10%) Hvað er merkingarfræði, í tengslum við HTML, og afhverju er hún mikilvæg?
+
+**What is semantics in relation to HTML, and why is important?**
+
+**Kjartan:**
+* Merkingarfræðilegt HTML er þegar við notum skilgreinda merkingu *elementa* sem eru til.
+* HTML skjalið tjáir merkingu, ekki framsetningu.
+* Framsetning á gögnum er stjórnað með CSS, þannig næst hrein skipting efnis og útlits.
+* Skipting á efni og útliti auðveldar alla vinnu þar sem breytingar á öðru hefur ekki áhrif á hitt.
+* Merkingarfræðilegt HTML eykur líka aðgengi á síðunni þar sem mörgu tól og tæki byggja á merkingarfræðilegu HTML.
+* Ýmsir bottar (bots) vinna líka á merkingarfræðilegu HTML og geta því betur unnið og greint innihald síðu.
+* Það eykur lesanleika kóðans.
+* Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug.
+* Að lokum er það snyrtilegra og fagmannlegra.
+
+Stikkorð:
+* Skilgreind merking *elementa*
+* Tjá merkingu, ekki framsetningu
+* Framsetning CSS
+* Hrein skipting
+* Aðgengi
+* Bots
+* Lesanleiki
+* Birting
+* S og F
+
+**Máni:**
+**Merkingarfræði**
+
+* Það er sterklega mælst til þess að markup í HTML skjali sé aðeins notað til að tjá merkingu en ekki framsetningu
+* Framsetning á gögnum er stýrt með CSS og fáum við því hreina skiptingu á milli efnis og útlits
+* Mörg element til sem skilgreina merkingu en annars er hægt að nota attributes
+
+**Af hverju merkingarfræði?**
+
+* Aðskilnaður á milli merkingar og útlits gerir manni auðveldara að breyta öðru án þess að hafa áhrif á hitt
+* Einfaldar viðhald, breytingar eru dýrar
+* Góð merkingarfræði getur aukið aðgengi að vef
+
+* Vélar sem skoða vef með merkingarfræðilega réttu HTML geta dregið ályktanir um efnið sem getur gagnast þér og öðrum
+  - T.d. Googlebot, Pocket, Instapaper
+* Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug
+* Það er _snyrtilegra_ og _faglegra_
