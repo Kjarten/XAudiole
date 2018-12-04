@@ -44,7 +44,7 @@ Svör við spurningum úr gömlum lokaprófum
 - e. a. and b.
 ---
 
-**[Sumar 2014] What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
+**[Sumar 2014](https://github.com/Kjarten/XAudiole/blob/master/sumar2014/README.md#15-what-did-tim-berners-lee-use-as-the-basis-of-the-world-wide-web-along-side-tcp-and-dns) - What did Tim Berners-Lee use as the basis of the world wide web along side TCP and DNS**
  
 - a. The concept of HyperText
 - b. HTML
