@@ -224,11 +224,11 @@ Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í
 
 ---
 
-**3.2~~(10%) Node.js er *atburðadrifið* og eru *event loop* notuð. Hvernig virkar hún og hvaða áhrif hefur það á það hvernig við skrifum forrit? / Node.js is *event* driven and uses and *event loop*. How does that work and what effects does it have on how we write programs?~~**
+**~~3.2(10%) Node.js er *atburðadrifið* og eru *event loop* notuð. Hvernig virkar hún og hvaða áhrif hefur það á það hvernig við skrifum forrit? / Node.js is *event* driven and uses and *event loop*. How does that work and what effects does it have on how we write programs?~~**
 
 ---
 
-**3.3~~(10%) Hvað er XSS (Cross-Site Scripting)? Hvernig virkar *persistent* og *reflected* XSS árásir? Hvernig getum við varið okkur fyrir XSS? Gefið dæmi. / What is XSS (Cross-Site Scripting)? How do persistent and reflected XSS attacks work? How can we defend against XSS? Give an example.~~**
+**~~3.3(10%) Hvað er XSS (Cross-Site Scripting)? Hvernig virkar *persistent* og *reflected* XSS árásir? Hvernig getum við varið okkur fyrir XSS? Gefið dæmi. / What is XSS (Cross-Site Scripting)? How do persistent and reflected XSS attacks work? How can we defend against XSS? Give an example.~~**
 
 ---
 
