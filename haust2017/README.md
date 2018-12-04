@@ -459,6 +459,7 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
   * Val á tólum og tækjum sem nýta skal við verkefnið
   * Tryggja það að öll tól og tæki séu rétt upp sett og að liðsmenn skilji og kunni á notkun þeirra frá upphafi
   * Ákveða hvaða staðla skal fylgja
+  * Ákveða hvaða CSS viðmiðunarreglur skal nota
   * Ákveða hvaða stuðning sé gert ráð fyrir
   * Ákveða uppbyggingu á verkefni, þ.e.a.s. möppur og skrár fyrir ýmisleg hjálparföll og sameiginlegt CSS (.scss)
   * Útdeila verkefnum til liðsmanna eftir hæfni og áhuga
