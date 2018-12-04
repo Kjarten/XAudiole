@@ -827,6 +827,23 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
    
 -Graceful degradation er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
 
+**Kjartan:**
+*Progressive enchanchment* er hugtak sem segir að við eigum að einbeita okkur að upplifun sem krefst minnstu mögulegu tækni og bæta hana svo í lögum, *progressively*. Á hverjum af þessum lögum nær notandi að upplifa efnið okkar.
+
+Það má hugsa í tilfelli vefforritunar svona:
+1. Skrifum áhugavert, skýrt efni
+2. Setjum það upp með aðgengilegu, merkingarfræðilegu HTML
+3. Bætum við grunn útliti sem er vel stutt
+4. Bætum við flóknara útliti sem er e.t.v. minna stutt
+5. Bætum við aukinni virkni með JavaScript
+
+*Progressive enhanchment* á líka við um upplifun á mismunandi skjástærðum. Þar getum við notast við *mobile first* þar sem vefsíðan er hönnuð fyrir upplifun í farsíma eða öðrum minni skjá. Með skalanlegri vefhönnun eru svo notast við sveigjanlegt umbrot með grind, sveigjanlegar myndir og miðla og CSS media queries til að aðlaga síðuna að stærri skjáum svo upplifun sé að lágmarki jafn góð og á farsíma.
+
+Við notumst við *Progressive enhancment* afþví að við viljum að sem flestir geti upplifað vefsíðuna óháð tæki og stuðning.
+
+*Graceful degradation* er þegar við byggjum upplifunina á ákveðnum tækjum í huga og látum svo virkni brotna niður tignarlega og gefum síðri upplifun í eldri tækjum. Byrjum flókið og lögum okkar að virkni niður á við.
+
+---
    
 ### [Sumar2014] 3.2 (10%) Hvað er merkingarfræði, í tengslum við HTML, og afhverju er hún mikilvæg?
 
@@ -872,6 +889,8 @@ Stikkorð:
 * Vafrar geta birt efni á nytsamlegan hátt sem höfundur hafði ekki dottið í hug
 * Það er _snyrtilegra_ og _faglegra_
 
+---
+
 ### [Haust 2016] 3.2 *eslint*, *stylelint*, *babel* and *sass* are tools we've looked into and used. What tasks do they solve? How can we setup our projects so they help us the most? Do they have any disadvantages?
 
 *eslint* is a linter for JavaScript. It makes runs through our code and looks for common problems, that could otherwise result in a bug. it can also be set up to ensure that the code is written according to a certain standards. Which is very usefull, specially when more than one person is working on the code. It can be set up in the TextEditor, so errors can be fixed as they come up and save us time in corrected the code compared to having it run only after the code has been written.
@@ -886,6 +905,7 @@ By including these tools in a project from the beginning, we will most likely ha
 
 These tools do not have many disadvantages. The ones that I can think of is making the inital setup of the project more complex and incase we are using open-source software, we might run into more bugs then with professional software as well as the possibility that the community behind the software will stop working on it, therfore forcing us to adopt new tools.
 
+---
 
 ### [Haust 2016] 3.1 (10%) Hvaða merkingu leggur þú í orð Sir Tim Berners-Lee hér að neðan? Hvernig tengjast þau því námsefni sem farið hefur verið yfir?**
 
@@ -896,6 +916,8 @@ The primary design principle underlying the Web's usefulness and growth is unive
 ```
 
 The Web has made the world easier for example by connected people regardless of geographical locations and providing knowledge instantly where it is needed. The web has also overcome language barriers, with text translations and speech recognition and translations. It can be interfaced in more ways then can be imagined and any device with a screen an internet connection gives you access to it's cognetive mind. This transformation from computer screens to smart watches and smart refrigerators has made the Web a utility that modern people demand continuous access to. In this course we addapted the tools to make our website scalable, with use of flexible grids and flexboxes. We adopted the philosphy of seperating content and style, to adapt changes to style easier if the need rises. We also covered the necessity of making our website accessible by following international standards.
+
+---
 
 ### [Haust 2017] 3.1 (10%) Í verkefnum haustsins höfum við mikið notað *lintera*. Hvaða lintera höfum við notað (nefnið a.m.k. tvo), hvaða verkefni leysa þeir og afhverju ættum við að nota þá? Hafa þeir ókosti?
 
@@ -955,6 +977,8 @@ Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á
   * Setja upp *ReadMe* skrá með öllum helstu upplýsingum að ofan og þar að auki leiðbeiningum um skilvirka .git notkun.
   * Setja upp greinargóða verkefnalýsingu
 * Fylgjast með framvindu mála og vera sveigjanlegur með forgangsröð, til að tryggja að verkefnið dragist ekki á langinn.
+
+---
 
 ### [Haust 2013] 3.2 (10%) Afhverju ættum við að útbúa vefi sem eru aðgengilegir sem flestum og fylgja stöðlum?
 
