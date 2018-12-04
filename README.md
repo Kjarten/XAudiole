@@ -800,26 +800,26 @@ Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi
 - Bæta við
 - Hvernig?
   * efni
-    áhugavert og skýrt efni
- - merkingafræði
-   merkingarfræðilegt og aðgengilegt HTML
- - vel stutt
-   vel stutt grunn útlit skilgreint í CSS
- - flóknara
-   flóknara og mögulega verr stutt útlit í CSS
- - aukin virkni
-   bætum við aukinni virkni með JS
-- aðgengi manna og véla
-  auðveldar fólki að nýta sér síðuna og vélum að vinna úr henni
+    (áhugavert og skýrt efni)
+   * merkingafræði
+    (merkingarfræðilegt og aðgengilegt HTML)
+   * vel stutt
+   (vel stutt grunn útlit skilgreint í CSS)
+   * flóknara
+   (flóknara og mögulega verr stutt útlit í CSS)
+   * aukin virkni
+   (bætum við aukinni virkni með JS)
+-aðgengi manna og véla
+  (auðveldar fólki að nýta sér síðuna og vélum að vinna úr henni)
 - Mobile-first
- - ákvarðanir
-   þvíngar ákvarðanir
- - content
-   setur efni í fyrsta sæti, ekki pláss fyrir óþarfa
+   * ákvarðanir
+   (þvíngar ákvarðanir)
+   * content
+   (setur efni í fyrsta sæti, ekki pláss fyrir óþarfa)
 - Skalanleg hönnun
- - umbrot
-   sveigjanlegt umbrot byggt á grind
- - myndir
-   sveigjanlegar myndir
- - media
-   css media queries
+   * umbrot
+   (sveigjanlegt umbrot byggt á grind)
+   * myndir
+   (sveigjanlegar myndir)
+   * media
+   (css media queries)
