@@ -731,7 +731,7 @@ NOTE: Bower is a package manager, has same purpose as NPM did in current course.
 
 **Aukaspurning: Hvað þýða eftirfarandi stöðukóðar:**
 
-* `1xx`
+* 1xx(https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 * `2xx`
 * `3xx`
 * `4xx`
