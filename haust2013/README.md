@@ -247,6 +247,36 @@ Með því að aðskilja efni, frá útliti og frá aukinni virkni, er líklegra
 
 Til að byrja með, þá viljum við líklega að sem flestir hafi möguleika á að skoða og nota vefi sem við búum til. Það getur hinsvegar reynst erfitt að taka tillit til mismunandi hæfnigetu notanda og allar þær lausnir sem útfæra þarf fyrir mismunandi hæfnigetu. Þegar við notumst við staðla sem skrifaðir hafa verið með aðgengi í huga, þá fáum við lista yfir lausnir, aðferðir, prófanir sem hópur fólks hefur unnið við að skilgreina með sem fjölbreyttasta hóp notenda í huga. Þ.a.l. getum við fylgt þessum stöðlum og án þess að þurfa að fara í of mikla rannsóknarvinnu verið viss um að síðan sé aðgengileg sem flestum.
 
+
+**Aðgengi**
+
+* Aðgengi snýst ekki um að fatlað fólk geti notað vefina okkar
+* Aðgengi snýst um að _fólk_ geti notað vefina okkar
+* Við getum öll orðið „fötluð“ tímabundið
+
+**Afhverju aðgengi?**
+
+* Viljum ekki mismuna fólki vegna fötlunar
+* Getur verið mjög dýrt að gera aðgengilegt eftir á
+* Samlegðaráhrif! Vefurinn okkar verður betri fyrir alla
+* Lagasetningar (munu?) banna okkur að mismuna fólki á vefnum
+
+**WCAG 2.0**
+
+* W3C staðall
+* Listi af tilmælum og prinsippum til að gera vefi aðgengilegri
+* Þrjár tegundir:
+  - A, minnsta stig
+  - AA, það stig sem við ættum að stefna að
+  - AAA, öll skilyrði uppfyllt
+
+**Lyklaborð**
+
+* Höfum allt aðgengilegt með lyklaborði
+* Margir nota ekki mús eða álíka og reiða sig á lyklaborðið
+* Allar upplýsingar og aðgerðir skulu aðgengilegar með lyklaborði
+* Fjarlægjum ekki öll sjónræn merki um hvar fókus er
+
 ---
 
 **~~3.3 (10%) Hvað er XSS (cross-site scripting), hvernig virkar það og hvernig getum við verndað okkur gegn því?~~**
