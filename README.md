@@ -799,8 +799,8 @@ Viljum að sem flestir geti upplifað vefsíðu, óháð tæki og og stuðningi
 - Byrja einfalt
 - Bæta við
 - Hvernig?
- - efni
-   áhugavert og skýrt efni
+  * efni
+    áhugavert og skýrt efni
  - merkingafræði
    merkingarfræðilegt og aðgengilegt HTML
  - vel stutt
